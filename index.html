@@ -20,6 +20,24 @@
             --shadow-card: 0 1px 4px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
             --shadow-hover: 0 4px 12px rgba(0,0,0,.12);
             --radius: 8px;
+            --color-topbar: #1b1b1b;
+        }
+
+        html.dark {
+            --color-primary: #4db8ff;
+            --color-primary-dark: #60c0ff;
+            --color-bg: #1a1a1a;
+            --color-surface: #2d2d2d;
+            --color-text: #e0e0e0;
+            --color-text-secondary: #a0a0a0;
+            --color-border: #404040;
+            --color-enterprise: #4db8ff;
+            --color-business: #4caf50;
+            --color-link: #b39ddb;
+            --color-windowsapp: #ff8a65;
+            --shadow-card: 0 1px 4px rgba(0,0,0,.3), 0 1px 2px rgba(0,0,0,.2);
+            --shadow-hover: 0 4px 12px rgba(0,0,0,.4);
+            --color-topbar: #111111;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -33,7 +51,7 @@
 
         /* Top bar */
         .top-bar {
-            background: #1b1b1b;
+            background: var(--color-topbar);
             color: #fff;
             padding: 8px 24px;
             font-size: 13px;
@@ -43,6 +61,25 @@
         }
         .top-bar a { color: #fff; text-decoration: none; opacity: .85; }
         .top-bar a:hover { opacity: 1; }
+        .top-bar-spacer { flex: 1; }
+
+        /* Dark mode toggle */
+        .theme-toggle {
+            background: none;
+            border: 1px solid rgba(255,255,255,.25);
+            border-radius: 6px;
+            padding: 4px 10px;
+            color: #fff;
+            font-size: 13px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-family: inherit;
+            transition: border-color .15s;
+        }
+        .theme-toggle:hover { border-color: rgba(255,255,255,.5); }
+        .theme-toggle svg { width: 14px; height: 14px; fill: currentColor; }
 
         /* Header */
         header {
@@ -193,6 +230,41 @@
         }
         .card-tag.preview { background: #fff4ce; color: #6b5b00; }
         .card-tag.ga { background: #dff6dd; color: #107c10; }
+        html.dark .card-tag { background: #1e3a5f; color: #90caf9; }
+        html.dark .card-tag.preview { background: #4a3e00; color: #ffe082; }
+        html.dark .card-tag.ga { background: #1b4332; color: #81c784; }
+
+        /* Release status filters */
+        .release-filters {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .release-filters .label {
+            font-size: 13px;
+            color: var(--color-text-secondary);
+            font-weight: 500;
+            margin-right: 2px;
+        }
+        .release-btn {
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+            border: 1px solid var(--color-border);
+            background: var(--color-surface);
+            color: var(--color-text-secondary);
+            cursor: pointer;
+            font-family: inherit;
+            transition: all .15s;
+        }
+        .release-btn:hover { border-color: var(--color-primary); color: var(--color-text); }
+        .release-btn.active {
+            background: var(--color-primary);
+            color: #fff;
+            border-color: var(--color-primary);
+        }
         .card-readmore {
             display: inline-block;
             margin-top: 10px;
@@ -210,6 +282,7 @@
             gap: 12px;
             align-items: center;
             margin-bottom: 24px;
+            flex-wrap: wrap;
         }
         .search-input {
             flex: 1;
@@ -224,6 +297,9 @@
             transition: border-color .15s;
         }
         .search-input:focus { border-color: var(--color-primary); }
+        html.dark .search-input {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23a0a0a0' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.414-1.414l-3.85-3.85zm-5.242.156a5 5 0 1 1 0-10 5 5 0 0 1 0 10z'/%3E%3C/svg%3E");
+        }
         .results-count { font-size: 13px; color: var(--color-text-secondary); }
 
         /* Empty state */
@@ -276,6 +352,11 @@
     <a href="https://learn.microsoft.com" target="_blank" rel="noopener">Microsoft Learn</a>
     <span style="opacity:.3">|</span>
     <span>Windows 365 What's New Aggregator</span>
+    <span class="top-bar-spacer"></span>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg id="themeIcon" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8A9.04 9.04 0 0 0 12 3z"/></svg>
+        <span id="themeLabel">Dark</span>
+    </button>
 </div>
 
 <header>
@@ -315,6 +396,12 @@
 <main>
     <div class="search-row">
         <input type="search" class="search-input" placeholder="Search announcements..." aria-label="Search announcements">
+        <div class="release-filters">
+            <span class="label">Release:</span>
+            <button class="release-btn active" data-release="all">All</button>
+            <button class="release-btn" data-release="ga">Generally Available</button>
+            <button class="release-btn" data-release="preview">Public Preview</button>
+        </div>
         <span class="results-count"></span>
     </div>
 
@@ -861,6 +948,7 @@ const resultsCount = document.querySelector('.results-count');
 const filterBtns = document.querySelectorAll('.filter-btn');
 
 let activeFilter = 'all';
+let activeRelease = 'all';
 
 function sourceLabel(s) {
     const map = { enterprise: 'Enterprise & Frontline', business: 'Business', link: 'W365 Link', windowsapp: 'Windows App' };
@@ -887,6 +975,9 @@ function render() {
 
     const filtered = announcements.filter(a => {
         if (activeFilter !== 'all' && a.source !== activeFilter) return false;
+        if (activeRelease !== 'all') {
+            if (!a.tags || !a.tags.includes(activeRelease)) return false;
+        }
         if (query) {
             const hay = (a.title + ' ' + a.desc + ' ' + a.category + ' ' + a.tags.join(' ')).toLowerCase();
             return hay.includes(query);
@@ -953,6 +1044,43 @@ filterBtns.forEach(btn => {
 
 // Search
 searchInput.addEventListener('input', render);
+
+// Release status filter
+const releaseBtns = document.querySelectorAll('.release-btn');
+releaseBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        releaseBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeRelease = btn.dataset.release;
+        render();
+    });
+});
+
+// ── Dark mode ──────────────────────────────────────────────────────
+const themeToggle = document.getElementById('themeToggle');
+const themeIcon = document.getElementById('themeIcon');
+const themeLabel = document.getElementById('themeLabel');
+
+function applyTheme(dark) {
+    document.documentElement.classList.toggle('dark', dark);
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
+    themeLabel.textContent = dark ? 'Light' : 'Dark';
+    themeIcon.innerHTML = dark
+        ? '<circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="12" y1="21" x2="12" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="1" y1="12" x2="3" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="21" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>'
+        : '<path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8A9.04 9.04 0 0 0 12 3z"/>';
+}
+
+themeToggle.addEventListener('click', () => {
+    applyTheme(!document.documentElement.classList.contains('dark'));
+});
+
+// Init theme from localStorage or system preference
+(function() {
+    const saved = localStorage.getItem('theme');
+    if (saved === 'dark') applyTheme(true);
+    else if (saved === 'light') applyTheme(false);
+    else if (window.matchMedia('(prefers-color-scheme: dark)').matches) applyTheme(true);
+})();
 
 // ── Load data.json, fall back to hardcoded seed ────────────────────
 async function loadData() {
