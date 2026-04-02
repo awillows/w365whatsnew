@@ -11,11 +11,38 @@ Outputs a structured data.json consumed by the aggregator page.
 import json
 import re
 import sys
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
+
+
+def normalize_text(text: str) -> str:
+    """Replace problematic Unicode characters with plain ASCII equivalents."""
+    replacements = {
+        "\u2011": "-",   # non-breaking hyphen
+        "\u2010": "-",   # hyphen
+        "\u2012": "-",   # figure dash
+        "\u2013": "-",   # en dash
+        "\u2014": "-",   # em dash
+        "\u2015": "-",   # horizontal bar
+        "\u2018": "'",   # left single quote
+        "\u2019": "'",   # right single quote
+        "\u201c": '"',   # left double quote
+        "\u201d": '"',   # right double quote
+        "\u2026": "...", # ellipsis
+        "\u00a0": " ",   # non-breaking space
+        "\u200b": "",    # zero-width space
+        "\u200e": "",    # left-to-right mark
+        "\u200f": "",    # right-to-left mark
+        "\ufeff": "",    # BOM / zero-width no-break space
+        "\u202f": " ",   # narrow no-break space
+    }
+    for char, repl in replacements.items():
+        text = text.replace(char, repl)
+    return text
 
 SOURCES = {
     "enterprise": {
@@ -149,6 +176,7 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
     print(f"  Fetching {source_key}: {url}")
     resp = requests.get(url, timeout=30, headers={"User-Agent": "W365-WhatsNew-Aggregator/1.0"})
     resp.raise_for_status()
+    resp.encoding = "utf-8"  # Force UTF-8 — Learn pages are UTF-8 but headers may claim otherwise
     soup = BeautifulSoup(resp.text, "html.parser")
 
     # Find the main content area
@@ -202,8 +230,8 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
                 entries.append({
                     "date": pub_date,
                     "source": source_key,
-                    "title": text,
-                    "desc": desc,
+                    "title": normalize_text(text),
+                    "desc": normalize_text(desc),
                     "category": detect_category(text, desc),
                     "tags": detect_tags(text, desc),
                 })
@@ -241,8 +269,8 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
         entries.append({
             "date": current_date,
             "source": source_key,
-            "title": text,
-            "desc": desc,
+            "title": normalize_text(text),
+            "desc": normalize_text(desc),
             "category": detect_category(text, desc),
             "tags": detect_tags(text, desc),
         })

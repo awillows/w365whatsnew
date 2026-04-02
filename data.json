@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-02T08:42:43Z",
+  "lastUpdated": "2026-04-02T08:58:05Z",
   "announcements": [
     {
       "date": "2026-03-30",
       "source": "enterprise",
-      "title": "Intelligent preâstart for Windows 365 Frontline (dedicated mode) is now generally available",
-      "desc": "Weâre excited to announce the general availability of intelligent preâstart for Windows 365 Frontline in dedicated mode.\nThis capability uses predictive insights to determine when a user is likely to connect and proactively starts their Cloud PC in advance, so itâs ready when they sign in. By reducing the time required for the Cloud PC to boot, Intelligent preâstart helps minimize conne...",
+      "title": "Intelligent pre-start for Windows 365 Frontline (dedicated mode) is now generally available",
+      "desc": "We're excited to announce the general availability of intelligent pre-start for Windows 365 Frontline in dedicated mode.\nThis capability uses predictive insights to determine when a user is likely to connect and proactively starts their Cloud PC in advance, so it's ready when they sign in. By reducing the time required for the Cloud PC to boot, Intelligent pre-start helps minimize connection de...",
       "category": "End User Experience",
       "tags": [
         "ga",
@@ -16,7 +16,7 @@
       "date": "2026-03-30",
       "source": "enterprise",
       "title": "Additional regions for Windows 365 Frontline (shared)",
-      "desc": "Windows 365 Frontline in shared mode is now available in the following regions: Brazil â Brazil South Italy (EU) â Italy North Netherlands (EU) â West Europe These regions are now selectable in Windows 365 Frontline (shared) provisioning policies in Microsoft Intune.",
+      "desc": "Windows 365 Frontline in shared mode is now available in the following regions: Brazil - Brazil South Italy (EU) - Italy North Netherlands (EU) - West Europe These regions are now selectable in Windows 365 Frontline (shared) provisioning policies in Microsoft Intune.",
       "category": "Provisioning",
       "tags": [
         "frontline"
@@ -34,7 +34,7 @@
       "date": "2026-03-26",
       "source": "windowsapp",
       "title": "Version 11.0.0.94",
-      "desc": "Added preview support for signing in with External Identity on Android/Chrome OS devices. For more information on client versions and capabilities, seeExternal Identity. Improved compatibility with Intuneâconfigured screen capture protection policies, allowing access to Azure Virtual Desktop resources when screen capture protection is enforced on Android devices. For more information, seeScre...",
+      "desc": "Added preview support for signing in with External Identity on Android/Chrome OS devices. For more information on client versions and capabilities, seeExternal Identity. Improved compatibility with Intune-configured screen capture protection policies, allowing access to Azure Virtual Desktop resources when screen capture protection is enforced on Android devices. For more information, seeScreen...",
       "category": "Device Security",
       "tags": [
         "preview"
@@ -44,7 +44,7 @@
       "date": "2026-03-23",
       "source": "enterprise",
       "title": "Additional regions for Windows 365 Frontline (shared)",
-      "desc": "Windows 365 Frontline in shared mode is now available in additional regions: Poland (EU) â Central Sweden (EU) â Central Mexico â Central New Zealand â North These regions are now selectable in Windows 365 Frontline (shared) provisioning policies in Microsoft Intune. For more information, seeSupported regions for Cloud PC provisioning.",
+      "desc": "Windows 365 Frontline in shared mode is now available in additional regions: Poland (EU) - Central Sweden (EU) - Central Mexico - Central New Zealand - North These regions are now selectable in Windows 365 Frontline (shared) provisioning policies in Microsoft Intune. For more information, seeSupported regions for Cloud PC provisioning.",
       "category": "Provisioning",
       "tags": [
         "frontline"
@@ -54,7 +54,7 @@
       "date": "2026-03-23",
       "source": "enterprise",
       "title": "Remote connection experience for Windows 365 (Public Preview)",
-      "desc": "Windows 365 introduces the Remote connection experience in preview, enabling IT administrators to configure connectionâlevel settings that apply justâinâtime when users connect to targeted Cloud PCs. These settings can be assigned to specific device groups through Microsoft Intune to help tailor and manage how users interact with their Cloud PC during remote sessions. For more information...",
+      "desc": "Windows 365 introduces the Remote connection experience in preview, enabling IT administrators to configure connection-level settings that apply just-in-time when users connect to targeted Cloud PCs. These settings can be assigned to specific device groups through Microsoft Intune to help tailor and manage how users interact with their Cloud PC during remote sessions. For more information, seeR...",
       "category": "Device Management",
       "tags": [
         "preview"
@@ -64,7 +64,7 @@
       "date": "2026-03-23",
       "source": "enterprise",
       "title": "New Azure region support for Windows 365 Government",
-      "desc": "Windows 365 Government now supports Cloud PC provisioning in the US Government â Texas region.",
+      "desc": "Windows 365 Government now supports Cloud PC provisioning in the US Government - Texas region.",
       "category": "Provisioning",
       "tags": [
         "government"
@@ -74,7 +74,7 @@
       "date": "2026-03-23",
       "source": "enterprise",
       "title": "Cloud Apps support for APPX and MSIX applications",
-      "desc": "Cloud Apps now support APPX and MSIX applications in addition to traditional Win32 apps. Admins can discover and publish a broader set of applications including Microsoft Teams and new Outlook when configuring Cloud Apps for Windowsâ¯365. Cloud Apps support for APPX and MSIX applications in existing Cloud Apps provisioning policies requires reprovisioning. This will enable the discovery of APP...",
+      "desc": "Cloud Apps now support APPX and MSIX applications in addition to traditional Win32 apps. Admins can discover and publish a broader set of applications including Microsoft Teams and new Outlook when configuring Cloud Apps for Windows 365. Cloud Apps support for APPX and MSIX applications in existing Cloud Apps provisioning policies requires reprovisioning. This will enable the discovery of APPX ...",
       "category": "Provisioning",
       "tags": []
     },
@@ -82,7 +82,7 @@
       "date": "2026-03-23",
       "source": "enterprise",
       "title": "Enhanced resiliency and expanded regional availability for Windows 365 Government",
-      "desc": "Windows 365 Government now supports Microsoft Hosted Network (MHN) with MultiâRegion Selection for Government Community Cloud (GCC and GCC High). This enhanced deployment experience distributes Cloud PCs across multiple regions using a threeâtier region selection model, helping improve resiliency while giving admins greater flexibility and control over where Cloud PCs are provisioned. In ad...",
+      "desc": "Windows 365 Government now supports Microsoft Hosted Network (MHN) with Multi-Region Selection for Government Community Cloud (GCC and GCC High). This enhanced deployment experience distributes Cloud PCs across multiple regions using a three-tier region selection model, helping improve resiliency while giving admins greater flexibility and control over where Cloud PCs are provisioned. In additi...",
       "category": "Provisioning",
       "tags": [
         "government"
@@ -100,7 +100,7 @@
       "date": "2026-03-19",
       "source": "windowsapp",
       "title": "Version 2.0.03334.1451",
-      "desc": "Added support forclipboard-based file transfer. Improved load times by progressively loading devices and apps. Fixed an issue affecting copy and paste when using fullâscreen mode on macOS. Fixed an issue with cursor rendering. Made some improvements to the folder-redirection based file-transfer experience. Made accessibility improvements.",
+      "desc": "Added support forclipboard-based file transfer. Improved load times by progressively loading devices and apps. Fixed an issue affecting copy and paste when using full-screen mode on macOS. Fixed an issue with cursor rendering. Made some improvements to the folder-redirection based file-transfer experience. Made accessibility improvements.",
       "category": "Accessibility",
       "tags": []
     },
@@ -108,7 +108,7 @@
       "date": "2026-03-16",
       "source": "enterprise",
       "title": "Expanded regional availability for Windows 365 Frontline (shared)",
-      "desc": "Windows 365 now supports Frontline (shared) deployments in the following additional regions: France (EU) â France Central Norway â Norway East Spain (EU) â Spain Central Windows 365 Frontline in shared mode is now available in these regions, enabling organizations to provision Cloud PCs closer to users. This expansion supports lower latency and local data residency requirements for shiftâ...",
+      "desc": "Windows 365 now supports Frontline (shared) deployments in the following additional regions: France (EU) - France Central Norway - Norway East Spain (EU) - Spain Central Windows 365 Frontline in shared mode is now available in these regions, enabling organizations to provision Cloud PCs closer to users. This expansion supports lower latency and local data residency requirements for shift-based ...",
       "category": "Provisioning",
       "tags": [
         "frontline"
@@ -128,7 +128,7 @@
       "date": "2026-03-16",
       "source": "enterprise",
       "title": "Faster Cloud PC Compliance Evaluation During Provisioning",
-      "desc": "Cloud PCs now evaluate Intune compliance policies during provisioning without requiring user signâin, enabling devices to become compliant on first boot. This improvement delivers faster and more reliable compliance reporting, helping administrators ensure Conditional Access and compliance policies take effect immediately. This enhancement is included in the latest Windows update (KB5070311) ...",
+      "desc": "Cloud PCs now evaluate Intune compliance policies during provisioning without requiring user sign-in, enabling devices to become compliant on first boot. This improvement delivers faster and more reliable compliance reporting, helping administrators ensure Conditional Access and compliance policies take effect immediately. This enhancement is included in the latest Windows update (KB5070311) fo...",
       "category": "Provisioning",
       "tags": []
     },
@@ -136,7 +136,7 @@
       "date": "2026-03-09",
       "source": "enterprise",
       "title": "Expanded Microsoft Teams media optimizations now available",
-      "desc": "Microsoft Teams optimizations in Windowsâ¯365 are available when accessing Cloud PCs from Windows App on iOS and Android (GA for WebRTC) and macOS (preview for Slimcore) platforms. Teams provides optimized calling and meeting experiences on Cloud PCs, with ongoing improvements delivered through the Windows App and the new Teams architecture. For more information, seeMicrosoft Teams on a Cloud PC.",
+      "desc": "Microsoft Teams optimizations in Windows 365 are available when accessing Cloud PCs from Windows App on iOS and Android (GA for WebRTC) and macOS (preview for Slimcore) platforms. Teams provides optimized calling and meeting experiences on Cloud PCs, with ongoing improvements delivered through the Windows App and the new Teams architecture. For more information, seeMicrosoft Teams on a Cloud PC.",
       "category": "Apps",
       "tags": [
         "preview"
@@ -146,7 +146,7 @@
       "date": "2026-03-09",
       "source": "enterprise",
       "title": "Windows 365 support for Germany West Central and Switzerland North",
-      "desc": "Windows 365 Frontline in shared mode is now available in Germany West Central and Switzerland North. This regional expansion helps organizations provision Cloud PCs closer to users, supporting lower latency and local data residency requirements for shiftâbased and shared access scenarios. For more information, seeSupported regions for Cloudâ¯PC provisioning.",
+      "desc": "Windows 365 Frontline in shared mode is now available in Germany West Central and Switzerland North. This regional expansion helps organizations provision Cloud PCs closer to users, supporting lower latency and local data residency requirements for shift-based and shared access scenarios. For more information, seeSupported regions for Cloud PC provisioning.",
       "category": "Provisioning",
       "tags": [
         "frontline"
@@ -166,7 +166,7 @@
       "date": "2026-03-09",
       "source": "enterprise",
       "title": "Captive portal support for Windows 365 Boot",
-      "desc": "Windows 365 Boot now supports captive portals, allowing users to connect to WiâFi networks that require webâbased signâin, such as accepting terms or completing oneâtime password authentication. Network registration opens in the default browser, with clearer connectivity status shown in Quick Settings and Action Center. This update applies to Windows 365 Boot devices only.",
+      "desc": "Windows 365 Boot now supports captive portals, allowing users to connect to Wi-Fi networks that require web-based sign-in, such as accepting terms or completing one-time password authentication. Network registration opens in the default browser, with clearer connectivity status shown in Quick Settings and Action Center. This update applies to Windows 365 Boot devices only.",
       "category": "Networking",
       "tags": []
     },
@@ -174,7 +174,7 @@
       "date": "2026-03-09",
       "source": "link",
       "title": "Product improvements and bug fixes",
-      "desc": "This update improves reliability across signâin, connectivity, and recovery experiences. Enhancements to accessibility, visual consistency, and diagnostics make it easier for users to get productive quickly. Additionally, weâve published a set of short, easyâtoâconsume videos covering Windows 365 Link best practices from initial setup to daily use to help you get most out of solution, s...",
+      "desc": "This update improves reliability across sign-in, connectivity, and recovery experiences. Enhancements to accessibility, visual consistency, and diagnostics make it easier for users to get productive quickly. Additionally, we've published a set of short, easy-to-consume videos covering Windows 365 Link best practices from initial setup to daily use to help you get most out of solution, seeQuick ...",
       "category": "Monitor & Troubleshoot",
       "tags": []
     },
@@ -193,7 +193,7 @@
       "date": "2026-02-23",
       "source": "enterprise",
       "title": "Windows first sign-in restore experience now available",
-      "desc": "Windows Backup for Organizations on Cloud PCs brings restore parity between physical Windows devices and Windows 365. When users sign in to a Cloud PC for the first time, they can restore their Windows personalization settings and Microsoft Store app list from an existing organizational backupâgetting back to a familiar, productive environment in minutes. A key scenario is Windows 365 Reserve...",
+      "desc": "Windows Backup for Organizations on Cloud PCs brings restore parity between physical Windows devices and Windows 365. When users sign in to a Cloud PC for the first time, they can restore their Windows personalization settings and Microsoft Store app list from an existing organizational backup-getting back to a familiar, productive environment in minutes. A key scenario is Windows 365 Reserve, ...",
       "category": "Apps",
       "tags": []
     },
@@ -221,7 +221,7 @@
       "date": "2026-02-09",
       "source": "enterprise",
       "title": "Windows 365 support for New Zealand North",
-      "desc": "Windowsâ¯365 Enterprise and Windowsâ¯365 Frontline (dedicated mode) are now available in the Newâ¯Zealandâ¯North region. This expansion allows organizations in Newâ¯Zealand and nearby areas to provision Cloudâ¯PCs closer to their users, helping improve performance. For more information, seeSupported regions for Cloudâ¯PC provisioning.",
+      "desc": "Windows 365 Enterprise and Windows 365 Frontline (dedicated mode) are now available in the New Zealand North region. This expansion allows organizations in New Zealand and nearby areas to provision Cloud PCs closer to their users, helping improve performance. For more information, seeSupported regions for Cloud PC provisioning.",
       "category": "Provisioning",
       "tags": [
         "frontline"
@@ -231,7 +231,7 @@
       "date": "2026-02-09",
       "source": "link",
       "title": "Product improvements and bug fixes",
-      "desc": "This release delivers reliability and accessibility improvements, including more stable signâin and Cloud PC connections when changing displays, visible progress during update installation, improved keyboard navigation so you can tab to everything you see, and more. Additionally, this release includes updates that help address Intel advisories (INTEL-SA-01398). These updates help improve over...",
+      "desc": "This release delivers reliability and accessibility improvements, including more stable sign-in and Cloud PC connections when changing displays, visible progress during update installation, improved keyboard navigation so you can tab to everything you see, and more. Additionally, this release includes updates that help address Intel advisories (INTEL-SA-01398). These updates help improve overal...",
       "category": "Accessibility",
       "tags": []
     },
@@ -247,7 +247,7 @@
       "date": "2026-02-02",
       "source": "enterprise",
       "title": "Centralized RDP Shortpath configuration for Cloud PCs is now generally available",
-      "desc": "Admins can now manage RDP Shortpath modesâManaged, Public/STUN, and Public/TURNâusing Microsoft Intune or Group Policy, enabling predictable and policy-driven behavior across Cloud PCs. Registry based policies remove the need for manual host configuration and ensure consistent Shortpath setup.",
+      "desc": "Admins can now manage RDP Shortpath modes-Managed, Public/STUN, and Public/TURN-using Microsoft Intune or Group Policy, enabling predictable and policy-driven behavior across Cloud PCs. Registry based policies remove the need for manual host configuration and ensure consistent Shortpath setup.",
       "category": "Networking",
       "tags": [
         "ga"
@@ -303,7 +303,7 @@
       "date": "2026-01-19",
       "source": "enterprise",
       "title": "Expanded UDP Connectivity Validation with the TURN Health Check",
-      "desc": "The existing UDP connectivity check in Azure Network Connection (ANC) validates STUN (Session Traversal Utilities for NAT) reachability. Weâre enhancing this check to also validate TURN (Traversal Using Relays around NAT) connectivity, giving administrators a more complete view of relay-path readiness. With TURN health surfaced alongside STUN on the ANC page, administrators can more quickly s...",
+      "desc": "The existing UDP connectivity check in Azure Network Connection (ANC) validates STUN (Session Traversal Utilities for NAT) reachability. We're enhancing this check to also validate TURN (Traversal Using Relays around NAT) connectivity, giving administrators a more complete view of relay-path readiness. With TURN health surfaced alongside STUN on the ANC page, administrators can more quickly spo...",
       "category": "Networking",
       "tags": []
     },
@@ -321,7 +321,7 @@
       "date": "2026-01-12",
       "source": "enterprise",
       "title": "Improved Cloud PC Visibility with a New Column on the Azure Network Connection Page",
-      "desc": "We have introduced a new column in the Azure Network Connection (ANC) page to give administrators better visibility into their Cloud PC environment. This column displays the number of devices provisioned per ANC, helping you quickly assess distribution and capacity. Itâs also interactiveâselecting the value takes you directly to the All Cloud PCs view, where you can see detailed information...",
+      "desc": "We have introduced a new column in the Azure Network Connection (ANC) page to give administrators better visibility into their Cloud PC environment. This column displays the number of devices provisioned per ANC, helping you quickly assess distribution and capacity. It's also interactive-selecting the value takes you directly to the All Cloud PCs view, where you can see detailed information abo...",
       "category": "Provisioning",
       "tags": []
     },
@@ -345,7 +345,7 @@
       "date": "2025-12-17",
       "source": "windowsapp",
       "title": "Version 11.2.5 (5802)",
-      "desc": "Added a checkbox to the General settings to control the usage of UDP. Audio from optimized Teams meetings will now play through iPhone speakers.",
+      "desc": "Added a checkbox to the General settings to control the usage of UDP. Audio from optimized Teams meetings will now play through iPhone speakers.",
       "category": "Networking",
       "tags": []
     },
@@ -353,7 +353,7 @@
       "date": "2025-12-16",
       "source": "windowsapp",
       "title": "Version 2.0.866.0",
-      "desc": "Windows App resourcesintegration with the Start menuis now generally available. Support for connections to resources in Azure Government is now generally available. Support forRemoteApp enhancementsin public preview. Resolved an issue where web links in Windows App did not open in the systemâs default browser. Fixed an issue that caused unexpected app closing by disabling automatic CDN update...",
+      "desc": "Windows App resourcesintegration with the Start menuis now generally available. Support for connections to resources in Azure Government is now generally available. Support forRemoteApp enhancementsin public preview. Resolved an issue where web links in Windows App did not open in the system's default browser. Fixed an issue that caused unexpected app closing by disabling automatic CDN updates ...",
       "category": "Apps",
       "tags": [
         "ga",
@@ -372,7 +372,7 @@
       "date": "2025-12-15",
       "source": "business",
       "title": "RMM Integration",
-      "desc": "The RMM integration with Windows 365 Business enables MSPs and customers to easily install partnerâs RMM solution to their Cloud PCs. The RMM integration streamlines agent installation across new and existing Cloud PCs using Microsoft Graph APIs, reducing manual effort and enabling MSPs to manage endpoints efficiently. For more information, seeWindows 365 RMM integration.",
+      "desc": "The RMM integration with Windows 365 Business enables MSPs and customers to easily install partner's RMM solution to their Cloud PCs. The RMM integration streamlines agent installation across new and existing Cloud PCs using Microsoft Graph APIs, reducing manual effort and enabling MSPs to manage endpoints efficiently. For more information, seeWindows 365 RMM integration.",
       "category": "Device Management",
       "tags": []
     },
@@ -380,7 +380,7 @@
       "date": "2025-12-15",
       "source": "windowsapp",
       "title": "Version 11.2.4 (5799)",
-      "desc": "Enabled Azure Virtual Desktop screen capture protection by leveraging Intune appâprotection controls. Made performance improvements.",
+      "desc": "Enabled Azure Virtual Desktop screen capture protection by leveraging Intune app-protection controls. Made performance improvements.",
       "category": "Device Management",
       "tags": []
     },
@@ -396,7 +396,7 @@
       "date": "2025-12-08",
       "source": "link",
       "title": "Improved Sign-in Experience with Web Account Manager (WAM) Interactive Support",
-      "desc": "Windows 365 Link now supports a broader set of interactive authentication experiences when connecting to Cloud PCs with support of Web Account Manager (WAM) interactive flows, improving the sign-in experience. With WAM interactive functionality: It's no longer a hard requirement to create a Conditional Access policy enforcing MFA on the user action of register or join devices to use Windows 365...",
+      "desc": "Windows 365 Link now supports a broader set of interactive authentication experiences when connecting to Cloud PCs with support of Web Account Manager (WAM) interactive flows, improving the sign-in experience. With WAM interactive functionality: It's no longer a hard requirement to create a Conditional Access policy enforcing MFA on the user action of register or join devices to use Windows 365...",
       "category": "Device Security",
       "tags": []
     },
@@ -404,7 +404,7 @@
       "date": "2025-12-08",
       "source": "link",
       "title": "Product improvements and bug fixes",
-      "desc": "This release has improvements, including sign-in reliability, performance optimizations, Bluetooth menu enhancement, and more. Additionally, this release includes updates that help address Intel chipset and graphics advisories (INTELâSAâ01280and INTELâSAâ01259). These updates help improve overall device stability. The components installed will vary based on your device configuration.",
+      "desc": "This release has improvements, including sign-in reliability, performance optimizations, Bluetooth menu enhancement, and more. Additionally, this release includes updates that help address Intel chipset and graphics advisories (INTEL-SA-01280and INTEL-SA-01259). These updates help improve overall device stability. The components installed will vary based on your device configuration.",
       "category": "Authentication",
       "tags": []
     },
@@ -412,7 +412,7 @@
       "date": "2025-12-08",
       "source": "windowsapp",
       "title": "Version 11.2.3 (5793)",
-      "desc": "Improved connection success when NetBIOS-based name lookup is used for direct PC connections. Added support for updated safe area insets on iPhone 17 devices. Improved external display support for iPad Pro M5 and iPad Air M3 devices. Resolved deadlocks that occurred during account sign-out and workspace refresh. Added floating keyboard support on iPadOS 26. Addressed a number of crashes that we...",
+      "desc": "Improved connection success when NetBIOS-based name lookup is used for direct PC connections. Added support for updated safe area insets on iPhone 17 devices. Improved external display support for iPad Pro M5 and iPad Air M3 devices. Resolved deadlocks that occurred during account sign-out and workspace refresh. Added floating keyboard support on iPadOS 26. Addressed a number of crashes that we...",
       "category": "Device Management",
       "tags": []
     },
@@ -477,7 +477,7 @@
       "date": "2025-11-17",
       "source": "enterprise",
       "title": "User Experience Sync (UES) now generally available",
-      "desc": "User Experience Syncis now generally available for Windows 365. UES delivers a consistent experience by saving user settings and app data across sessions, so users can be productive as soon as they sign in. Itâs designed for Windows 365 Frontline Shared mode andCloud Appsscenarios, making it ideal for occasional use workers who share devices or need personalized settings across multiple sessi...",
+      "desc": "User Experience Syncis now generally available for Windows 365. UES delivers a consistent experience by saving user settings and app data across sessions, so users can be productive as soon as they sign in. It's designed for Windows 365 Frontline Shared mode andCloud Appsscenarios, making it ideal for occasional use workers who share devices or need personalized settings across multiple session...",
       "category": "Apps",
       "tags": [
         "ga",
@@ -581,7 +581,7 @@
       "date": "2025-11-10",
       "source": "link",
       "title": "Windows 365 Reserve",
-      "desc": "Support for use withWindows 365 ReserveCloud PCs, making Windows 365 Link a great backup option when someoneâs primary desktop is unavailable due to hardware failure.",
+      "desc": "Support for use withWindows 365 ReserveCloud PCs, making Windows 365 Link a great backup option when someone's primary desktop is unavailable due to hardware failure.",
       "category": "Device Management",
       "tags": []
     },
@@ -589,7 +589,7 @@
       "date": "2025-11-03",
       "source": "enterprise",
       "title": "RDP Multipath is now fully rolled out!",
-      "desc": "Weâve completed the phased deployment of RDP Multipath across all eligible connections. This feature enhances reliability and performance by leveraging multiple network paths for your remote sessions, ensuring a more resilient and seamless experience.",
+      "desc": "We've completed the phased deployment of RDP Multipath across all eligible connections. This feature enhances reliability and performance by leveraging multiple network paths for your remote sessions, ensuring a more resilient and seamless experience.",
       "category": "Device Management",
       "tags": []
     },
@@ -757,7 +757,7 @@
       "date": "2025-09-15",
       "source": "enterprise",
       "title": "Windows 365 Frontline Cloud PCs in dedicated mode generally available on US government cloud",
-      "desc": "You can now provision Windows 365 Frontline Cloud PCs in dedicated mode in US Government Community Cloud (GCC). For more information, seeâ¯Windows 365 Government.",
+      "desc": "You can now provision Windows 365 Frontline Cloud PCs in dedicated mode in US Government Community Cloud (GCC). For more information, seeWindows 365 Government.",
       "category": "Provisioning",
       "tags": [
         "ga",
@@ -797,7 +797,7 @@
       "date": "2025-09-08",
       "source": "enterprise",
       "title": "HP Anyware for Windows 365 Enterprise",
-      "desc": "HP Anyware for Windows 365 Enterprise has been expanded to include support for Windows 365 GPU-enabled Enterprise Cloud PCs. This integration brings the power of PC-over-IP (PCoIP) â a protocol known for delivering high-definition, low-latency performanceâto Windows 365, making it ideal for graphics-intensive workloads such as 3D modeling, video editing, and data visualization.",
+      "desc": "HP Anyware for Windows 365 Enterprise has been expanded to include support for Windows 365 GPU-enabled Enterprise Cloud PCs. This integration brings the power of PC-over-IP (PCoIP) - a protocol known for delivering high-definition, low-latency performance-to Windows 365, making it ideal for graphics-intensive workloads such as 3D modeling, video editing, and data visualization.",
       "category": "Device Management",
       "tags": []
     },
@@ -847,7 +847,7 @@
       "date": "2025-08-25",
       "source": "enterprise",
       "title": "Token protection generally available in Windows App on Windows devices",
-      "desc": "You can now use a Conditional Access policy to require token protection for sign-in tokens (refresh tokens) on Windows devices. Such policies can reduce attacks using token theft by ensuring a token is usable only from the intended device. For more information, seeâ¯Microsoft Entra Conditional Access token protection explained.",
+      "desc": "You can now use a Conditional Access policy to require token protection for sign-in tokens (refresh tokens) on Windows devices. Such policies can reduce attacks using token theft by ensuring a token is usable only from the intended device. For more information, seeMicrosoft Entra Conditional Access token protection explained.",
       "category": "Device Security",
       "tags": [
         "ga"
@@ -1093,7 +1093,7 @@
       "date": "2025-06-02",
       "source": "enterprise",
       "title": "High Efficiency Video Coding (H.265) hardware acceleration support",
-      "desc": "Windows 365 GPU-enabled Super and Max SKUs now support graphics processing unit (GPU) acceleration for frame encoding using HEVC/H.265. GPU acceleration improves graphical experiences when using the Remote Desktop Protocol (RDP) with a compatible GPU-enabled Cloud PCs. For more information, seeâ¯GPU Cloud PCs in Windows 365andEnable GPU acceleration for Azure Virtual Desktop.",
+      "desc": "Windows 365 GPU-enabled Super and Max SKUs now support graphics processing unit (GPU) acceleration for frame encoding using HEVC/H.265. GPU acceleration improves graphical experiences when using the Remote Desktop Protocol (RDP) with a compatible GPU-enabled Cloud PCs. For more information, seeGPU Cloud PCs in Windows 365andEnable GPU acceleration for Azure Virtual Desktop.",
       "category": "Device Management",
       "tags": []
     },
@@ -1236,7 +1236,7 @@
       "date": "2025-04-28",
       "source": "enterprise",
       "title": "Token protection (Preview) in Windows App on Windows devices",
-      "desc": "You can now use a Conditional Access policy to require token protection for sign-in tokens (refresh tokens) on Windows devices. Such policies can reduce attacks using token theft by ensuring a token is usable only from the intended device. For more information, seeâ¯Microsoft Entra Conditional Access token protection explained.",
+      "desc": "You can now use a Conditional Access policy to require token protection for sign-in tokens (refresh tokens) on Windows devices. Such policies can reduce attacks using token theft by ensuring a token is usable only from the intended device. For more information, seeMicrosoft Entra Conditional Access token protection explained.",
       "category": "Device Security",
       "tags": [
         "preview"
@@ -1288,7 +1288,7 @@
       "date": "2025-04-21",
       "source": "enterprise",
       "title": "New documentation article: Microsoft and customer roles and responsibilities for Windows 365",
-      "desc": "Weâve created a new article. For more information, seeMicrosoft and customer roles and responsibilities for Windows 365.",
+      "desc": "We've created a new article. For more information, seeMicrosoft and customer roles and responsibilities for Windows 365.",
       "category": "Documentation",
       "tags": []
     },
@@ -1390,7 +1390,7 @@
       "date": "2025-03-31",
       "source": "enterprise",
       "title": "Default Visual Effects performance option change",
-      "desc": "The Visual Effects performance option now defaults toLet Windows choose whatâs best for my computer.",
+      "desc": "The Visual Effects performance option now defaults toLet Windows choose what's best for my computer.",
       "category": "Device Management",
       "tags": []
     },
@@ -1585,7 +1585,7 @@
       "date": "2025-02-26",
       "source": "enterprise",
       "title": "Intune Mobile Application Management (MAM) support on Windows App on Android (preview) for devices running Android 15",
-      "desc": "Intune MAM policies can now be applied to Windows App on Android (preview) when the device is running on Android 15. Previously, Windows App could run on Android 15, but MAM policies wouldnât take effect.",
+      "desc": "Intune MAM policies can now be applied to Windows App on Android (preview) when the device is running on Android 15. Previously, Windows App could run on Android 15, but MAM policies wouldn't take effect.",
       "category": "Apps",
       "tags": [
         "preview"
@@ -1863,7 +1863,7 @@
     {
       "date": "2024-11-19",
       "source": "enterprise",
-      "title": "Configure client device redirection settings forâ¯Windows App on iOS/iPadOS/Androidâ¯using Microsoft Intune",
+      "title": "Configure client device redirection settings for Windows App on iOS/iPadOS/Android using Microsoft Intune",
       "desc": "You can now use Microsoft Intune Mobile Application Management to check for device posture and manage redirections for Windows App on iOS, iPadOS, and Android (preview). You can use Microsoft Intune on both corporate managed and personal devices.",
       "category": "Apps",
       "tags": [
@@ -2242,7 +2242,7 @@
       "date": "2024-08-05",
       "source": "enterprise",
       "title": "Updated documentation article: Windows 365 service resilience",
-      "desc": "Weâve created a new article explaining Windows 365 service resilience. For more information, seeWindows 365 service resilience.",
+      "desc": "We've created a new article explaining Windows 365 service resilience. For more information, seeWindows 365 service resilience.",
       "category": "Documentation",
       "tags": []
     },
@@ -2606,7 +2606,7 @@
       "date": "2024-03-26",
       "source": "enterprise",
       "title": "Updated documentation article: Known issues",
-      "desc": "Weâve updated the articleKnown issues: Windows 365 Enterprise and Frontline, add a known issue for Teams isn't enforcing screen capture.",
+      "desc": "We've updated the articleKnown issues: Windows 365 Enterprise and Frontline, add a known issue for Teams isn't enforcing screen capture.",
       "category": "Apps",
       "tags": [
         "frontline"
@@ -2682,7 +2682,7 @@
       "date": "2024-03-11",
       "source": "enterprise",
       "title": "Updated documentation article: Forced browser sign-in setting for Cloud PC gallery images",
-      "desc": "Weâve updated the articleDevice images overview, noting that gallery images haveforced browser sign-inpre-applied.",
+      "desc": "We've updated the articleDevice images overview, noting that gallery images haveforced browser sign-inpre-applied.",
       "category": "Provisioning",
       "tags": []
     },
@@ -2728,7 +2728,7 @@
       "date": "2024-03-04",
       "source": "enterprise",
       "title": "Offline Windows 365 Frontline Cloud PCs update sync",
-      "desc": "Windows 365 Frontline Cloud PCs that havenât been used for seven days are now automatically turned on and synced with Windows Update client policies.",
+      "desc": "Windows 365 Frontline Cloud PCs that haven't been used for seven days are now automatically turned on and synced with Windows Update client policies.",
       "category": "Networking",
       "tags": [
         "frontline"
@@ -2789,7 +2789,7 @@
       "date": "2024-02-26",
       "source": "enterprise",
       "title": "Shared and dedicated Windows 365 Boot device modes are now generally available",
-      "desc": "Windows 365 Boot shared and dedicated device modes have moved out of preview and into general availability. For more information, seeWhat is Windows 365 Boot?andâ¯Guided scenario - deploy Windows 365 Boot to shared physical devices.",
+      "desc": "Windows 365 Boot shared and dedicated device modes have moved out of preview and into general availability. For more information, seeWhat is Windows 365 Boot?andGuided scenario - deploy Windows 365 Boot to shared physical devices.",
       "category": "End User Experience",
       "tags": [
         "ga"
@@ -2886,7 +2886,7 @@
       "date": "2024-01-15",
       "source": "enterprise",
       "title": "Updated documentation article: Relative performance for different Cloud PC sizes",
-      "desc": "Weâve updated the article and added performance information for additional Cloud PC sizes. For more information, seeRelative performance for different Cloud PC sizes.",
+      "desc": "We've updated the article and added performance information for additional Cloud PC sizes. For more information, seeRelative performance for different Cloud PC sizes.",
       "category": "Documentation",
       "tags": []
     },
@@ -3087,7 +3087,7 @@
       "date": "2023-11-13",
       "source": "enterprise",
       "title": "Screen capture protection in Windows 365 settings catalog",
-      "desc": "You can now implement screen capture protection for your Cloud PCs by using the settings catalog. Alongside watermarking, screen capture is a deterrent to data leaks and data loss. For more information, seeEnable screen capture protection in Azure Virtual DesktopandConfigure the administrative template. This feature isnât supported on Android, iOS, or web clients. Enabling this feature blocks...",
+      "desc": "You can now implement screen capture protection for your Cloud PCs by using the settings catalog. Alongside watermarking, screen capture is a deterrent to data leaks and data loss. For more information, seeEnable screen capture protection in Azure Virtual DesktopandConfigure the administrative template. This feature isn't supported on Android, iOS, or web clients. Enabling this feature blocks u...",
       "category": "Device Security",
       "tags": []
     },
@@ -3162,7 +3162,7 @@
       "date": "2023-10-30",
       "source": "enterprise",
       "title": "Two new sizes for Cloud PCs",
-      "desc": "Two new sizes are now available for Windows 365 Cloud PCs: 16vCPU/64GB RAM/512GB storageâ 16vCPU/64GB RAM/1TB storage These 16 vCPU licenses can be purchased and assigned in the same way that you purchase and assign other Windows 365 licenses.",
+      "desc": "Two new sizes are now available for Windows 365 Cloud PCs: 16vCPU/64GB RAM/512GB storage 16vCPU/64GB RAM/1TB storage These 16 vCPU licenses can be purchased and assigned in the same way that you purchase and assign other Windows 365 licenses.",
       "category": "Device Management",
       "tags": []
     },
@@ -3198,7 +3198,7 @@
       "date": "2023-10-30",
       "source": "business",
       "title": "Two new sizes for Cloud PCs",
-      "desc": "Two new sizes are now available for Windows 365 Cloud PCs: 16vCPU/64GB RAM/512GB storageâ 16vCPU/64GB RAM/1TB storage These 16 vCPU licenses can be purchased and assigned in the same way that you purchase and assign other Windows 365 licenses.",
+      "desc": "Two new sizes are now available for Windows 365 Cloud PCs: 16vCPU/64GB RAM/512GB storage 16vCPU/64GB RAM/1TB storage These 16 vCPU licenses can be purchased and assigned in the same way that you purchase and assign other Windows 365 licenses.",
       "category": "Device Management",
       "tags": []
     },
@@ -3214,7 +3214,7 @@
       "date": "2023-10-18",
       "source": "business",
       "title": "New documentation article: Set up Intune so admins can deploy apps to Cloud PCs",
-      "desc": "Weâve published a new help documentation article. For more information, seeSet up Intune so admins can deploy apps to Cloud PCs.",
+      "desc": "We've published a new help documentation article. For more information, seeSet up Intune so admins can deploy apps to Cloud PCs.",
       "category": "Documentation",
       "tags": []
     },
@@ -3501,7 +3501,7 @@
       "date": "2023-06-12",
       "source": "enterprise",
       "title": "New documentation article: High-level architecture diagram",
-      "desc": "Weâve published a new help documentation article. For more information, seeHigh-level architecture diagram.",
+      "desc": "We've published a new help documentation article. For more information, seeHigh-level architecture diagram.",
       "category": "Documentation",
       "tags": []
     },
@@ -3557,7 +3557,7 @@
       "date": "2023-05-29",
       "source": "enterprise",
       "title": "Shortpath for managed/private networks",
-      "desc": "Managed network RDP Shortpath is available for Windows 365. For more information about RDP Shortpath in Windows 365, seeUse RDP Shortpath for private networks with Windows 365â¯.",
+      "desc": "Managed network RDP Shortpath is available for Windows 365. For more information about RDP Shortpath in Windows 365, seeUse RDP Shortpath for private networks with Windows 365.",
       "category": "Networking",
       "tags": []
     },
@@ -3627,7 +3627,7 @@
       "date": "2023-05-22",
       "source": "enterprise",
       "title": "New documentation article: Using Intune, install the Windows 365 app on physical devices",
-      "desc": "Weâve published a new help documentation article. For more information, seeUsing Intune, install the Windows 365 app on physical devices.",
+      "desc": "We've published a new help documentation article. For more information, seeUsing Intune, install the Windows 365 app on physical devices.",
       "category": "Apps",
       "tags": []
     },
@@ -3693,7 +3693,7 @@
       "date": "2023-04-03",
       "source": "enterprise",
       "title": "New documentation article: Relative performance for different Cloud PC sizes",
-      "desc": "Weâve published a new help documentation article. For more information, seeRelative performance for different Cloud PC sizes.",
+      "desc": "We've published a new help documentation article. For more information, seeRelative performance for different Cloud PC sizes.",
       "category": "Documentation",
       "tags": []
     },
@@ -3821,7 +3821,7 @@
       "date": "2023-02-27",
       "source": "enterprise",
       "title": "New documentation article: Azure network connection domain credential life cycle",
-      "desc": "Weâve published a new help documentation article. For more information, seeAzure network connection domain credential life cycle.",
+      "desc": "We've published a new help documentation article. For more information, seeAzure network connection domain credential life cycle.",
       "category": "Networking",
       "tags": []
     },
@@ -3908,7 +3908,7 @@
       "date": "2022-12-12",
       "source": "enterprise",
       "title": "Provision Azure Active Directory Join Cloud PCs with single sign-on (public preview)",
-      "desc": "Windows 365 now supports creating Azure Active Directory Join Cloud PCs that use single sign-on for Cloud PC login. Existing Cloud PCs wonât have single sign-on configured. For more information, seeCreate provisioning policyandEdit provisioning policy.",
+      "desc": "Windows 365 now supports creating Azure Active Directory Join Cloud PCs that use single sign-on for Cloud PC login. Existing Cloud PCs won't have single sign-on configured. For more information, seeCreate provisioning policyandEdit provisioning policy.",
       "category": "Provisioning",
       "tags": [
         "preview"
@@ -3944,7 +3944,7 @@
       "date": "2022-12-12",
       "source": "enterprise",
       "title": "New documentation article: Windows 365 deployment options",
-      "desc": "Weâve published a new help documentation article. For more information, seeWindows 365 deployment options.",
+      "desc": "We've published a new help documentation article. For more information, seeWindows 365 deployment options.",
       "category": "Documentation",
       "tags": []
     },
@@ -4006,7 +4006,7 @@
       "date": "2022-11-14",
       "source": "enterprise",
       "title": "New documentation article: Use the Enrollment Status Page with Cloud PCs",
-      "desc": "Weâve published a new help documentation article. For more information, seeUse the Enrollment Status Page with Cloud PCs.",
+      "desc": "We've published a new help documentation article. For more information, seeUse the Enrollment Status Page with Cloud PCs.",
       "category": "Documentation",
       "tags": []
     },
@@ -4184,7 +4184,7 @@
       "date": "2022-08-29",
       "source": "enterprise",
       "title": "Review Cloud PC connectivity health checks and errors in Microsoft Intune admin center",
-      "desc": "You can now review connectivity health checks and errors in the Microsoft Intune admin center to help you understand if your users are experiencing connectivity issues. Youâll also get a troubleshooting tool to help resolve connectivity issues. To see the checks, selectDevices>Windows 365>Azure network connections> select a connection in the list >Overview. This feature is rolling out to all ...",
+      "desc": "You can now review connectivity health checks and errors in the Microsoft Intune admin center to help you understand if your users are experiencing connectivity issues. You'll also get a troubleshooting tool to help resolve connectivity issues. To see the checks, selectDevices>Windows 365>Azure network connections> select a connection in the list >Overview. This feature is rolling out to all cu...",
       "category": "Networking",
       "tags": []
     },
@@ -4200,7 +4200,7 @@
       "date": "2022-08-22",
       "source": "enterprise",
       "title": "New documentation article: Restrict Office 365 services to Cloud PCs",
-      "desc": "Weâve published a new help documentation article. For more information, seeRestrict Office 365 services to Cloud PCs.",
+      "desc": "We've published a new help documentation article. For more information, seeRestrict Office 365 services to Cloud PCs.",
       "category": "Documentation",
       "tags": []
     },
@@ -4236,7 +4236,7 @@
       "date": "2022-08-08",
       "source": "enterprise",
       "title": "New documentation article: Windows 365 security",
-      "desc": "Weâve published a new help documentation article. For more information, seeWindows 365 security.",
+      "desc": "We've published a new help documentation article. For more information, seeWindows 365 security.",
       "category": "Device Security",
       "tags": []
     },
@@ -4396,7 +4396,7 @@
       "date": "2022-05-02",
       "source": "enterprise",
       "title": "New documentation article: Manage Windows 365 Cloud PCs with Configuration Manager",
-      "desc": "Weâve published a new help documentation article. For more information, seeManage Windows 365 Cloud PCs with Configuration Manager.",
+      "desc": "We've published a new help documentation article. For more information, seeManage Windows 365 Cloud PCs with Configuration Manager.",
       "category": "Documentation",
       "tags": []
     },
@@ -4412,7 +4412,7 @@
       "date": "2022-04-18",
       "source": "enterprise",
       "title": "Change Cloud PC time zone",
-      "desc": "Non-admin users can now change their Cloud PCâs time zone.",
+      "desc": "Non-admin users can now change their Cloud PC's time zone.",
       "category": "Device Management",
       "tags": []
     },
@@ -4484,7 +4484,7 @@
       "date": "2022-04-04",
       "source": "enterprise",
       "title": "Cloud PC name appended to the network interface name",
-      "desc": "A Cloud PCâs name is now appended to the network interface name within the Azure portal. This naming makes it easier to find the IP address for the Cloud PC when an Azure network connection is selected.",
+      "desc": "A Cloud PC's name is now appended to the network interface name within the Azure portal. This naming makes it easier to find the IP address for the Cloud PC when an Azure network connection is selected.",
       "category": "Networking",
       "tags": []
     },
@@ -4534,7 +4534,7 @@
       "date": "2022-03-24",
       "source": "enterprise",
       "title": "New remote action: Remote Help",
-      "desc": "TheRemote Help remote action(in the Microsoft Intune admin center) lets admins start a remote session into an end userâs Cloud PC.",
+      "desc": "TheRemote Help remote action(in the Microsoft Intune admin center) lets admins start a remote session into an end user's Cloud PC.",
       "category": "Device Management",
       "tags": []
     },
@@ -4562,7 +4562,7 @@
       "date": "2022-02-28",
       "source": "enterprise",
       "title": "New documentation article: Windows 365 approved partners",
-      "desc": "Weâve published a new help documentation article. For more information, seeWindows 365 approved partners.",
+      "desc": "We've published a new help documentation article. For more information, seeWindows 365 approved partners.",
       "category": "Documentation",
       "tags": []
     },
@@ -4606,7 +4606,7 @@
       "date": "2022-02-14",
       "source": "enterprise",
       "title": "New documentation article: Windows 365 identity and authentication",
-      "desc": "Weâve published a new help documentation article. For more information, seeWindows 365 identity and authentication.",
+      "desc": "We've published a new help documentation article. For more information, seeWindows 365 identity and authentication.",
       "category": "Authentication",
       "tags": []
     },
@@ -4614,7 +4614,7 @@
       "date": "2022-02-14",
       "source": "enterprise",
       "title": "Support for Azure AD joined Cloud PCs",
-      "desc": "Windows 365 Enterprise now supports Cloud PCs that are Azure AD joined. These devices can run in either: A Microsoft-hosted network:You donât need to bring any Azure infrastructureYou don't need to create an Azure network connection Your own network (using an Azure network connection)",
+      "desc": "Windows 365 Enterprise now supports Cloud PCs that are Azure AD joined. These devices can run in either: A Microsoft-hosted network:You don't need to bring any Azure infrastructureYou don't need to create an Azure network connection Your own network (using an Azure network connection)",
       "category": "Networking",
       "tags": []
     },
@@ -4630,7 +4630,7 @@
       "date": "2022-02-14",
       "source": "enterprise",
       "title": "Use Collect diagnostics to collect more details from Windows 365 devices through Intune remote actions",
-      "desc": "Intuneâs remote action to Collect diagnostics now collects more details from Windows 365 Cloud PCs. The new details for Windows 365 Cloud PCs include the following registry data: HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Terminal Server\\AddIns\\WebRTC Redirector HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Teams\\ To learn more about theCollect diagnosticsremote action, seeCollect diagnostic...",
+      "desc": "Intune's remote action to Collect diagnostics now collects more details from Windows 365 Cloud PCs. The new details for Windows 365 Cloud PCs include the following registry data: HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Terminal Server\\AddIns\\WebRTC Redirector HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Teams\\ To learn more about theCollect diagnosticsremote action, seeCollect diagnostics ...",
       "category": "Monitor & Troubleshoot",
       "tags": []
     },
@@ -4646,7 +4646,7 @@
       "date": "2022-01-17",
       "source": "enterprise",
       "title": "New documentation article: Optimize Cisco Webex on a Windows 365 Cloud PC",
-      "desc": "Weâve published a new help documentation article. For more information, seeOptimize Cisco Webex on a Windows 365 Cloud PC.",
+      "desc": "We've published a new help documentation article. For more information, seeOptimize Cisco Webex on a Windows 365 Cloud PC.",
       "category": "Documentation",
       "tags": []
     },
@@ -4670,7 +4670,7 @@
       "date": "2021-12-13",
       "source": "enterprise",
       "title": "Cloud PCs in grace period count towards active Cloud PC license usage",
-      "desc": "Cloud PCs that are in grace period now count towards your active Cloud PC license usage. This policy makes sure that your organizationâs active Cloud PC allocation matches the total available licenses in your tenant. For more information about grace period, seeDevice management overviewandEnd grace period.",
+      "desc": "Cloud PCs that are in grace period now count towards your active Cloud PC license usage. This policy makes sure that your organization's active Cloud PC allocation matches the total available licenses in your tenant. For more information about grace period, seeDevice management overviewandEnd grace period.",
       "category": "Device Management",
       "tags": []
     },
@@ -4702,7 +4702,7 @@
       "date": "2021-11-29",
       "source": "enterprise",
       "title": "New documentation article: Optimize Zoom on a Windows 365 Cloud PC",
-      "desc": "Weâve published a new help documentation article. For more information, seeOptimize Zoom on a Windows 365 Cloud PC.",
+      "desc": "We've published a new help documentation article. For more information, seeOptimize Zoom on a Windows 365 Cloud PC.",
       "category": "Documentation",
       "tags": []
     },
@@ -4710,7 +4710,7 @@
       "date": "2021-11-29",
       "source": "enterprise",
       "title": "Two new security baseline settings for Windows 11 Cloud PCs",
-      "desc": "Windows 365 Enterprise now supports the following Windows 11 security baseline settings: Tamper Protection: Helps protect Cloud PCs from bad actors bypassing security features like anti-virus protection. Script Scanning: Helps identify possible threats by intercepting scripts and scanning them before theyâre run. For more information about the security baseline updates for Windows 11, seeWind...",
+      "desc": "Windows 365 Enterprise now supports the following Windows 11 security baseline settings: Tamper Protection: Helps protect Cloud PCs from bad actors bypassing security features like anti-virus protection. Script Scanning: Helps identify possible threats by intercepting scripts and scanning them before they're run. For more information about the security baseline updates for Windows 11, seeWindow...",
       "category": "Device Security",
       "tags": []
     },
@@ -4770,7 +4770,7 @@
       "date": "2021-10-11",
       "source": "enterprise",
       "title": "Health check improvement",
-      "desc": "TheDNS can resolve Active Directory domainhealth check has been improved. A new step has been added to look for the following Azure Active Directory DNS record. If it canât be found, the check fails. _ldap._tcp.yourDomain.com -type SRV",
+      "desc": "TheDNS can resolve Active Directory domainhealth check has been improved. A new step has been added to look for the following Azure Active Directory DNS record. If it can't be found, the check fails. _ldap._tcp.yourDomain.com -type SRV",
       "category": "Monitor & Troubleshoot",
       "tags": []
     },
@@ -4802,7 +4802,7 @@
       "date": "2021-09-06",
       "source": "enterprise",
       "title": "End grace period option",
-      "desc": "Certain conditions put a Cloud PC into a seven-day grace period. At the end of this time, the Cloud PC will be deprovisioned and user will lose access. You can now immediately end the grace period for individual Cloud PCs. By ending the grace period manually, you wonât have to wait the full seven days to remove user access from the Cloud PC. For more information on grace periods, seeEnd grace...",
+      "desc": "Certain conditions put a Cloud PC into a seven-day grace period. At the end of this time, the Cloud PC will be deprovisioned and user will lose access. You can now immediately end the grace period for individual Cloud PCs. By ending the grace period manually, you won't have to wait the full seven days to remove user access from the Cloud PC. For more information on grace periods, seeEnd grace p...",
       "category": "Provisioning",
       "tags": []
     },
@@ -4826,7 +4826,7 @@
       "date": "2021-08-02",
       "source": "enterprise",
       "title": "Windows 365 now generally available",
-      "desc": "Windows 365 is a new service from Microsoft that automatically creates Cloud PCs for your end users. Cloud PCs are a new hybrid personal computing category that uses both the power of the cloud and the accessing device to provide a full and personalized Windows virtual machine. Admins can use Microsoft Intune to define the configurations and applications that are provisioned for each userâs C...",
+      "desc": "Windows 365 is a new service from Microsoft that automatically creates Cloud PCs for your end users. Cloud PCs are a new hybrid personal computing category that uses both the power of the cloud and the accessing device to provide a full and personalized Windows virtual machine. Admins can use Microsoft Intune to define the configurations and applications that are provisioned for each user's Clo...",
       "category": "Provisioning",
       "tags": [
         "ga"
