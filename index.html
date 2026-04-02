@@ -323,7 +323,7 @@
 </main>
 
 <footer>
-    <p>This page aggregates official Microsoft Learn documentation. All content belongs to Microsoft. Last updated April 2026.</p>
+    <p>This page aggregates official Microsoft Learn documentation. All content belongs to Microsoft. <span id="lastUpdated"></span></p>
     <p style="margin-top:6px">
         Sources:
         <a href="https://learn.microsoft.com/windows-365/enterprise/whats-new" target="_blank" rel="noopener">Enterprise &amp; Frontline</a> &middot;
@@ -334,9 +334,11 @@
 </footer>
 
 <script>
-// ── Announcement data ──────────────────────────────────────────────
-const announcements = [
-    // ── Windows 365 Enterprise & Frontline ─────────────────────────
+// ── Data loading ───────────────────────────────────────────────────
+let announcements = [];
+
+// Fallback seed data (used only if data.json is unavailable)
+const FALLBACK = [
     {
         date: "2026-03-30",
         source: "enterprise",
@@ -937,8 +939,26 @@ filterBtns.forEach(btn => {
 // Search
 searchInput.addEventListener('input', render);
 
-// Initial render
-render();
+// ── Load data.json, fall back to hardcoded seed ────────────────────
+async function loadData() {
+    try {
+        const resp = await fetch('data.json');
+        if (!resp.ok) throw new Error(resp.status);
+        const data = await resp.json();
+        announcements = data.announcements || [];
+        if (data.lastUpdated) {
+            const d = new Date(data.lastUpdated);
+            document.getElementById('lastUpdated').textContent =
+                'Data last refreshed ' + d.toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' }) + '.';
+        }
+    } catch {
+        // data.json not available — use fallback seed data
+        announcements = FALLBACK;
+        document.getElementById('lastUpdated').textContent = 'Using cached data.';
+    }
+    render();
+}
+loadData();
 </script>
 </body>
 </html>

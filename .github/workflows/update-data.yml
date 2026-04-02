@@ -1,0 +1,40 @@
+name: Update What's New Data
+
+on:
+  schedule:
+    # Run daily at 07:00 UTC (morning in most US/EU time zones)
+    - cron: '0 7 * * *'
+  workflow_dispatch: # Allow manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch and parse What's New pages
+        run: python scripts/fetch_updates.py
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          if git diff --cached --quiet; then
+            echo "No changes to data.json — skipping commit."
+          else
+            git commit -m "chore: update What's New data [automated]"
+            git push
+          fi
