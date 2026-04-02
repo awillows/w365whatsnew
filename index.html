@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's New in Windows 365 — Unified Announcements</title>
+    <style>
+        :root {
+            --color-primary: #0078d4;
+            --color-primary-dark: #106ebe;
+            --color-bg: #f5f5f5;
+            --color-surface: #ffffff;
+            --color-text: #242424;
+            --color-text-secondary: #616161;
+            --color-border: #e0e0e0;
+            --color-enterprise: #0078d4;
+            --color-business: #107c10;
+            --color-link: #8661c5;
+            --color-windowsapp: #d83b01;
+            --shadow-card: 0 1px 4px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+            --shadow-hover: 0 4px 12px rgba(0,0,0,.12);
+            --radius: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.6;
+        }
+
+        /* Top bar */
+        .top-bar {
+            background: #1b1b1b;
+            color: #fff;
+            padding: 8px 24px;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .top-bar a { color: #fff; text-decoration: none; opacity: .85; }
+        .top-bar a:hover { opacity: 1; }
+
+        /* Header */
+        header {
+            background: var(--color-surface);
+            border-bottom: 1px solid var(--color-border);
+            padding: 0 24px;
+        }
+        .header-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px 0 0;
+        }
+        .header-inner h1 {
+            font-size: 32px;
+            font-weight: 600;
+            color: var(--color-text);
+            margin-bottom: 4px;
+        }
+        .header-inner p.subtitle {
+            color: var(--color-text-secondary);
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        /* Source links row */
+        .source-links {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .source-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            color: #fff;
+            transition: opacity .15s;
+        }
+        .source-link:hover { opacity: .85; }
+        .source-link.enterprise { background: var(--color-enterprise); }
+        .source-link.business { background: var(--color-business); }
+        .source-link.link-device { background: var(--color-link); }
+        .source-link.windowsapp { background: var(--color-windowsapp); }
+        .source-link svg { width: 14px; height: 14px; fill: currentColor; }
+
+        /* Filter tabs */
+        .filter-bar {
+            display: flex;
+            gap: 0;
+            border-bottom: none;
+        }
+        .filter-btn {
+            padding: 10px 20px;
+            background: none;
+            border: none;
+            border-bottom: 3px solid transparent;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--color-text-secondary);
+            cursor: pointer;
+            transition: all .15s;
+            font-family: inherit;
+        }
+        .filter-btn:hover { color: var(--color-text); }
+        .filter-btn.active {
+            color: var(--color-primary);
+            border-bottom-color: var(--color-primary);
+        }
+
+        /* Main content */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 32px 24px;
+        }
+
+        /* Timeline */
+        .timeline-group { margin-bottom: 40px; }
+        .timeline-date {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--color-text);
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--color-border);
+        }
+        .cards { display: flex; flex-direction: column; gap: 12px; }
+
+        /* Card */
+        .card {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 20px 24px;
+            box-shadow: var(--shadow-card);
+            transition: box-shadow .2s, border-color .2s;
+            border-left: 4px solid transparent;
+        }
+        .card:hover { box-shadow: var(--shadow-hover); }
+        .card[data-source="enterprise"] { border-left-color: var(--color-enterprise); }
+        .card[data-source="business"]   { border-left-color: var(--color-business); }
+        .card[data-source="link"]       { border-left-color: var(--color-link); }
+        .card[data-source="windowsapp"] { border-left-color: var(--color-windowsapp); }
+
+        .card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+        .card h3 { font-size: 16px; font-weight: 600; color: var(--color-text); flex: 1; }
+        .card-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: .3px;
+            flex-shrink: 0;
+            color: #fff;
+        }
+        .badge-enterprise { background: var(--color-enterprise); }
+        .badge-business   { background: var(--color-business); }
+        .badge-link       { background: var(--color-link); }
+        .badge-windowsapp { background: var(--color-windowsapp); }
+
+        .card-category {
+            font-size: 12px;
+            color: var(--color-text-secondary);
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: .5px;
+            margin-bottom: 6px;
+        }
+        .card p { font-size: 14px; color: var(--color-text-secondary); line-height: 1.65; }
+        .card-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 500;
+            background: #e8f4fd;
+            color: var(--color-primary);
+            margin-top: 10px;
+            margin-right: 4px;
+        }
+        .card-tag.preview { background: #fff4ce; color: #6b5b00; }
+        .card-tag.ga { background: #dff6dd; color: #107c10; }
+
+        /* Search */
+        .search-row {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+        .search-input {
+            flex: 1;
+            max-width: 480px;
+            padding: 10px 16px 10px 40px;
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            font-size: 14px;
+            font-family: inherit;
+            background: var(--color-surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23616161' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.414-1.414l-3.85-3.85zm-5.242.156a5 5 0 1 1 0-10 5 5 0 0 1 0 10z'/%3E%3C/svg%3E") no-repeat 14px center;
+            outline: none;
+            transition: border-color .15s;
+        }
+        .search-input:focus { border-color: var(--color-primary); }
+        .results-count { font-size: 13px; color: var(--color-text-secondary); }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 60px 24px;
+            color: var(--color-text-secondary);
+        }
+        .empty-state svg { width: 48px; height: 48px; margin-bottom: 12px; opacity: .4; }
+        .empty-state p { font-size: 15px; }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 32px 24px;
+            color: var(--color-text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--color-border);
+            margin-top: 40px;
+        }
+        footer a { color: var(--color-primary); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        /* Legend */
+        .legend {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 4px;
+            font-size: 13px;
+            color: var(--color-text-secondary);
+        }
+        .legend-item { display: flex; align-items: center; gap: 6px; }
+        .legend-dot { width: 12px; height: 12px; border-radius: 3px; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-inner h1 { font-size: 24px; }
+            main { padding: 20px 16px; }
+            .card { padding: 16px; }
+            .card-header { flex-direction: column; gap: 6px; }
+            .filter-btn { padding: 10px 14px; font-size: 13px; }
+            .source-links { gap: 6px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <a href="https://learn.microsoft.com" target="_blank" rel="noopener">Microsoft Learn</a>
+    <span style="opacity:.3">|</span>
+    <span>Windows 365 What's New Aggregator</span>
+</div>
+
+<header>
+    <div class="header-inner">
+        <h1>What's New in Windows 365</h1>
+        <p class="subtitle">A unified view of the latest announcements across Windows 365 Enterprise &amp; Frontline, Windows 365 Business, Windows 365 Link, and Windows App — all in one place.</p>
+
+        <div class="source-links">
+            <a class="source-link enterprise" href="https://learn.microsoft.com/windows-365/enterprise/whats-new" target="_blank" rel="noopener">
+                <svg viewBox="0 0 16 16"><path d="M1 1h6.5v6.5H1V1zm8.5 0H16v6.5H9.5V1zM1 9.5h6.5V16H1V9.5zm8.5 0H16V16H9.5V9.5z"/></svg>
+                Enterprise &amp; Frontline
+            </a>
+            <a class="source-link business" href="https://learn.microsoft.com/windows-365/business/whats-new" target="_blank" rel="noopener">
+                <svg viewBox="0 0 16 16"><path d="M1 1h6.5v6.5H1V1zm8.5 0H16v6.5H9.5V1zM1 9.5h6.5V16H1V9.5zm8.5 0H16V16H9.5V9.5z"/></svg>
+                Business
+            </a>
+            <a class="source-link link-device" href="https://learn.microsoft.com/windows-365/link/whats-new" target="_blank" rel="noopener">
+                <svg viewBox="0 0 16 16"><path d="M1 1h6.5v6.5H1V1zm8.5 0H16v6.5H9.5V1zM1 9.5h6.5V16H1V9.5zm8.5 0H16V16H9.5V9.5z"/></svg>
+                Windows 365 Link
+            </a>
+            <a class="source-link windowsapp" href="https://learn.microsoft.com/windows-app/whats-new" target="_blank" rel="noopener">
+                <svg viewBox="0 0 16 16"><path d="M1 1h6.5v6.5H1V1zm8.5 0H16v6.5H9.5V1zM1 9.5h6.5V16H1V9.5zm8.5 0H16V16H9.5V9.5z"/></svg>
+                Windows App
+            </a>
+        </div>
+
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="enterprise">Enterprise &amp; Frontline</button>
+            <button class="filter-btn" data-filter="business">Business</button>
+            <button class="filter-btn" data-filter="link">Windows 365 Link</button>
+            <button class="filter-btn" data-filter="windowsapp">Windows App</button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="search-row">
+        <input type="search" class="search-input" placeholder="Search announcements..." aria-label="Search announcements">
+        <span class="results-count"></span>
+    </div>
+
+    <div class="legend">
+        <div class="legend-item"><div class="legend-dot" style="background:var(--color-enterprise)"></div> Enterprise &amp; Frontline</div>
+        <div class="legend-item"><div class="legend-dot" style="background:var(--color-business)"></div> Business</div>
+        <div class="legend-item"><div class="legend-dot" style="background:var(--color-link)"></div> Windows 365 Link</div>
+        <div class="legend-item"><div class="legend-dot" style="background:var(--color-windowsapp)"></div> Windows App</div>
+    </div>
+
+    <div id="timeline"></div>
+    <div class="empty-state" id="empty" style="display:none">
+        <svg viewBox="0 0 24 24" fill="#616161"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        <p>No announcements match your search or filter.</p>
+    </div>
+</main>
+
+<footer>
+    <p>This page aggregates official Microsoft Learn documentation. All content belongs to Microsoft. Last updated April 2026.</p>
+    <p style="margin-top:6px">
+        Sources:
+        <a href="https://learn.microsoft.com/windows-365/enterprise/whats-new" target="_blank" rel="noopener">Enterprise &amp; Frontline</a> &middot;
+        <a href="https://learn.microsoft.com/windows-365/business/whats-new" target="_blank" rel="noopener">Business</a> &middot;
+        <a href="https://learn.microsoft.com/windows-365/link/whats-new" target="_blank" rel="noopener">Windows 365 Link</a> &middot;
+        <a href="https://learn.microsoft.com/windows-app/whats-new" target="_blank" rel="noopener">Windows App</a>
+    </p>
+</footer>
+
+<script>
+// ── Announcement data ──────────────────────────────────────────────
+const announcements = [
+    // ── Windows 365 Enterprise & Frontline ─────────────────────────
+    {
+        date: "2026-03-30",
+        source: "enterprise",
+        title: "Intelligent pre-start for Windows 365 Frontline (dedicated mode) is now generally available",
+        desc: "Uses predictive insights to determine when a user is likely to connect and proactively starts their Cloud PC in advance, reducing connection delays for Frontline users.",
+        category: "Device Management",
+        tags: ["ga", "frontline"]
+    },
+    {
+        date: "2026-03-30",
+        source: "enterprise",
+        title: "Additional regions for Windows 365 Frontline (shared) — Brazil, Italy, Netherlands",
+        desc: "Windows 365 Frontline in shared mode is now available in Brazil South, Italy North, and West Europe regions.",
+        category: "Regions",
+        tags: ["frontline"]
+    },
+    {
+        date: "2026-03-30",
+        source: "enterprise",
+        title: "Azure Network Connections now show available IP capacity",
+        desc: "Admins can view available IP capacity for each Azure network connection directly in the Intune admin center, helping plan subnet capacity before provisioning.",
+        category: "Networking",
+        tags: []
+    },
+    {
+        date: "2026-03-23",
+        source: "enterprise",
+        title: "Remote connection experience for Windows 365 (Public Preview)",
+        desc: "IT administrators can configure connection-level settings that apply just-in-time when users connect to targeted Cloud PCs, assignable to device groups through Intune.",
+        category: "Device Management",
+        tags: ["preview"]
+    },
+    {
+        date: "2026-03-23",
+        source: "enterprise",
+        title: "Cloud Apps support for APPX and MSIX applications",
+        desc: "Cloud Apps now support APPX and MSIX applications including Microsoft Teams and new Outlook, expanding the types of apps that can be published.",
+        category: "Apps",
+        tags: []
+    },
+    {
+        date: "2026-03-23",
+        source: "enterprise",
+        title: "New Azure region support — US Government Texas",
+        desc: "Windows 365 Government now supports Cloud PC provisioning in the US Government Texas region.",
+        category: "Regions",
+        tags: ["government"]
+    },
+    {
+        date: "2026-03-23",
+        source: "enterprise",
+        title: "Enhanced resiliency with Multi-Region Selection for Government",
+        desc: "Windows 365 Government now supports Microsoft Hosted Network with Multi-Region Selection for GCC and GCC High with a three-tier region selection model.",
+        category: "Provisioning",
+        tags: ["government"]
+    },
+    {
+        date: "2026-03-16",
+        source: "enterprise",
+        title: "Expanded Frontline (shared) regions — France, Norway, Spain",
+        desc: "Windows 365 Frontline (shared) is now available in France Central, Norway East, and Spain Central.",
+        category: "Regions",
+        tags: ["frontline"]
+    },
+    {
+        date: "2026-03-16",
+        source: "enterprise",
+        title: "Recovery for deprovisioned Enterprise Cloud PCs is now GA",
+        desc: "Admins can recover Enterprise Cloud PCs that were deprovisioned due to license expiration. The grace period alert now supports configuring alerts for deprovisioning.",
+        category: "Device Management",
+        tags: ["ga"]
+    },
+    {
+        date: "2026-03-16",
+        source: "enterprise",
+        title: "Faster Cloud PC compliance evaluation during provisioning",
+        desc: "Cloud PCs now evaluate Intune compliance policies during provisioning without requiring user sign-in, enabling compliance on first boot.",
+        category: "Device Security",
+        tags: []
+    },
+    {
+        date: "2026-03-09",
+        source: "enterprise",
+        title: "Expanded Microsoft Teams media optimizations — iOS, Android, macOS",
+        desc: "Teams optimizations are now available from Windows App on iOS and Android (GA for WebRTC) and macOS (preview for Slimcore).",
+        category: "Apps",
+        tags: ["ga"]
+    },
+    {
+        date: "2026-03-09",
+        source: "enterprise",
+        title: "Frontline Shared policies now support up to 5,000 Cloud PCs",
+        desc: "Provisioning policies for Frontline (Shared mode) now support up to 5,000 Cloud PCs per policy, reducing the need for multiple policies.",
+        category: "Provisioning",
+        tags: ["frontline"]
+    },
+    {
+        date: "2026-03-09",
+        source: "enterprise",
+        title: "Captive portal support for Windows 365 Boot",
+        desc: "Windows 365 Boot now supports captive portals, allowing users to connect to Wi-Fi networks that require web-based sign-in.",
+        category: "Device Management",
+        tags: []
+    },
+    {
+        date: "2026-03-02",
+        source: "enterprise",
+        title: "Resize support for Frontline Dedicated Cloud PCs is now GA",
+        desc: "Admins can resize Frontline Dedicated Cloud PCs after provisioning to adjust compute and storage without reprovisioning.",
+        category: "Device Management",
+        tags: ["ga", "frontline"]
+    },
+    {
+        date: "2026-02-23",
+        source: "enterprise",
+        title: "Windows first sign-in restore experience now available",
+        desc: "Users can restore their Windows personalization settings and Microsoft Store app list from an existing organizational backup when first signing in to a Cloud PC.",
+        category: "End User Experience",
+        tags: []
+    },
+    {
+        date: "2026-02-09",
+        source: "enterprise",
+        title: "Custom images from Azure Compute Gallery (Public Preview)",
+        desc: "Admins can now import custom images from an Azure Compute Gallery for Cloud PC provisioning.",
+        category: "Provisioning",
+        tags: ["preview"]
+    },
+    {
+        date: "2026-02-09",
+        source: "enterprise",
+        title: "Windows 365 support for New Zealand North region",
+        desc: "Windows 365 Enterprise and Frontline (dedicated mode) are now available in the New Zealand North region.",
+        category: "Regions",
+        tags: []
+    },
+    {
+        date: "2026-02-02",
+        source: "enterprise",
+        title: "Region flexibility for Cloud PC provisioning",
+        desc: "Windows 365 now distributes Cloud PCs across multiple Azure regions within your selected geography, excluding unhealthy regions to improve resiliency.",
+        category: "Provisioning",
+        tags: []
+    },
+    {
+        date: "2026-02-02",
+        source: "enterprise",
+        title: "Centralized RDP Shortpath configuration is now GA",
+        desc: "Admins can manage RDP Shortpath modes — Managed, Public/STUN, and Public/TURN — using Intune or Group Policy.",
+        category: "Networking",
+        tags: ["ga"]
+    },
+    {
+        date: "2026-02-02",
+        source: "enterprise",
+        title: "Migration API now generally available",
+        desc: "The Windows 365 migration API enables partners and customers to streamline the transition of persistent VMs from Azure to Windows 365 via Microsoft Graph.",
+        category: "Provisioning",
+        tags: ["ga"]
+    },
+    {
+        date: "2026-01-26",
+        source: "enterprise",
+        title: "Microsoft Purview Customer Key for Frontline (Shared Mode)",
+        desc: "Newly provisioned Cloud PCs in Frontline shared mode will automatically be protected using Customer Key for organizations onboarded to Microsoft Purview.",
+        category: "Device Security",
+        tags: ["frontline"]
+    },
+    {
+        date: "2026-01-19",
+        source: "enterprise",
+        title: "Expanded UDP connectivity validation with TURN health check",
+        desc: "The Azure Network Connection UDP connectivity check now also validates TURN connectivity alongside STUN, giving admins a complete view of relay-path readiness.",
+        category: "Networking",
+        tags: []
+    },
+    {
+        date: "2026-01-12",
+        source: "enterprise",
+        title: "New device-count column on Azure Network Connection page",
+        desc: "Admins can now see the number of devices provisioned per ANC with an interactive link to view associated Cloud PCs.",
+        category: "Monitor & Troubleshoot",
+        tags: []
+    },
+    {
+        date: "2025-12-15",
+        source: "enterprise",
+        title: "Enhanced Microsoft Hosted Network with Multi-Region Selection",
+        desc: "A three-tier region selection experience distributes Cloud PCs across maximum regions to improve resiliency with greater admin flexibility and control.",
+        category: "Provisioning",
+        tags: []
+    },
+    {
+        date: "2025-11-17",
+        source: "enterprise",
+        title: "External identities support is now GA",
+        desc: "You can now provision Cloud PCs for external identities following the same provisioning flows for Enterprise and Frontline Cloud PCs.",
+        category: "Provisioning",
+        tags: ["ga"]
+    },
+    {
+        date: "2025-11-17",
+        source: "enterprise",
+        title: "Windows 365 Reserve now generally available",
+        desc: "Windows 365 Reserve provides flexible, short-term Cloud PC access during unexpected disruptions, supporting business continuity.",
+        category: "Device Management",
+        tags: ["ga"]
+    },
+    {
+        date: "2025-11-17",
+        source: "enterprise",
+        title: "Windows 365 Cloud Apps now generally available",
+        desc: "Cloud Apps are GA and now support publishing Intune apps via Autopilot Device Preparation (preview). Give users access to individual apps without a dedicated Cloud PC.",
+        category: "Apps",
+        tags: ["ga"]
+    },
+    {
+        date: "2025-11-17",
+        source: "enterprise",
+        title: "User Experience Sync (UES) now generally available",
+        desc: "UES saves user settings and app data across sessions, delivering a consistent experience for Frontline Shared mode and Cloud Apps scenarios.",
+        category: "End User Experience",
+        tags: ["ga", "frontline"]
+    },
+    {
+        date: "2025-11-17",
+        source: "enterprise",
+        title: "AI-enabled Cloud PCs in Frontier Public Preview",
+        desc: "IT admins can enable Windows AI capabilities like improved Windows search and Click to Do for specific users on Cloud PCs.",
+        category: "Apps",
+        tags: ["preview"]
+    },
+    {
+        date: "2025-11-17",
+        source: "enterprise",
+        title: "Windows 365 Switch now supports Windows 11 Home edition",
+        desc: "Windows 365 Switch now supports Windows 11 Home edition, great for Bring Your Own Device (BYOD) scenarios.",
+        category: "End User Experience",
+        tags: []
+    },
+    {
+        date: "2025-09-15",
+        source: "enterprise",
+        title: "Copilot in Intune for Windows 365 is now GA",
+        desc: "IT admins can prompt Copilot in Intune to ask questions about their Cloud PCs, access insights on licenses, bandwidth trends, and unused Cloud PCs.",
+        category: "Monitor & Troubleshoot",
+        tags: ["ga"]
+    },
+    {
+        date: "2025-09-15",
+        source: "enterprise",
+        title: "Windows 365 Cloud Apps (Preview)",
+        desc: "Allows administrators to give users secure access to individual apps hosted on a Cloud PC without requiring a dedicated Cloud PC for every user.",
+        category: "Apps",
+        tags: ["preview", "frontline"]
+    },
+    {
+        date: "2025-09-15",
+        source: "enterprise",
+        title: "Windows 365 Boot Updates — modern connection experience",
+        desc: "Reduced startup times, Connection Center during logon for multi-Cloud PC users, error handling improvements, and cross-region disaster recovery support.",
+        category: "Device Management",
+        tags: ["ga"]
+    },
+
+    // ── Windows 365 Business ───────────────────────────────────────
+    {
+        date: "2025-11-17",
+        source: "business",
+        title: "Windows 365 support for guests is now GA",
+        desc: "You can now provision a Business Cloud PC for an external identity with no change in how you assign the license.",
+        category: "Device Provisioning",
+        tags: ["ga"]
+    },
+    {
+        date: "2025-09-22",
+        source: "business",
+        title: "Windows 365 Business support for guests (preview)",
+        desc: "Provision a Business Cloud PC for an external identity. No change in how you assign the license to external users.",
+        category: "Device Provisioning",
+        tags: ["preview"]
+    },
+    {
+        date: "2025-11-17",
+        source: "business",
+        title: "RMM Integration for Windows 365 Business",
+        desc: "MSPs and customers can easily install partner RMM solutions to Cloud PCs. Streamlines agent installation across new and existing Cloud PCs using Microsoft Graph APIs.",
+        category: "Device Management",
+        tags: []
+    },
+    {
+        date: "2024-07-29",
+        source: "business",
+        title: "Resize support for Windows 365 Business is now GA",
+        desc: "Resize remote action support for Windows 365 Business Cloud PCs has moved out of preview and is now generally available.",
+        category: "Device Management",
+        tags: ["ga"]
+    },
+
+    // ── Windows 365 Link ───────────────────────────────────────────
+    {
+        date: "2026-03-23",
+        source: "link",
+        title: "Bare Metal Recovery (BMR) for Windows 365 Link",
+        desc: "IT administrators can recover devices by re-imaging them using external recovery media when remote management or in-device reset options are unavailable.",
+        category: "Documentation",
+        tags: []
+    },
+    {
+        date: "2026-03-09",
+        source: "link",
+        title: "Windows 365 Link March Quality Update (26100.8037)",
+        desc: "Improved reliability across sign-in, connectivity, and recovery experiences. New Quick Start Videos published covering best practices from setup to daily use.",
+        category: "Build Update",
+        tags: []
+    },
+    {
+        date: "2026-02-09",
+        source: "link",
+        title: "Windows 365 Link February Quality Update (26100.7840)",
+        desc: "Stability and accessibility improvements including more stable sign-in when changing displays, visible progress during updates, and improved keyboard navigation. Includes Intel advisory fixes.",
+        category: "Build Update",
+        tags: []
+    },
+    {
+        date: "2026-01-12",
+        source: "link",
+        title: "Windows 365 Link January Quality Update (26100.7623)",
+        desc: "General bug fixes and quality improvements.",
+        category: "Build Update",
+        tags: []
+    },
+    {
+        date: "2025-12-08",
+        source: "link",
+        title: "Improved sign-in experience with Web Account Manager (WAM)",
+        desc: "Supports a broader set of interactive authentication experiences, no longer requiring a Conditional Access policy enforcing MFA for device registration. Works with sign-in frequency conditions and authentication strengths.",
+        category: "Authentication",
+        tags: []
+    },
+    {
+        date: "2025-11-10",
+        source: "link",
+        title: "Voice Access for Windows 365 Link",
+        desc: "Users can control their PC and input text using voice commands in multiple languages including English, German, French, and Japanese.",
+        category: "Accessibility",
+        tags: []
+    },
+    {
+        date: "2025-11-10",
+        source: "link",
+        title: "Windows 365 Reserve support on Link",
+        desc: "Windows 365 Link now works with Windows 365 Reserve Cloud PCs, making it a great backup when someone's primary desktop is unavailable.",
+        category: "Device Management",
+        tags: []
+    },
+    {
+        date: "2025-10-13",
+        source: "link",
+        title: "Built-in Disaster Recovery on Windows 365 Link",
+        desc: "Cloud PCs are protected with cross-region failover, helping ensure business continuity in the event of a regional outage.",
+        category: "Device Management",
+        tags: []
+    },
+    {
+        date: "2025-09-08",
+        source: "link",
+        title: "Captive portal support on sign-in screen",
+        desc: "Quick settings on the sign-in screen now support connecting to captive portal Wi-Fi networks before signing in to the device.",
+        category: "Networking",
+        tags: []
+    },
+    {
+        date: "2025-07-07",
+        source: "link",
+        title: "New Connection Center",
+        desc: "Access the Connection Center from the Ctrl+Alt+Delete menu. Choose which Cloud PC to connect to, troubleshoot errors, and reboot or restore.",
+        category: "End User Experience",
+        tags: []
+    },
+    {
+        date: "2025-06-09",
+        source: "link",
+        title: "Multi-monitor support (Preview)",
+        desc: "Windows 365 Link now supports duplicate and extended display modes with resolution, scale, and orientation adjustments per monitor.",
+        category: "End User Experience",
+        tags: ["preview"]
+    },
+    {
+        date: "2025-03-31",
+        source: "link",
+        title: "Windows 365 Link now generally available",
+        desc: "Windows 365 Link is out of preview with comprehensive new documentation covering security, device management, troubleshooting, peripherals, and more.",
+        category: "Milestone",
+        tags: ["ga"]
+    },
+
+    // ── Windows App ────────────────────────────────────────────────
+    {
+        date: "2026-03-19",
+        source: "windowsapp",
+        title: "Windows App Web v2.0.03334 — Clipboard file transfer",
+        desc: "Added support for clipboard-based file transfer, improved load times with progressive loading, and accessibility improvements.",
+        category: "Web Browser",
+        tags: []
+    },
+    {
+        date: "2026-03-26",
+        source: "windowsapp",
+        title: "Android/Chrome OS v11.0.0.94 — External Identity preview",
+        desc: "Added preview support for signing in with External Identity, improved screen capture protection, fixed Teams screen-sharing crashes, and improved memory usage during rendering.",
+        category: "Android/Chrome OS",
+        tags: ["preview"]
+    },
+    {
+        date: "2026-02-10",
+        source: "windowsapp",
+        title: "Windows App v2.0.964 — Remote PC connections & simplified UI",
+        desc: "Started rollout for Remote PC connections with or without Entra sign-in. Simplified UX removes the Connect button — click anywhere on a device card to connect.",
+        category: "Windows",
+        tags: ["preview"]
+    },
+    {
+        date: "2026-01-22",
+        source: "windowsapp",
+        title: "Windows App v2.0.918 — Auth error fix for Jan 2026 update",
+        desc: "Updated error message for failed connections due to authentication failures from the January 2026 Windows security update (KB5074109).",
+        category: "Windows",
+        tags: []
+    },
+    {
+        date: "2026-01-14",
+        source: "windowsapp",
+        title: "Windows App v2.0.916 — Azure China 21Vianet preview",
+        desc: "Support for Azure Virtual Desktop in Microsoft Azure China operated by 21Vianet in public preview.",
+        category: "Windows",
+        tags: ["preview"]
+    },
+    {
+        date: "2025-12-16",
+        source: "windowsapp",
+        title: "Windows App v2.0.866 — Start menu integration GA",
+        desc: "Windows App resources integration with the Start menu is now generally available. Azure Government support is now GA. RemoteApp enhancements in public preview.",
+        category: "Windows",
+        tags: ["ga"]
+    },
+    {
+        date: "2025-12-17",
+        source: "windowsapp",
+        title: "iOS v11.2.5 — UDP control & Teams speaker support",
+        desc: "Added checkbox to control UDP usage. Audio from optimized Teams meetings now plays through iPhone speakers.",
+        category: "iOS/iPadOS",
+        tags: []
+    },
+    {
+        date: "2025-12-12",
+        source: "windowsapp",
+        title: "Windows App Web v2.0.03267 — RemoteApp loading updates",
+        desc: "Updated RemoteApp loading experience with improved error messaging and logging.",
+        category: "Web Browser",
+        tags: []
+    },
+    {
+        date: "2025-11-20",
+        source: "windowsapp",
+        title: "Windows App Web — Split Screen preview",
+        desc: "Split Screen support is now in public preview for the web browser client, along with direct launch support for RemoteApp and drag-and-drop file transfer.",
+        category: "Web Browser",
+        tags: ["preview"]
+    },
+    {
+        date: "2025-11-12",
+        source: "windowsapp",
+        title: "Windows App v2.0.804 — Start menu integration preview",
+        desc: "Windows App resources now integrate with the Start menu (preview). Windows 365 Cloud Apps and Reserve now GA. External identity support and keyboard input protection preview.",
+        category: "Windows",
+        tags: ["ga"]
+    },
+    {
+        date: "2025-09-12",
+        source: "windowsapp",
+        title: "Windows App v2.0.704 — Health checks & auto logoff",
+        desc: "Added proactive health checks for end-user devices, auto logoff support, improved diagnostics, and Windows 365 Cloud Apps preview.",
+        category: "Windows",
+        tags: []
+    },
+    {
+        date: "2025-09-22",
+        source: "windowsapp",
+        title: "iOS v11.2.0 — Windows 365 Reserve & Cloud Apps",
+        desc: "Support for Windows 365 Reserve (limited preview) and Cloud Apps (public preview). Added client-side health checks, authentication notifications, and tutorials.",
+        category: "iOS/iPadOS",
+        tags: ["preview"]
+    },
+    {
+        date: "2025-08-12",
+        source: "windowsapp",
+        title: "Windows App v2.0.633 — Proxy support & Entra Token Protection",
+        desc: "Entra Token Protection now GA. Added network proxy support, External identity preview, improved mouse latency, and disconnect experience improvements.",
+        category: "Windows",
+        tags: ["ga"]
+    }
+];
+
+// ── Rendering logic ────────────────────────────────────────────────
+const timeline = document.getElementById('timeline');
+const emptyEl = document.getElementById('empty');
+const searchInput = document.querySelector('.search-input');
+const resultsCount = document.querySelector('.results-count');
+const filterBtns = document.querySelectorAll('.filter-btn');
+
+let activeFilter = 'all';
+
+function sourceLabel(s) {
+    const map = { enterprise: 'Enterprise & Frontline', business: 'Business', link: 'W365 Link', windowsapp: 'Windows App' };
+    return map[s] || s;
+}
+
+function badgeClass(s) {
+    return 'badge-' + s.replace('windowsapp', 'windowsapp');
+}
+
+function formatDate(d) {
+    const dt = new Date(d + 'T00:00:00');
+    return dt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+function weekLabel(d) {
+    const dt = new Date(d + 'T00:00:00');
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return 'Week of ' + dt.toLocaleDateString('en-US', options);
+}
+
+function render() {
+    const query = searchInput.value.toLowerCase().trim();
+
+    const filtered = announcements.filter(a => {
+        if (activeFilter !== 'all' && a.source !== activeFilter) return false;
+        if (query) {
+            const hay = (a.title + ' ' + a.desc + ' ' + a.category + ' ' + a.tags.join(' ')).toLowerCase();
+            return hay.includes(query);
+        }
+        return true;
+    });
+
+    // Group by date
+    const groups = {};
+    filtered.forEach(a => {
+        if (!groups[a.date]) groups[a.date] = [];
+        groups[a.date].push(a);
+    });
+
+    const sortedDates = Object.keys(groups).sort((a, b) => b.localeCompare(a));
+
+    let html = '';
+    sortedDates.forEach(date => {
+        html += `<div class="timeline-group">`;
+        html += `<div class="timeline-date">${weekLabel(date)}</div>`;
+        html += `<div class="cards">`;
+        groups[date].forEach(a => {
+            const tagsHtml = a.tags.map(t => {
+                if (t === 'ga') return '<span class="card-tag ga">Generally Available</span>';
+                if (t === 'preview') return '<span class="card-tag preview">Public Preview</span>';
+                if (t === 'frontline') return '<span class="card-tag">Frontline</span>';
+                if (t === 'government') return '<span class="card-tag">Government</span>';
+                return `<span class="card-tag">${t}</span>`;
+            }).join('');
+
+            html += `
+                <div class="card" data-source="${a.source}">
+                    <div class="card-category">${a.category}</div>
+                    <div class="card-header">
+                        <h3>${a.title}</h3>
+                        <span class="card-badge ${badgeClass(a.source)}">${sourceLabel(a.source)}</span>
+                    </div>
+                    <p>${a.desc}</p>
+                    ${tagsHtml ? '<div>' + tagsHtml + '</div>' : ''}
+                </div>`;
+        });
+        html += `</div></div>`;
+    });
+
+    timeline.innerHTML = html;
+    emptyEl.style.display = filtered.length === 0 ? 'block' : 'none';
+    resultsCount.textContent = `${filtered.length} announcement${filtered.length !== 1 ? 's' : ''}`;
+}
+
+// Filter buttons
+filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilter = btn.dataset.filter;
+        render();
+    });
+});
+
+// Search
+searchInput.addEventListener('input', render);
+
+// Initial render
+render();
+</script>
+</body>
+</html>
