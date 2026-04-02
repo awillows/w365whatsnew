@@ -193,6 +193,16 @@
         }
         .card-tag.preview { background: #fff4ce; color: #6b5b00; }
         .card-tag.ga { background: #dff6dd; color: #107c10; }
+        .card-readmore {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--color-primary);
+            text-decoration: none;
+        }
+        .card-readmore:hover { text-decoration: underline; }
+        .card-readmore::after { content: ' \2192'; }
 
         /* Search */
         .search-row {
@@ -907,6 +917,8 @@ function render() {
                 return `<span class="card-tag">${t}</span>`;
             }).join('');
 
+            const readmoreHtml = a.url ? `<a class="card-readmore" href="${a.url}" target="_blank" rel="noopener">Read more on Microsoft Learn</a>` : '';
+
             html += `
                 <div class="card" data-source="${a.source}">
                     <div class="card-category">${a.category}</div>
@@ -915,7 +927,10 @@ function render() {
                         <span class="card-badge ${badgeClass(a.source)}">${sourceLabel(a.source)}</span>
                     </div>
                     <p>${a.desc}</p>
-                    ${tagsHtml ? '<div>' + tagsHtml + '</div>' : ''}
+                    <div>
+                        ${tagsHtml}
+                        ${readmoreHtml}
+                    </div>
                 </div>`;
         });
         html += `</div></div>`;

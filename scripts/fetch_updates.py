@@ -179,6 +179,9 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
     resp.encoding = "utf-8"  # Force UTF-8 — Learn pages are UTF-8 but headers may claim otherwise
     soup = BeautifulSoup(resp.text, "html.parser")
 
+    # Base URL for building anchor links (strip trailing slash)
+    base_url = url.rstrip("/")
+
     # Find the main content area
     content = soup.select_one("#main-column") or soup.select_one("main") or soup
     headings = content.find_all(re.compile(r"^h[2-4]$"))
@@ -227,6 +230,9 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
                     continue
                 if len(desc) > 400:
                     desc = desc[:397] + "..."
+                # Build anchor URL from heading id
+                anchor = h.get("id", "")
+                entry_url = f"{base_url}#{anchor}" if anchor else base_url
                 entries.append({
                     "date": pub_date,
                     "source": source_key,
@@ -234,6 +240,7 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
                     "desc": normalize_text(desc),
                     "category": detect_category(text, desc),
                     "tags": detect_tags(text, desc),
+                    "url": entry_url,
                 })
             continue
 
@@ -266,6 +273,10 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
         if len(desc) > 400:
             desc = desc[:397] + "..."
 
+        # Build anchor URL from heading id
+        anchor = h.get("id", "")
+        entry_url = f"{base_url}#{anchor}" if anchor else base_url
+
         entries.append({
             "date": current_date,
             "source": source_key,
@@ -273,6 +284,7 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
             "desc": normalize_text(desc),
             "category": detect_category(text, desc),
             "tags": detect_tags(text, desc),
+            "url": entry_url,
         })
 
     return entries
