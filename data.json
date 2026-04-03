@@ -1,11 +1,22 @@
 {
-  "lastUpdated": "2026-04-02T09:10:26Z",
+  "lastUpdated": "2026-04-03T08:03:03Z",
   "announcements": [
     {
       "date": "2026-03-30",
       "source": "enterprise",
+      "title": "Additional client support for external identities",
+      "desc": "External identity support is now in preview for the Windows App on macOS and Android. For more information on client versions and capabilities, seeCompare Windows App features across platforms and devices. For latest information on external identity support, seeExternal identity.",
+      "category": "Apps",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#additional-client-support-for-external-identities"
+    },
+    {
+      "date": "2026-03-30",
+      "source": "enterprise",
       "title": "Intelligent pre-start for Windows 365 Frontline (dedicated mode) is now generally available",
-      "desc": "We're excited to announce the general availability of intelligent pre-start for Windows 365 Frontline in dedicated mode.\nThis capability uses predictive insights to determine when a user is likely to connect and proactively starts their Cloud PC in advance, so it's ready when they sign in. By reducing the time required for the Cloud PC to boot, Intelligent pre-start helps minimize connection de...",
+      "desc": "This capability uses predictive insights to determine when a user is likely to connect and proactively starts their Cloud PC in advance, so it's ready when they sign in. By reducing the time required for the Cloud PC to boot, Intelligent pre-start helps minimize connection delays and improves the overall login experience for Frontline users. This enhancement is designed to support task-based an...",
       "category": "End User Experience",
       "tags": [
         "ga",
@@ -382,7 +393,7 @@
       "date": "2025-12-17",
       "source": "windowsapp",
       "title": "Version 11.2.5 (5802)",
-      "desc": "Added a checkbox to the General settings to control the usage of UDP. Audio from optimized Teams meetings will now play through iPhone speakers.",
+      "desc": "EnabledSurface Arc Mouse support, allowing more precise pointer control and improved productivity when accessing Windows from an iPhone. Added a checkbox to the General settings to control the usage of UDP. Audio from optimized Teams meetings will now play through iPhone speakers.",
       "category": "Networking",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1125-5802"
