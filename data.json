@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T08:13:42Z",
+  "lastUpdated": "2026-04-08T08:13:23Z",
   "announcements": [
     {
       "date": "2026-04-07",
@@ -11,6 +11,17 @@
         "government"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2010690"
+    },
+    {
+      "date": "2026-04-06",
+      "source": "enterprise",
+      "title": "Windows 365 Power Platform connector (Public Preview)",
+      "desc": "We are excited to announce the Public Preview of the Windows 365 connector for Power Platform and Azure Logic Apps! With prebuilt actions and triggers for Windows 365 built on top of Graph, IT and operations teams can use Power Automate and Azure Logic Apps to build Cloud PC workflows, such as sending emails to users when Cloud PCs are provisioned. For more information on the triggers and actio...",
+      "category": "Provisioning",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-power-platform-connector-public-preview"
     },
     {
       "date": "2026-04-06",
