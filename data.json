@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T08:21:09Z",
+  "lastUpdated": "2026-04-10T08:21:44Z",
   "announcements": [
     {
       "date": "2026-04-07",
@@ -11,6 +11,17 @@
         "government"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2010690"
+    },
+    {
+      "date": "2026-04-06",
+      "source": "enterprise",
+      "title": "Updates to Windows 365 navigation in the Microsoft Intune admin center now generally available",
+      "desc": "The Windows 365 experience in the Microsoft Intune admin center has been updated with a new, dedicated navigation area underDevicescalledManage Windows 365 Cloud PCs. The Windows 365 entry point has moved from theDevices > Device onboardingsection to this new location, where existing management options-such as Overview, All Cloud PCs, All Cloud Apps, and Settings-are now organized in a vertical...",
+      "category": "Apps",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#updates-to-windows-365-navigation-in-the-microsoft-intune-admin-center-now-generally-available"
     },
     {
       "date": "2026-04-06",
