@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-04-13T09:01:25Z",
+  "lastUpdated": "2026-04-14T08:27:57Z",
   "announcements": [
+    {
+      "date": "2026-04-13",
+      "source": "enterprise",
+      "title": "User-initiated provisioning for Windows 365 Reserve (public preview)",
+      "desc": "Windows 365 Reserve now supports user-initiated provisioning in public preview, giving eligible users the ability to set up their Reserve Cloud PC directly from the Windows App when they need secure access quickly-such as during device failures or while traveling. This capability is off by default and fully governed by IT. Admins can enable user provisioning through Windows App settings for Win...",
+      "category": "Provisioning",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#userinitiated-provisioning-for-windows-365-reserve-public-preview"
+    },
     {
       "date": "2026-04-07",
       "source": "windowsapp",
