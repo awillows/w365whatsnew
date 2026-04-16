@@ -363,6 +363,7 @@
     <div class="header-inner">
         <h1>What's New in Windows 365</h1>
         <p class="subtitle">A unified view of the latest announcements across Windows 365 Enterprise &amp; Frontline, Windows 365 Business, Windows 365 Link, and Windows App — all in one place.</p>
+        <p class="subtitle" id="lastUpdatedTop" style="font-size:13px; font-style:italic; margin-bottom:12px;"></p>
 
         <div class="source-links">
             <a class="source-link enterprise" href="https://learn.microsoft.com/windows-365/enterprise/whats-new" target="_blank" rel="noopener">
@@ -1091,13 +1092,15 @@ async function loadData() {
         announcements = data.announcements || [];
         if (data.lastUpdated) {
             const d = new Date(data.lastUpdated);
-            document.getElementById('lastUpdated').textContent =
-                'Data last refreshed ' + d.toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' }) + '.';
+            const txt = 'Data last refreshed ' + d.toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' }) + '.';
+            document.getElementById('lastUpdated').textContent = txt;
+            document.getElementById('lastUpdatedTop').textContent = txt;
         }
     } catch {
         // data.json not available — use fallback seed data
         announcements = FALLBACK;
         document.getElementById('lastUpdated').textContent = 'Using cached data.';
+        document.getElementById('lastUpdatedTop').textContent = 'Using cached data.';
     }
     render();
 }
