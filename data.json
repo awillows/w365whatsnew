@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T08:26:36Z",
+  "lastUpdated": "2026-04-18T07:59:41Z",
   "announcements": [
     {
       "date": "2026-04-13",
@@ -11,6 +11,33 @@
         "preview"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#userinitiated-provisioning-for-windows-365-reserve-public-preview"
+    },
+    {
+      "date": "2026-04-13",
+      "source": "link",
+      "title": "Product improvements and bug fixes",
+      "desc": "With this release, all Windows 365 Link devices move to 25H2, providing customers with continued access to the latest quality updates. The OS build update from 26100 to 26200 also provides clear validation that devices are running on the latest supported platform.",
+      "category": "Build Update",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#product-improvements-and-bug-fixes"
+    },
+    {
+      "date": "2026-04-13",
+      "source": "link",
+      "title": "Tenant branding for Company Logo and Name",
+      "desc": "You can now personalize the Windows 365 Link experience to reflect your organization's identity, creating a more familiar and trusted environment for users from the moment they sign-in. UsingPersonalization CSPin Microsoft Intune, organizations can now: Displaycompany logoacross managed devices Displaycompany nameacross managed devices Branding assets must be hosted on publicly accessible endpo...",
+      "category": "Authentication",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#tenant-branding-for-company-logo-and-name"
+    },
+    {
+      "date": "2026-04-13",
+      "source": "link",
+      "title": "Bug fixes and performance improvements",
+      "desc": "Performance improvements in setup and sign-in experience.",
+      "category": "Build Update",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
     },
     {
       "date": "2026-04-07",
@@ -187,7 +214,7 @@
       "date": "2026-03-23",
       "source": "link",
       "title": "New recovery option available: Bare Metal Recovery (BMR) for Windows 365 Link",
-      "desc": "Bare Metal Recovery (BMR) is now supported for Windows 365 Link devices. This feature enables IT administrators to recover devices by re-imaging them using external recovery media when remote management or in-device reset options are unavailable. See theBare Metal Recoverysection inWipe or reset Windows 365 Link.",
+      "desc": "Bare Metal Recovery (BMR) is now supported for Windows 365 Link devices. This feature enables IT administrators to recover devices by reimaging them using external recovery media when remote management or in-device reset options are unavailable. See theBare Metal Recoverysection inWipe or reset Windows 365 Link.",
       "category": "Device Management",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#new-recovery-option-available-bare-metal-recovery-bmr-for-windows-365-link"
@@ -281,7 +308,7 @@
       "desc": "This update improves reliability across sign-in, connectivity, and recovery experiences. Enhancements to accessibility, visual consistency, and diagnostics make it easier for users to get productive quickly. Additionally, we've published a set of short, easy-to-consume videos covering Windows 365 Link best practices from initial setup to daily use to help you get most out of solution, seeQuick ...",
       "category": "Monitor & Troubleshoot",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#product-improvements-and-bug-fixes"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#product-improvements-and-bug-fixes-1"
     },
     {
       "date": "2026-03-02",
@@ -341,10 +368,10 @@
       "date": "2026-02-09",
       "source": "link",
       "title": "Product improvements and bug fixes",
-      "desc": "This release delivers reliability and accessibility improvements, including more stable sign-in and Cloud PC connections when changing displays, visible progress during update installation, improved keyboard navigation so you can tab to everything you see, and more. Additionally, this release includes updates that help address Intel advisories (INTEL-SA-01398). These updates help improve overal...",
+      "desc": "This release delivers reliability and accessibility improvements, including more stable sign-in and Cloud PC connections when changing displays, visible progress during update installation, improved keyboard navigation so you can tab to everything you see, and more. Additionally, this release includes updates that help address Intel advisories (INTEL-SA-01398,INTEL-SA-01315, andINTEL-SA-01396)....",
       "category": "Accessibility",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#product-improvements-and-bug-fixes-1"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#product-improvements-and-bug-fixes-2"
     },
     {
       "date": "2026-02-02",
@@ -537,7 +564,7 @@
       "desc": "This release has improvements, including sign-in reliability, performance optimizations, Bluetooth menu enhancement, and more. Additionally, this release includes updates that help address Intel chipset and graphics advisories (INTEL-SA-01280and INTEL-SA-01259). These updates help improve overall device stability. The components installed will vary based on your device configuration.",
       "category": "Authentication",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#product-improvements-and-bug-fixes-2"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#product-improvements-and-bug-fixes-3"
     },
     {
       "date": "2025-12-08",
@@ -816,7 +843,7 @@
       "desc": "This release has improvements, including refined permissions for device actions within Connection Center, improved reconnection behavior after resume with visible progress indicators to reduce hangs and uncertainty, Teams reliability improvements, and more.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#product-improvements-and-bug-fixes-3"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#product-improvements-and-bug-fixes-4"
     },
     {
       "date": "2025-09-30",
@@ -991,7 +1018,7 @@
       "desc": "This release has improvements to accessibility, performance, updates, and connection reliability across setup. Connection detail improvements, now users can copy information from the connection details by using Ctrl+C on the connection detail dialog box. Fixes for internet connectivity issues and quick settings access, along with improvements to Cloud PC startup time.",
       "category": "Accessibility",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#product-improvements-and-bug-fixes-4"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#product-improvements-and-bug-fixes-5"
     },
     {
       "date": "2025-09-05",
@@ -1069,7 +1096,7 @@
       "desc": "This release improves the Windows 365 sign-in experience, connection reliability, and accessibility. You see 'update in progress' message instead of a black screen during reboot. It also adds more regional keyboard support and fixes issues with sign-in, Quick Settings, and overall reliability.",
       "category": "End User Experience",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#product-improvements-and-bug-fixes-5"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#product-improvements-and-bug-fixes-6"
     },
     {
       "date": "2025-08-04",
@@ -1285,7 +1312,7 @@
       "desc": "Fixed an issue that could cause Keyboard Language settings to not persist correctly during locked sessions and after profile updates (56347820). Fixed an issue that could sometimes prevent Task Manager from launching correctly (57115154). Fixed issue with inadvertent timeouts on certain actions in the security key sign-in process (57007130).",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-1"
     },
     {
       "date": "2025-06-05",
