@@ -157,6 +157,68 @@ def detect_category(title: str, desc: str) -> str:
     return "Device Management"
 
 
+def _parse_windowsapp_tabs(soup: BeautifulSoup, base_url: str) -> list[dict]:
+    """Parse Windows App version entries from per-platform tab panels."""
+    # Tab panel IDs follow the pattern tabpanel_2_<tab-key> for version history
+    TAB_PLATFORM_MAP = {
+        "windows": "Windows",
+        "macos": "macOS",
+        "ios-ipados": "iOS/iPadOS",
+        "android": "Android/Chrome OS",
+        "web": "Web browser",
+    }
+    entries = []
+    for tab_key, platform_label in TAB_PLATFORM_MAP.items():
+        panel = soup.find(id=f"tabpanel_2_{tab_key}")
+        if not panel:
+            print(f"    WARNING: tab panel tabpanel_2_{tab_key} not found")
+            continue
+        headings = panel.find_all("h3")
+        count = 0
+        for h in headings:
+            text = h.get_text(strip=True)
+            pub_date = None
+            desc_parts = []
+            for sib in h.next_siblings:
+                if sib.name and sib.name.startswith("h"):
+                    break
+                if sib.name == "p":
+                    p_text = sib.get_text(strip=True)
+                    d = parse_published_date(p_text)
+                    if d and not pub_date:
+                        pub_date = d
+                        continue  # skip the date paragraph from description
+                    desc_parts.append(p_text)
+                if sib.name in ("ul", "ol"):
+                    for li in sib.find_all("li", recursive=False):
+                        desc_parts.append(li.get_text(strip=True))
+            # Also try parsing the heading itself as a date (e.g. "January 21, 2026")
+            if not pub_date:
+                pub_date = parse_week_date("Week of " + text) or parse_published_date("Date published: " + text)
+            if not pub_date:
+                continue
+            desc = " ".join(desc_parts)
+            if not desc:
+                continue
+            if len(desc) > 400:
+                desc = desc[:397] + "..."
+            anchor = h.get("id", "")
+            entry_url = f"{base_url}#{anchor}" if anchor else base_url
+            entries.append({
+                "date": pub_date,
+                "source": "windowsapp",
+                "title": normalize_text(text),
+                "desc": normalize_text(desc),
+                "category": detect_category(text, desc),
+                "tags": detect_tags(text, desc),
+                "url": entry_url,
+                "platform": platform_label,
+            })
+            count += 1
+        print(f"    -> {count} announcements parsed ({platform_label})")
+    return entries
+
+
 def collect_description_paragraphs(element) -> str:
     """Walk siblings after a heading and collect paragraph text until the next heading."""
     parts = []
@@ -182,6 +244,10 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
     # Base URL for building anchor links (strip trailing slash)
     base_url = url.rstrip("/")
 
+    # For Windows App, parse each platform's tab panel separately
+    if source_key == "windowsapp":
+        return _parse_windowsapp_tabs(soup, base_url)
+
     # Find the main content area
     content = soup.select_one("#main-column") or soup.select_one("main") or soup
     headings = content.find_all(re.compile(r"^h[2-4]$"))
@@ -199,50 +265,6 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
             continue
 
         level = int(h.name[1])
-
-        # For Windows App, the structure is different — version headings are h3
-        # with dates in the following paragraph instead of "Week of" headings
-        if source_key == "windowsapp":
-            if level == 3:
-                # Extract date from the first following <p>
-                pub_date = None
-                desc_parts = []
-                for sib in h.next_siblings:
-                    if sib.name and sib.name.startswith("h"):
-                        break
-                    if sib.name == "p":
-                        p_text = sib.get_text(strip=True)
-                        d = parse_published_date(p_text)
-                        if d and not pub_date:
-                            pub_date = d
-                            continue  # skip the date paragraph from description
-                        desc_parts.append(p_text)
-                    if sib.name in ("ul", "ol"):
-                        for li in sib.find_all("li", recursive=False):
-                            desc_parts.append(li.get_text(strip=True))
-                # Also try parsing the heading itself as a date (e.g. "January 21, 2026")
-                if not pub_date:
-                    pub_date = parse_week_date("Week of " + text) or parse_published_date("Date published: " + text)
-                if not pub_date:
-                    continue
-                desc = " ".join(desc_parts)
-                if not desc:
-                    continue
-                if len(desc) > 400:
-                    desc = desc[:397] + "..."
-                # Build anchor URL from heading id
-                anchor = h.get("id", "")
-                entry_url = f"{base_url}#{anchor}" if anchor else base_url
-                entries.append({
-                    "date": pub_date,
-                    "source": source_key,
-                    "title": normalize_text(text),
-                    "desc": normalize_text(desc),
-                    "category": detect_category(text, desc),
-                    "tags": detect_tags(text, desc),
-                    "url": entry_url,
-                })
-            continue
 
         if not current_date:
             continue
@@ -295,18 +317,19 @@ def main():
     for key, info in SOURCES.items():
         try:
             entries = fetch_and_parse(key, info["url"])
-            print(f"    -> {len(entries)} announcements parsed")
+            if key != "windowsapp":
+                print(f"    -> {len(entries)} announcements parsed")
             all_entries.extend(entries)
         except Exception as e:
             print(f"  ERROR fetching {key}: {e}", file=sys.stderr)
 
-    # Deduplicate by (date, source, title)
+    # Deduplicate by (date, source, title, platform)
     seen = set()
     unique = []
     for e in all_entries:
-        key = (e["date"], e["source"], e["title"])
-        if key not in seen:
-            seen.add(key)
+        dedup_key = (e["date"], e["source"], e["title"], e.get("platform", ""))
+        if dedup_key not in seen:
+            seen.add(dedup_key)
             unique.append(e)
 
     # Sort by date descending

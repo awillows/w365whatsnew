@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T08:49:04Z",
+  "lastUpdated": "2026-04-23T08:48:25Z",
   "announcements": [
     {
       "date": "2026-04-14",
@@ -8,7 +8,8 @@
       "desc": "CVE-2026-32157",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2010700"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2010700",
+      "platform": "Windows"
     },
     {
       "date": "2026-04-13",
@@ -57,7 +58,8 @@
       "tags": [
         "government"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2010690"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2010690",
+      "platform": "Windows"
     },
     {
       "date": "2026-04-06",
@@ -164,7 +166,8 @@
       "tags": [
         "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-110094"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-110094",
+      "platform": "Android/Chrome OS"
     },
     {
       "date": "2026-03-23",
@@ -235,7 +238,8 @@
       "desc": "Added support forclipboard-based file transfer. Improved load times by progressively loading devices and apps. Fixed an issue affecting copy and paste when using full-screen mode on macOS. Fixed an issue with cursor rendering. Made some improvements to the folder-redirection based file-transfer experience. Made accessibility improvements.",
       "category": "Accessibility",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20033341451"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20033341451",
+      "platform": "Web browser"
     },
     {
       "date": "2026-03-16",
@@ -349,7 +353,8 @@
       "tags": [
         "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-209640"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-209640",
+      "platform": "Windows"
     },
     {
       "date": "2026-02-09",
@@ -440,7 +445,8 @@
       "desc": "Updated error message resulting from failed connection attempts due to authenticationfailuresresulting from installing the January 2026 Windows security update (KB5074109).",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-209180"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-209180",
+      "platform": "Windows"
     },
     {
       "date": "2026-01-21",
@@ -451,7 +457,8 @@
       "tags": [
         "ga"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#january-21-2026"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#january-21-2026",
+      "platform": "Windows"
     },
     {
       "date": "2026-01-19",
@@ -471,7 +478,8 @@
       "tags": [
         "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-209160"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-209160",
+      "platform": "Windows"
     },
     {
       "date": "2026-01-12",
@@ -498,7 +506,8 @@
       "desc": "Added a checkbox to the General settings to control the usage of UDP. Enabled drag-and-drop for device cards in the Connection Center. Resolved an issue that broke multi-select using mouse and trackpad gestures in the Connection Center. Resolved an issue that caused incorrect Connection Center resources to appear briefly at app launch time. Resolved an issue that prevented resources from appear...",
       "category": "Networking",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1131-2832"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1131-2832",
+      "platform": "macOS"
     },
     {
       "date": "2025-12-17",
@@ -507,7 +516,8 @@
       "desc": "EnabledSurface Arc Mouse support, allowing more precise pointer control and improved productivity when accessing Windows from an iPhone. Added a checkbox to the General settings to control the usage of UDP. Audio from optimized Teams meetings will now play through iPhone speakers.",
       "category": "Networking",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1125-5802"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1125-5802",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-12-16",
@@ -519,7 +529,8 @@
         "ga",
         "government"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-208660"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-208660",
+      "platform": "Windows"
     },
     {
       "date": "2025-12-15",
@@ -546,7 +557,8 @@
       "desc": "Enabled Azure Virtual Desktop screen capture protection by leveraging Intune app-protection controls. Made performance improvements.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1124-5799"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1124-5799",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-12-12",
@@ -555,7 +567,8 @@
       "desc": "Made some updates to RemoteApp loading experience. Updated error messaging and logging.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20032671373"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20032671373",
+      "platform": "Web browser"
     },
     {
       "date": "2025-12-08",
@@ -582,7 +595,8 @@
       "desc": "Improved connection success when NetBIOS-based name lookup is used for direct PC connections. Added support for updated safe area insets on iPhone 17 devices. Improved external display support for iPad Pro M5 and iPad Air M3 devices. Resolved deadlocks that occurred during account sign-out and workspace refresh. Added floating keyboard support on iPadOS 26. Addressed a number of crashes that we...",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1123-5793"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1123-5793",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-12-03",
@@ -591,7 +605,8 @@
       "desc": "Addressed invalid layouts encountered when using Microsoft Teams optimizations in multiple monitor scenarios. Resolved performance bottlenecks in the Connection Center that were causing the app to hang. Added infrastructure to improve resiliency for single-sign-on workflows.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1130-2814"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1130-2814",
+      "platform": "macOS"
     },
     {
       "date": "2025-11-21",
@@ -600,7 +615,8 @@
       "desc": "This is a quick update to improve connection success when NetBIOS-based name lookup is used for direct PC connections.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1129-2810"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1129-2810",
+      "platform": "macOS"
     },
     {
       "date": "2025-11-20",
@@ -611,7 +627,8 @@
       "tags": [
         "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20031731346"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20031731346",
+      "platform": "Web browser"
     },
     {
       "date": "2025-11-17",
@@ -721,7 +738,8 @@
       "tags": [
         "frontline"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1128-2802"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1128-2802",
+      "platform": "macOS"
     },
     {
       "date": "2025-11-17",
@@ -730,7 +748,8 @@
       "desc": "Added support for displaying whether a Windows 365 Cloud PC endpoint is AI-enabled. Added support for the Windows 365 Cloud Apps feature. Added support for Windows 365 Cloud Apps reset. Added a \"Type\" field to the Apps tab Connection Center filter for \"Cloud Apps\" and \"Azure Virtual Desktop\". The immersive switcher now supports light mode. In-app notifications no longer display the current time...",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1122-5787"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1122-5787",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-11-12",
@@ -742,7 +761,8 @@
         "ga",
         "government"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-208040"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-208040",
+      "platform": "Windows"
     },
     {
       "date": "2025-11-10",
@@ -787,7 +807,8 @@
       "desc": "Added support for displaying whether a Windows 365 Cloud PC endpoint is AI-enabled. Added support for Windows 365 Cloud App reset. Added support for client-side connectivity and system health checks. Added a \"Type\" field to the Apps tab Connection Center filter for \"Cloud Apps\" and \"Azure Virtual Desktop\". Added a Favorite/Unfavorite command (Command + T) for devices and apps to the Connections...",
       "category": "Monitor & Troubleshoot",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1127-2789"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1127-2789",
+      "platform": "macOS"
     },
     {
       "date": "2025-10-23",
@@ -796,7 +817,8 @@
       "desc": "Completed the rollout for unified feed. The Windows 365 Entra ID resource app no longer needs to be added to Conditional Access policies for tenants using only Azure Virtual Desktop, and not Windows 365.",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#october-23-2025"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#october-23-2025",
+      "platform": "Windows"
     },
     {
       "date": "2025-10-23",
@@ -805,7 +827,8 @@
       "desc": "Fixed an issue that caused potential account conflict with Task View and pin to taskbar connections. Resolved an issue where plugins (like the MsTeamsPluginAvd.dll used for Teams optimization) did not always load the first time the app is launched after install. CVE-2025-58718",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-207570"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-207570",
+      "platform": "Windows"
     },
     {
       "date": "2025-10-16",
@@ -814,7 +837,8 @@
       "desc": "RemoteApp UI improvements. Fixed an issue on unsupported clipboard formats causing disconnects. Added support for right side of keyboard modifier keys.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20032101282"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20032101282",
+      "platform": "Web browser"
     },
     {
       "date": "2025-10-14",
@@ -823,7 +847,8 @@
       "desc": "CVE-2025-58718",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-207060"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-207060",
+      "platform": "Windows"
     },
     {
       "date": "2025-10-13",
@@ -861,7 +886,8 @@
       "desc": "Completed the rollout for proxy support. Available now in Windows App version 2.0.633.0 and higher.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#september-30-2025"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#september-30-2025",
+      "platform": "Windows"
     },
     {
       "date": "2025-09-30",
@@ -870,7 +896,8 @@
       "desc": "Quick release to address a customer-reported issue impacting connections utilizing RD Gateways running on Windows Server 2012 R2 or earlier.",
       "category": "Monitor & Troubleshoot",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1124-2729"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1124-2729",
+      "platform": "macOS"
     },
     {
       "date": "2025-09-30",
@@ -879,7 +906,8 @@
       "desc": "Quick release to address a customer-reported issue impacting connections utilizing RD Gateways running on Windows Server 2012 R2 or earlier. We've also added in handling for the ALT+ENTER shortcut (which was not working in Teams and some other apps).",
       "category": "Monitor & Troubleshoot",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1121-5748"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1121-5748",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-09-24",
@@ -890,7 +918,8 @@
       "tags": [
         "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1123-2725"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1123-2725",
+      "platform": "macOS"
     },
     {
       "date": "2025-09-22",
@@ -933,7 +962,8 @@
       "tags": [
         "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1120-5745"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1120-5745",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-09-15",
@@ -978,7 +1008,8 @@
       "desc": "Added support for health checks, a diagnostic platform designed to proactively identify and resolve issues on end-user devices, improving reliability and performance. Added support for auto logoff. For more information see,Configure auto logoff on Windows. Improved client logging, diagnostics, and error classification to help admins troubleshoot connection and feed issues. Support forWindows 36...",
       "category": "Monitor & Troubleshoot",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-207040"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-207040",
+      "platform": "Windows"
     },
     {
       "date": "2025-09-09",
@@ -989,7 +1020,8 @@
       "tags": [
         "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20031731239"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20031731239",
+      "platform": "Web browser"
     },
     {
       "date": "2025-09-08",
@@ -1038,7 +1070,8 @@
       "tags": [
         "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-206600"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-206600",
+      "platform": "Windows"
     },
     {
       "date": "2025-09-02",
@@ -1047,7 +1080,8 @@
       "desc": "Quick release to address a customer-reported issue with folder redirection.",
       "category": "Monitor & Troubleshoot",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1119-5728"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1119-5728",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-08-29",
@@ -1056,7 +1090,8 @@
       "desc": "Quick release to address a customer-reported issue with folder redirection.",
       "category": "Monitor & Troubleshoot",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1122-2698"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1122-2698",
+      "platform": "macOS"
     },
     {
       "date": "2025-08-25",
@@ -1078,7 +1113,8 @@
       "tags": [
         "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20031551221"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20031551221",
+      "platform": "Web browser"
     },
     {
       "date": "2025-08-15",
@@ -1087,7 +1123,8 @@
       "desc": "Lots of under-the-hood changes to clean up code and prepare for upcoming features. Introduced an error message for cases where the connection is closed due to the remote PC restarting. Added an in-app notification to indicate when an update is available to download from the App Store. Made some improvements to Teams optimizations.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1121-2678"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1121-2678",
+      "platform": "macOS"
     },
     {
       "date": "2025-08-12",
@@ -1096,7 +1133,8 @@
       "desc": "Improved the disconnect experience by automatically dismissing disconnect errors after 5 minutes. Improved mouse latency for connections to single-user VMs. Removed redundant logging to reduce network traffic and produce cleaner logs. Fixed an issue where the session appeared to freeze when using drive redirection. Addressed an issue that could cause multiple authentication prompts when connect...",
       "category": "Authentication",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-206330"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-206330",
+      "platform": "Windows"
     },
     {
       "date": "2025-08-11",
@@ -1147,7 +1185,8 @@
       "tags": [
         "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20030911164"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20030911164",
+      "platform": "Web browser"
     },
     {
       "date": "2025-07-25",
@@ -1156,7 +1195,8 @@
       "desc": "Added support to prevent the title and menu bars from appearing in full screen mode. Integrated support for trackpad pinch and zoom gestures. Improved the Add menu by integrating help text (macOS 15 and later). Improved the resize behavior for the Connection Center tile view by leveraging scaling. Disabled applicable toolbar commands for empty Favorites, Devices and Apps tabs. Added the app ver...",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1120-2667"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1120-2667",
+      "platform": "macOS"
     },
     {
       "date": "2025-07-22",
@@ -1165,7 +1205,8 @@
       "desc": "Enabled connecting to a remote resource when opening a Spotlight item. Prevented connecting to devices and apps from different Windows App user profiles at the same time. Fixed a bug that prevented the workspaces subscription dialog from discovering active feeds. Added connection information accessible from tiles in the Devices tab of the Immersive Switcher.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1118-5693"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1118-5693",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-07-22",
@@ -1176,7 +1217,8 @@
       "tags": [
         "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-110033"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-110033",
+      "platform": "Android/Chrome OS"
     },
     {
       "date": "2025-07-10",
@@ -1185,7 +1227,8 @@
       "desc": "Fixed a bug that prevented the workspaces subscription dialog from discovering active feed.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1119-2661"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1119-2661",
+      "platform": "macOS"
     },
     {
       "date": "2025-07-08",
@@ -1194,7 +1237,8 @@
       "desc": "Fixes forCVE-2025-29967.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-205590"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-205590",
+      "platform": "Windows"
     },
     {
       "date": "2025-07-07",
@@ -1244,7 +1288,8 @@
       "desc": "High DPI Enhancement now utilizes a 4K base image for improved scaling on ultra-high-resolution displays (>4K). Various stability and security improvements and bug fixes. Optimizations to enhance client responsiveness and overall performance. Refreshed card designs for a more modern and consistent user experience.",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20030911134"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20030911134",
+      "platform": "Web browser"
     },
     {
       "date": "2025-06-24",
@@ -1253,7 +1298,8 @@
       "desc": "Bug fixes and performance improvements. Fixed a bug where the \"Connect\" button was incorrectly disabled when the Cloud PC was in a review state. Resolved an issue where screen resolution and monitor count were not updating correctly in Switch/Boot mode. Fixed a bug where the title splash screen remained visible when a disclaimer page was presented during the RDP session.",
       "category": "End User Experience",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-205580"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-205580",
+      "platform": "Windows"
     },
     {
       "date": "2025-06-23",
@@ -1274,7 +1320,8 @@
       "desc": "Fixed an issue that prevented switching focus between local and a RemoteApp. Improved the reliability of mouse cursor shape updates. Resolved problems with the Quick Launcher filter. Reworked the UI to better handle empty states in theDevicesandAppstabs. Cleaned up the text for some menu bar and pop-up menu entries. Resolved connectivity issues affecting users in Zscaler-protected environments.",
       "category": "End User Experience",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1118-2639"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1118-2639",
+      "platform": "macOS"
     },
     {
       "date": "2025-06-17",
@@ -1283,7 +1330,8 @@
       "desc": "Reworked the UI to better handle empty states in theDevicesandAppstabs. Updated the logging backend to automatically save logs to your iPhone or iPad. Fixed scenarios where some external displays advertised very low resolutions. Enabled Microsoft Teams optimizations by default. Fixed chroma bleed artifacts encountered during AVC decode. Improved threading for the graphics decoder to make things...",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1117-5679"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1117-5679",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-06-10",
@@ -1292,7 +1340,8 @@
       "desc": "Fixes forCVE-2025-32710. Fixes forCVE-2025-32715.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-205050"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-205050",
+      "platform": "Windows"
     },
     {
       "date": "2025-06-09",
@@ -1330,7 +1379,8 @@
       "desc": "Fixes forCVE-2025-29967. Fixes forCVE-2025-29966. Bug fixes and performance improvements. Fixed an issue that caused a crash when connecting to remote sessions. Fixed an issue that prevented app sharing in Microsoft Teams. Added additional support for the High Efficiency Video Coding (HEVC) codec. For more information, seeEnable GPU acceleration for Azure Virtual Desktop.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-205030"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-205030",
+      "platform": "Windows"
     },
     {
       "date": "2025-06-02",
@@ -1402,7 +1452,8 @@
       "desc": "Fixed an issue to gracefully handle scenarios where the Microsoft Teams process in a remote session crashes during an optimized Teams call.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1117-2622"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1117-2622",
+      "platform": "macOS"
     },
     {
       "date": "2025-05-28",
@@ -1411,7 +1462,8 @@
       "desc": "Fixed an issue to gracefully handle scenarios where the Microsoft Teams process in a remote session crashes during an optimized Teams call.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1116-5640"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1116-5640",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-05-22",
@@ -1420,7 +1472,8 @@
       "desc": "Added support for automatically reconnecting if there is a temporary issue with the network connection. Improved the handling of iPhone and iPad lock and unlock events. Enhanced reliability for scenarios where Windows App is sent to the background. Fixed an issue where theUpdating Remote Session Displayscreen remains visible after returning to Windows App. Terminated objects that were wasting p...",
       "category": "Networking",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1115-5667"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1115-5667",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-05-19",
@@ -1429,7 +1482,8 @@
       "desc": "Improved AVC codec support to ensure session graphics are rendered faster with no mis-paints. Added a user default (ClientSettings.RequireFreshCredentials) to block credential saving and usage. Added smart tip notifications that provide contextual usage hints. These notifications can be enabled or disabled inSettings>General. Improved multiple monitor support for remote sessions.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1116-2605"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1116-2605",
+      "platform": "macOS"
     },
     {
       "date": "2025-05-13",
@@ -1438,7 +1492,8 @@
       "desc": "Fixes forCVE-2025-29967. Fixes forCVE-2025-29966.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-204200"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-204200",
+      "platform": "Windows"
     },
     {
       "date": "2025-05-12",
@@ -1509,7 +1564,8 @@
       "desc": "Added a new RemoteApp Launcher to Windows App in a web browser. Users can now launch additional apps directly without leaving the current window. For more information, seeRemoteApp launcher. Added support for using a URL to directly launch a remote session to Azure Virtual Desktop and Windows 365 resources in a web browser. For more information, seeAccess desktops and apps using direct launch U...",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20030121002"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20030121002",
+      "platform": "Web browser"
     },
     {
       "date": "2025-04-25",
@@ -1518,7 +1574,8 @@
       "desc": "Fixed slurred audio that was being rendered when using Microsoft Teams optimizations. Added a connecting/connected state indicator to workspace headers. Fixed some bad code that was corrupting app icons displayed in workspaces. Added the ability to switch between remote apps from the Window menu and Dock icon. Improved threading for the graphics decoder to improve performance. Resolved z-order ...",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1115-2585"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1115-2585",
+      "platform": "macOS"
     },
     {
       "date": "2025-04-22",
@@ -1527,7 +1584,8 @@
       "desc": "Improved the experience where network connectivity drops for a short period of time. Improved video overlay positioning. Fixed an issue where users accessing a Microsoft Dev Box from the developer portal weren't able to sign in. Improved the disconnect experience for Windows 365 Cloud PC access in Task View.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-204190"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-204190",
+      "platform": "Windows"
     },
     {
       "date": "2025-04-21",
@@ -1565,7 +1623,8 @@
       "desc": "This release resolves some of the top crashes and issues reported by telemetry.",
       "category": "Monitor & Troubleshoot",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1113-5640"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1113-5640",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-04-14",
@@ -1607,7 +1666,8 @@
       "tags": [
         "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203790"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203790",
+      "platform": "Windows"
     },
     {
       "date": "2025-04-07",
@@ -1649,7 +1709,8 @@
       "tags": [
         "ga"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-11009"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-11009",
+      "platform": "Android/Chrome OS"
     },
     {
       "date": "2025-03-31",
@@ -1757,7 +1818,8 @@
       "desc": "User experience enhancements. Bug fixes and performance improvements.",
       "category": "End User Experience",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-100170"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-100170",
+      "platform": "Android/Chrome OS"
     },
     {
       "date": "2025-03-26",
@@ -1766,7 +1828,8 @@
       "desc": "Added support for Retina mode when using RemoteApps (see Settings > General). Cleaned up the RemoteApp switcher (accessed usingOption+Tabwhen a RemoteApp is in focus). Improved graphics performance for non-hardware accelerated and RemoteApp sessions. Optimized Cloud PC REST API usage during Mac sleep. Resolved unexpected disconnect errors encountered when prompting for credentials. Fixed issues...",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1114-2557"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1114-2557",
+      "platform": "macOS"
     },
     {
       "date": "2025-03-21",
@@ -1775,7 +1838,8 @@
       "desc": "Improvements for receiving calls and presenting on Microsoft Teams. Bug fixes and performance improvements.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-100165"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-100165",
+      "platform": "Android/Chrome OS"
     },
     {
       "date": "2025-03-18",
@@ -1784,7 +1848,8 @@
       "desc": "Added support for optimized external monitor resolutions when used in iPad extended display scenarios. Provided UI to change the resolution for all sessions while connected. Removed support for setting explicit credentials for Cloud PCs due to the pervasiveness of RDSAAD Auth. Added support for Spotlight Search. Addressed minor UI issues related to device cards and the Cloud PC details sheet.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1112-5624"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1112-5624",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-03-17",
@@ -1802,7 +1867,8 @@
       "desc": "Microsoft Teams optimizations for better calling and video experience. Bug fixes and performance improvements.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-100161"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-100161",
+      "platform": "Android/Chrome OS"
     },
     {
       "date": "2025-03-11",
@@ -1811,7 +1877,8 @@
       "desc": "Fixes forCVE-2025-26645. Improve start up time of RemoteApps.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203660"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203660",
+      "platform": "Windows"
     },
     {
       "date": "2025-03-11",
@@ -1820,7 +1887,8 @@
       "desc": "Fixes forCVE-2025-26645.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203650"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203650",
+      "platform": "Windows"
     },
     {
       "date": "2025-03-10",
@@ -1847,7 +1915,8 @@
       "desc": "Addressed minor UI issues related to device cards and the Cloud PC details sheet.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1113-2532"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1113-2532",
+      "platform": "macOS"
     },
     {
       "date": "2025-03-03",
@@ -1858,7 +1927,8 @@
       "tags": [
         "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-100158"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-100158",
+      "platform": "Android/Chrome OS"
     },
     {
       "date": "2025-02-27",
@@ -1867,7 +1937,8 @@
       "desc": "Fixed smart card redirection, which was an issue in the 11.1.1 update.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1112-2528"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1112-2528",
+      "platform": "macOS"
     },
     {
       "date": "2025-02-26",
@@ -1898,7 +1969,8 @@
       "desc": "Resolved an issue affectingnonce acquisition for RDS AAD Authwhen using an HTTP proxy. Improved non-full screen session reconnect UI flows. Removed support for setting explicit credentials for Cloud PCs due to the pervasiveness of RDSAAD Auth. Updated Spotlight search to showWindows Appunder Applications when searching forRemote Desktop. Added support for jumping to theSystem Local Network Acce...",
       "category": "End User Experience",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1111-2520"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1111-2520",
+      "platform": "macOS"
     },
     {
       "date": "2025-02-19",
@@ -1907,7 +1979,8 @@
       "desc": "Support automatic updates in environments that block the Microsoft Store or have disabled automatic updates from the Microsoft Store. Minimum installed version must be 2.0.327.0 or higher to receive automatic updates. Fixed a bug that caused the app to crash. Improved update experience with banner notification when manually updating the app. Additional improvements to app startup time. Identify...",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203600"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203600",
+      "platform": "Windows"
     },
     {
       "date": "2025-02-12",
@@ -1916,7 +1989,8 @@
       "desc": "Added Bluetooth and Local Network to Settings > App Permissions. Included support for optimized resolutions when connected to external displays via AirPlay (iPhone and iPad) or a wired connection (iPhone). Improved the Connection Center navigation bar layout on iPad when connected to an external display. Users will now receive an alert message when they try to take a screenshot and it is blocke...",
       "category": "Monitor & Troubleshoot",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1111-5603"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1111-5603",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-02-11",
@@ -1925,7 +1999,8 @@
       "desc": "Hitting theEnterkey now initiates a connection to the device or app highlighted in the connection center. Resolved an issue where holdingShiftwhile using a mouse vertical scroll wheel didn't correctly map to horizontal scrolls. Only allow connections to Cloud PCs that aren't processing device actions. The Cloud PC notification sheet is now aware of user accounts. Stored notifications associated...",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1110-2508"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1110-2508",
+      "platform": "macOS"
     },
     {
       "date": "2025-02-05",
@@ -1934,7 +2009,8 @@
       "desc": "Resolved an issue affectingnonce acquisition for RDS AAD Authwhen using an HTTP proxy. Fixed anInvalid requesterror caused by a local authentication prompt going to the background. Addressed a claims token failure caused by accounts associated with both MSA and AAD usage.",
       "category": "Authentication",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1110-5597"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1110-5597",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-02-04",
@@ -1943,7 +2019,8 @@
       "desc": "Allow background audio to play until the client has audio to render from a remote session. Added support for notification toasts in the connection center. The Cloud PC notification sheet is now aware of user accounts. Stored notifications associated with a user account are now removed when signing out the account. Improved the performance when deleting all notifications from the Cloud PC notifi...",
       "category": "End User Experience",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1109-5593"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1109-5593",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-02-03",
@@ -2003,7 +2080,8 @@
       "desc": "Fixed a bug that caused the app to crash.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203520"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203520",
+      "platform": "Windows"
     },
     {
       "date": "2025-01-23",
@@ -2012,7 +2090,8 @@
       "desc": "Improved the results returned during a Spotlight search. Gracefully handled errors encountered when connecting to a Windows Cloud Input Protection-enabled PC endpoint. Updated the installer for the non-Appstore client. See details inCVE-2026-21517.",
       "category": "Networking",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1132-2848"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1132-2848",
+      "platform": "macOS"
     },
     {
       "date": "2025-01-22",
@@ -2023,7 +2102,8 @@
       "tags": [
         "government"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1108-5584"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1108-5584",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2025-01-17",
@@ -2032,7 +2112,8 @@
       "desc": "Users can directly print documents to locally attached printers. Users no longer need to locally download a PDF, and can print documents directly from their remote session. Fixed an issue preventing launch of an Azure Virtual Desktop remote session where the remote desktop name is an empty string.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2002938949"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2002938949",
+      "platform": "Web browser"
     },
     {
       "date": "2025-01-14",
@@ -2043,7 +2124,8 @@
       "tags": [
         "government"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1109-2488"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1109-2488",
+      "platform": "macOS"
     },
     {
       "date": "2024-12-17",
@@ -2061,7 +2143,8 @@
       "desc": "Added a connecting/connected state indicator to device thumbnails and the Quick Launcher. Addressed a UDP transport bug that periodically prevented graphics updates after connecting. Introduced better error messaging for cases where RDP files are blocked from launch or import. Updated the app logging backend to automatically write logs to disk (versus requiring manual start and stop). Resolved ...",
       "category": "Networking",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1108-2481"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1108-2481",
+      "platform": "macOS"
     },
     {
       "date": "2024-12-11",
@@ -2072,7 +2155,8 @@
       "tags": [
         "frontline"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1107-5566"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1107-5566",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2024-12-10",
@@ -2081,7 +2165,8 @@
       "desc": "Fixes forCVE-2024-49105. Improved start up time of Windows App. Added list of graphics codecs to the Connection Information dialog. Fixed an issue where the bottom portion of the Windows Authentication dialog could be cut off when connected to a RemoteApp. Fixed an issue where the Connection Information dialog showed the lowest round-trip time (RTT) instead of average RTT. Fixed an issue where ...",
       "category": "End User Experience",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203280"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203280",
+      "platform": "Windows"
     },
     {
       "date": "2024-12-10",
@@ -2090,7 +2175,8 @@
       "desc": "Fixes forCVE-2024-49105.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203270"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203270",
+      "platform": "Windows"
     },
     {
       "date": "2024-12-09",
@@ -2177,7 +2263,8 @@
       "desc": "Added new options to theKeyboardsection of Preferences. Cloud PC notifications are now stored and persist across app restarts. Added notifications for cases where Cloud PC actions have failed. Blocked the launch and import of RDP files for Azure Virtual Desktop based connections. Addressed a UDP transport bug that stopped graphics updates soon after connecting. Fixed a crash that occurred when ...",
       "category": "Networking",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1107-2452"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1107-2452",
+      "platform": "macOS"
     },
     {
       "date": "2024-11-19",
@@ -2229,7 +2316,8 @@
       "desc": "Resolved Azure Virtual Desktop Private Link connectivity issues. Added support for sending the user-assigned device name to the Remote Desktop endpoint. Addressed hangs and crashes in workspace subscription and refresh scenarios. Improved the first run experience text and images. Local network and Bluetooth permissions dialogs now only show after the first run experience flow has completed.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1106-5555"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1106-5555",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2024-11-07",
@@ -2238,7 +2326,8 @@
       "desc": "Added support for integrated battery status redirection for Azure Virtual Desktop and Windows 365-based sessions. Added support in iOS settings to disable Yubikey redirection for all connections. Resolved an issue where favorites were not updated when switching user accounts. Improved the connection center usage of screen real estate when running on iPads. Display orientation for remote session...",
       "category": "End User Experience",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1105-5542"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1105-5542",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2024-11-01",
@@ -2247,7 +2336,8 @@
       "desc": "Refactored and improved code:Enhanced security during user sign-in by upgrading OneAuth to version 4.1.0. Accessibility: TalkBack is an accessibility feature that helps people who are blind or have low vision to interact with their Android devices using touch and spoken feedback. When TalkBack is on, items on the screen are outlined with a focus box, and the device gives audio cues about what i...",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-10137"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-10137",
+      "platform": "Android/Chrome OS"
     },
     {
       "date": "2024-10-28",
@@ -2305,7 +2395,8 @@
       "desc": "Removed the upper limit on the number of devices and apps that can be favorited. Updated the Favorites tab to make better use of screen real estate. Added the ability to control the visibility of resources by type, workspace or group with the new Filter feature. Reworked the Preferences dialog for future expansion. Updated device search to consider both the PC name and friendly name attributes....",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1106-2417"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1106-2417",
+      "platform": "macOS"
     },
     {
       "date": "2024-10-22",
@@ -2314,7 +2405,8 @@
       "desc": "Added support for Intune Mobile Application Management. Added support for in-session Yubikey redirection. Triggered the Local Network permissions dialog on iOS 18 to request access for PC connection scenarios. Added the shortcutOption+Command+9to toggle how the Option key is handled on European keyboards. Prevent theCommandkey from being sent to the remote session if it triggered the shortcuts ...",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1104-5530"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1104-5530",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2024-10-21",
@@ -2363,7 +2455,8 @@
       "desc": "Triggered the Local Network permissions dialog on macOS 15 to request access for PC connection scenarios. Enabled the use of theEnterprise SSO extensions. MappedCommand+WtoCTRL+Wwhen Mac shortcuts are enabled. AddedExpand AllandCollapse Alloptions to the Quick Launcher. Updated the Account Switcher to not dismiss when signing out and accounts remain. Cleaned up visual glitches in theRefresh All...",
       "category": "End User Experience",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1105-2401"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1105-2401",
+      "platform": "macOS"
     },
     {
       "date": "2024-10-08",
@@ -2375,7 +2468,8 @@
         "ga",
         "government"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-202970"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-202970",
+      "platform": "Windows"
     },
     {
       "date": "2024-10-03",
@@ -2384,7 +2478,8 @@
       "desc": "Addressed a crash some users have been experiencing when subscribing to workspaces.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1104-2396"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1104-2396",
+      "platform": "macOS"
     },
     {
       "date": "2024-10-03",
@@ -2395,7 +2490,8 @@
       "tags": [
         "frontline"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1103-5509"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1103-5509",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2024-09-30",
@@ -2424,7 +2520,8 @@
       "tags": [
         "frontline"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1103-2395"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1103-2395",
+      "platform": "macOS"
     },
     {
       "date": "2024-09-25",
@@ -2433,7 +2530,8 @@
       "desc": "Fixed accessibility bugs. Resolved a TLS renegotiation issue that was affecting connectivity.",
       "category": "Accessibility",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1102-2387"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1102-2387",
+      "platform": "macOS"
     },
     {
       "date": "2024-09-25",
@@ -2442,7 +2540,8 @@
       "desc": "Resolved a TLS renegotiation issue that was affecting connectivity.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1102-5503"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1102-5503",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2024-09-24",
@@ -2451,7 +2550,8 @@
       "desc": "Improved Windows App performance and reliability.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-202940"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-202940",
+      "platform": "Windows"
     },
     {
       "date": "2024-09-23",
@@ -2469,7 +2569,8 @@
       "desc": "Added in-app Cloud PC notifications. Added horizontal scrollbars to the Favorites tab, which appear based on system scrollbar settings. Added support for displaying empty workspaces. Addressed bugs in the command-line interface. Updated images in the first-run experience.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1101-2382"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1101-2382",
+      "platform": "macOS"
     },
     {
       "date": "2024-09-20",
@@ -2480,7 +2581,8 @@
       "tags": [
         "frontline"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1101-5500"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1101-5500",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2024-09-19",
@@ -2492,7 +2594,8 @@
         "preview",
         "government"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-202850"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-202850",
+      "platform": "Windows"
     },
     {
       "date": "2024-09-19",
@@ -2503,7 +2606,8 @@
       "tags": [
         "frontline"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1100-2372"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1100-2372",
+      "platform": "macOS"
     },
     {
       "date": "2024-09-19",
@@ -2514,7 +2618,8 @@
       "tags": [
         "frontline"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1100-5499"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1100-5499",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2024-09-19",
@@ -2523,7 +2628,8 @@
       "desc": "Initial release.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-10124"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-10124",
+      "platform": "Android/Chrome OS"
     },
     {
       "date": "2024-09-18",
@@ -2532,7 +2638,8 @@
       "desc": "Fixed an issue to disable WebCodecs hardware acceleration on Firefox. UI improvements:Moved the collapse/expand toolbar tooltip to not overlap other elements.Changed the feedback panel to hide when you press another toolbar button or collapse them.Reset startup animations on immediate reconnect.Added the ability to favorite remote resources.Added filtering and sorting capabilities.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2002817898"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2002817898",
+      "platform": "Web browser"
     },
     {
       "date": "2024-09-16",
@@ -2601,7 +2708,8 @@
       "desc": "Experience improvements:There's now a button to refresh your resources on theDevicesandAppstabs, and also on theHometab when there are pinned resources.Added an option to view theDevicesandAppstabs in list view or grid view.Improved the discoverability of display settings when default settings are used.Stability and security improvements for printer redirection.Improved the experience for singl...",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132780"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132780",
+      "platform": "Windows"
     },
     {
       "date": "2024-08-14",
@@ -2610,7 +2718,8 @@
       "desc": "Fixes forCVE-2024-38131.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132720"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132720",
+      "platform": "Windows"
     },
     {
       "date": "2024-08-05",
@@ -2746,7 +2855,8 @@
       "desc": "Improved usability of the connection bar by reducing the amount of time it displays on the screen after the mouse moves away. Improved the graphics presentation latency. Fixed an issue where incorrect content displayed when hovering over the minimize button in the taskbar. Fixed incorrect translations forTry Windows Appdialog. Fixed an issue where a minimized RemoteApp window maximizes when the...",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132640"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132640",
+      "platform": "Windows"
     },
     {
       "date": "2024-07-08",
@@ -2764,7 +2874,8 @@
       "desc": "Fixed an issue where Windows App crashes when it can't access certain required endpoints.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132590"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132590",
+      "platform": "Windows"
     },
     {
       "date": "2024-07-01",
@@ -2897,7 +3008,8 @@
       "desc": "Improved the task view disconnect experience. Fixed an issue that caused RemoteApp windows to appear stretched. Fixed an issue with the account switcher only showing two accounts when Windows App starts up. Fixed Windows App crashing when there's no internet connection.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132520"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132520",
+      "platform": "Windows"
     },
     {
       "date": "2024-05-20",
@@ -2957,7 +3069,8 @@
       "desc": "Fixed an issue where Windows App would crash when there was no network connection. Improved error messages for Windows 365 Boot. Added support for automatic retry/reconnect in Windows 365 Boot when the device goes to sleep, or with other disconnections. Fixed an issue that caused an Azure Virtual Desktop RemoteApp window to appear stretched. Introduced a countdown timer on the Windows 365 Boot ...",
       "category": "Networking",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132410"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132410",
+      "platform": "Windows"
     },
     {
       "date": "2024-04-01",
@@ -3206,7 +3319,8 @@
       "tags": [
         "frontline"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132330"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132330",
+      "platform": "Windows"
     },
     {
       "date": "2024-02-26",
@@ -3324,7 +3438,8 @@
       "desc": "In-app updates and update availability notifications. User interface bug fixes and improvements. Accessibility bug fixes and improvements.",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132120"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132120",
+      "platform": "Windows"
     },
     {
       "date": "2024-01-15",
@@ -3519,7 +3634,8 @@
       "desc": "On the account sign-in screen, we've clarified that you can sign-in with work or school accounts. Minor updates to the user interface.",
       "category": "Authentication",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132050"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132050",
+      "platform": "Windows"
     },
     {
       "date": "2023-11-15",
@@ -3528,7 +3644,8 @@
       "desc": "Initial release.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132040"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-132040",
+      "platform": "Windows"
     },
     {
       "date": "2023-11-15",
@@ -3537,7 +3654,8 @@
       "desc": "Initial release.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1084"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1084",
+      "platform": "macOS"
     },
     {
       "date": "2023-11-15",
@@ -3546,7 +3664,8 @@
       "desc": "Initial release.",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1052"
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1052",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2023-11-13",
