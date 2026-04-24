@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T08:53:41Z",
+  "lastUpdated": "2026-04-24T09:00:29Z",
   "announcements": [
     {
       "date": "2026-04-14",
@@ -50,11 +50,21 @@
       "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
     },
     {
+      "date": "2026-04-13",
+      "source": "windowsapp",
+      "title": "Version 11.3.5 (2947)",
+      "desc": "Incorporated Liquid Glass styling and elements throughout the app (requires macOS 26 or later). Refreshed the App Settings dialog. Updated Teams VDI 2.0 components. For managed PC endpoints the redirected folders list in Configure > Folders now includes the default folder in Settings > General. Fixed Health Checks to ensure that Service Reachability and Gateways URLs are checked based on the cu...",
+      "category": "Monitor & Troubleshoot",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1135-2947",
+      "platform": "macOS"
+    },
+    {
       "date": "2026-04-07",
       "source": "windowsapp",
       "title": "Version 2.0.1069.0",
-      "desc": "Added support for more specific URLs in the endpoint reachability health check. Fixed an issue with a URL in health checks that caused a warning for all users in government clouds. Fixed an issue that caused Windows 365 Boot sessions to end unexpectedly when Windows App udpates. Improved client logging, diagnostics, and error classification to help admins troubleshoot connection and feed issues...",
-      "category": "Networking",
+      "desc": "Added support for more specific URLs in the endpoint reachability health check. Fixed an issue with a URL in health checks that caused a warning for all users in government clouds. Fixed an issue that caused Windows 365 Boot sessions to end unexpectedly when Windows App updates. Improved client logging, diagnostics, and error classification to help admins troubleshoot connection and feed issues...",
+      "category": "Monitor & Troubleshoot",
       "tags": [
         "government"
       ],
@@ -234,11 +244,11 @@
     {
       "date": "2026-03-19",
       "source": "windowsapp",
-      "title": "Version 2.0.03334.1451",
-      "desc": "Added support forclipboard-based file transfer. Improved load times by progressively loading devices and apps. Fixed an issue affecting copy and paste when using full-screen mode on macOS. Fixed an issue with cursor rendering. Made some improvements to the folder-redirection based file-transfer experience. Made accessibility improvements.",
-      "category": "Accessibility",
+      "title": "Version 2.0.03334.1499",
+      "desc": "Improved load times by progressively loading devices and apps. Fixed an issue affecting copy and paste when using full-screen mode on macOS. Fixed an issue with cursor rendering. Fixed an issue where RemoteApp icons were not correctly displaying on the RemoteApp Launcher. Made some improvements to the folder-redirection based file-transfer experience. Made accessibility improvements.",
+      "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20033341451",
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20033341499",
       "platform": "Web browser"
     },
     {
@@ -334,6 +344,16 @@
         "frontline"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#resize-support-for-windows-365-frontline-dedicated-cloud-pcs"
+    },
+    {
+      "date": "2026-03-02",
+      "source": "windowsapp",
+      "title": "Version 11.3.3 (2900)",
+      "desc": "In this release we made some updates to improve error reporting and diagnostics.",
+      "category": "Monitor & Troubleshoot",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1133-2900",
+      "platform": "macOS"
     },
     {
       "date": "2026-02-23",
@@ -437,6 +457,16 @@
         "frontline"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#microsoft-purview-customer-key-support-for-windows-365-frontline-shared-mode"
+    },
+    {
+      "date": "2026-01-23",
+      "source": "windowsapp",
+      "title": "Version 11.3.2 (2848)",
+      "desc": "Improved the results returned during a Spotlight search. Gracefully handled errors encountered when connecting to a Windows Cloud Input Protection-enabled PC endpoint. Updated the installer for the non-Appstore client. See details inCVE-2026-21517.",
+      "category": "Networking",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1132-2848",
+      "platform": "macOS"
     },
     {
       "date": "2026-01-22",
@@ -2082,16 +2112,6 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203520",
       "platform": "Windows"
-    },
-    {
-      "date": "2025-01-23",
-      "source": "windowsapp",
-      "title": "Version 11.3.2 (2848)",
-      "desc": "Improved the results returned during a Spotlight search. Gracefully handled errors encountered when connecting to a Windows Cloud Input Protection-enabled PC endpoint. Updated the installer for the non-Appstore client. See details inCVE-2026-21517.",
-      "category": "Networking",
-      "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1132-2848",
-      "platform": "macOS"
     },
     {
       "date": "2025-01-22",
