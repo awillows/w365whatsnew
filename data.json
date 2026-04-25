@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-04-24T09:00:29Z",
+  "lastUpdated": "2026-04-25T08:05:13Z",
   "announcements": [
+    {
+      "date": "2026-04-24",
+      "source": "windowsapp",
+      "title": "Version 2.0.1071.0",
+      "desc": "Fixed an issue where updates for versions 2.0.964.0, 2.0.1069.0, and 2.0.1070.0 may not succeed when Microsoft Store updates have been disabled. To resolve the issue, a one time manual update to this version or higher is required.",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2010710",
+      "platform": "Windows"
+    },
     {
       "date": "2026-04-14",
       "source": "windowsapp",
