@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T09:20:04Z",
+  "lastUpdated": "2026-04-28T09:22:45Z",
   "announcements": [
     {
       "date": "2026-04-24",
@@ -10,6 +10,16 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2010710",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-04-23",
+      "source": "windowsapp",
+      "title": "Version 11.0.0.99",
+      "desc": "Strengthened data protection with improved encryption and secure data handling. Improved authentication experience, including fixes for sign-in issues affecting certain identity configurations (Microsoft and external accounts). Continued improvements to graphics performance and responsiveness. Reduced visual issues and delays, including fixes for black screens and freezes. Enhanced workspace re...",
+      "category": "Authentication",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-110099",
+      "platform": "Android/Chrome OS"
     },
     {
       "date": "2026-04-14",
@@ -255,9 +265,11 @@
       "date": "2026-03-19",
       "source": "windowsapp",
       "title": "Version 2.0.03334.1499",
-      "desc": "Improved load times by progressively loading devices and apps. Fixed an issue affecting copy and paste when using full-screen mode on macOS. Fixed an issue with cursor rendering. Fixed an issue where RemoteApp icons were not correctly displaying on the RemoteApp Launcher. Made some improvements to the folder-redirection based file-transfer experience. Made accessibility improvements.",
+      "desc": "Multiple monitor support is now available in public preview. For more information, seeConfigure display settings in Windows App. Improved load times by progressively loading devices and apps. Fixed an issue affecting copy and paste when using full-screen mode on macOS. Fixed an issue with cursor rendering. Fixed an issue where RemoteApp icons were not correctly displaying on the RemoteApp Launc...",
       "category": "Apps",
-      "tags": [],
+      "tags": [
+        "preview"
+      ],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20033341499",
       "platform": "Web browser"
     },
@@ -662,7 +674,7 @@
       "date": "2025-11-20",
       "source": "windowsapp",
       "title": "Version 2.0.03173.1346",
-      "desc": "Split Screen support is now in public preview. For more information, seeDisplay settings. Added direct launch support for RemoteApp. Made some accessibility enhancements. Added support for drag-and-drop file transfer when the toolbar is collapsed.",
+      "desc": "Split Screen support is now in public preview. For more information, seeConfigure display settings in Windows App. Added direct launch support for RemoteApp. Made some accessibility enhancements. Added support for drag-and-drop file transfer when the toolbar is collapsed.",
       "category": "End User Experience",
       "tags": [
         "preview"
