@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T09:22:45Z",
+  "lastUpdated": "2026-04-29T09:09:46Z",
   "announcements": [
     {
       "date": "2026-04-24",
@@ -265,11 +265,9 @@
       "date": "2026-03-19",
       "source": "windowsapp",
       "title": "Version 2.0.03334.1499",
-      "desc": "Multiple monitor support is now available in public preview. For more information, seeConfigure display settings in Windows App. Improved load times by progressively loading devices and apps. Fixed an issue affecting copy and paste when using full-screen mode on macOS. Fixed an issue with cursor rendering. Fixed an issue where RemoteApp icons were not correctly displaying on the RemoteApp Launc...",
+      "desc": "Improved load times by progressively loading devices and apps. Fixed an issue affecting copy and paste when using full-screen mode on macOS. Fixed an issue with cursor rendering. Fixed an issue where RemoteApp icons were not correctly displaying on the RemoteApp Launcher. Made some improvements to the folder-redirection based file-transfer experience. Made accessibility improvements.",
       "category": "Apps",
-      "tags": [
-        "preview"
-      ],
+      "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20033341499",
       "platform": "Web browser"
     },
