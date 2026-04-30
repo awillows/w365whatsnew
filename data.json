@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-04-29T09:09:46Z",
+  "lastUpdated": "2026-04-30T09:12:01Z",
   "announcements": [
+    {
+      "date": "2026-04-29",
+      "source": "windowsapp",
+      "title": "Version 2.0.1129.0 (Insider)",
+      "desc": "Stability and performance improvements for Windows 365 Boot. Improved handling of networks requiring captive portal in Windows 365 Boot. Improved handling of auto-reconnect to remote sessions when undocking from a docking station and changing display configurations and network for Windows 365 Boot. Improved client logging, diagnostics, and error classification to help admins troubleshoot connec...",
+      "category": "Networking",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2011290-insider",
+      "platform": "Windows"
+    },
     {
       "date": "2026-04-24",
       "source": "windowsapp",
