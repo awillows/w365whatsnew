@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T09:12:01Z",
+  "lastUpdated": "2026-05-01T09:01:51Z",
   "announcements": [
     {
       "date": "2026-04-29",
@@ -10,6 +10,18 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2011290-insider",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-04-27",
+      "source": "enterprise",
+      "title": "Snapshot-based reset for Windows 365 Frontline shared Cloud PCs (Public Preview)",
+      "desc": "Snapshot-based reset is in public preview for Windows 365 Frontline shared Cloud PCs. When a user signs out, the Cloud PC reverts to a known-good snapshot before the next user signs in. No files, settings, or app changes from the previous session carry over. Use snapshot-based reset to: Give each user a clean Cloud PC at sign-in. Keep user data isolated between sessions on a shared Cloud PC. Av...",
+      "category": "Apps",
+      "tags": [
+        "preview",
+        "frontline"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#snapshot-based-reset-for-windows-365-frontline-shared-cloud-pcs-public-preview"
     },
     {
       "date": "2026-04-24",
@@ -1826,7 +1838,7 @@
       "date": "2025-03-31",
       "source": "enterprise",
       "title": "Link Autopilot device preparation with Windows 365 Frontline Cloud PCs in shared mode",
-      "desc": "You can now link Autopilot device preparation with Windows 365 Frontline Cloud PCs in shared mode. For more information, seeUse policy-driven Autopilot device preparation with Windows 365 Front Cloud PCs in shared mode.",
+      "desc": "You can now link Autopilot device preparation with Windows 365 Frontline Cloud PCs in shared mode. For more information, seeUse policy-driven Autopilot device preparation with Windows 365 Frontline Cloud PCs in shared mode.",
       "category": "Device Management",
       "tags": [
         "frontline"
