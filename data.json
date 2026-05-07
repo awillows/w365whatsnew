@@ -1,15 +1,37 @@
 {
-  "lastUpdated": "2026-05-06T09:23:55Z",
+  "lastUpdated": "2026-05-07T09:33:48Z",
   "announcements": [
     {
-      "date": "2026-04-29",
+      "date": "2026-05-05",
       "source": "windowsapp",
-      "title": "Version 2.0.1129.0 (Insider)",
+      "title": "Version 2.0.1129.0",
       "desc": "Stability and performance improvements for Windows 365 Boot. Improved handling of networks requiring captive portal in Windows 365 Boot. Improved handling of auto-reconnect to remote sessions when undocking from a docking station and changing display configurations and network for Windows 365 Boot. Improved client logging, diagnostics, and error classification to help admins troubleshoot connec...",
       "category": "Networking",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2011290-insider",
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2011290",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-05-04",
+      "source": "enterprise",
+      "title": "Windows 365 Frontline is now Windows 365 Flex",
+      "desc": "Windows 365 Frontline is renamed toWindows 365 Flex. The product, licensing, and capabilities are unchanged-only the name is different. For more information about the rebrand, seeExpanding access to Windows 365on the Windows IT Pro Blog.",
+      "category": "Device Management",
+      "tags": [
+        "frontline"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-frontline-is-now-windows-365-flex"
+    },
+    {
+      "date": "2026-05-04",
+      "source": "enterprise",
+      "title": "Admin Insights for Windows 365",
+      "desc": "Admin Insights for Windows 365 is now in public preview, designed to help IT administrators quickly understand what's happening in their environment and where to focus.\nIT administrators managing Windows 365 Cloud PCs rely on a range of signals across the Microsoft Intune admin center-including reports, alerts, and device views-to understand the health of their environment. These tools provide ...",
+      "category": "Monitor & Troubleshoot",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#admin-insights-for-windows-365"
     },
     {
       "date": "2026-04-27",
@@ -473,7 +495,7 @@
       "date": "2026-02-02",
       "source": "enterprise",
       "title": "Migration API now generally available",
-      "desc": "The Windows 365 migration API has moved out of preview and into generally availability. This enables partners and customers to develop tailored solutions that streamline the transition to Windows 365. By leveraging automation with the Microsoft Graph API and integrating with Microsoft Intune, it allows users to move to Windows 365 more efficiently. This Migration API marks a major step forward ...",
+      "desc": "The Windows 365 migration API has moved out of preview and into general availability. This enables partners and customers to develop tailored solutions that streamline the transition to Windows 365. By leveraging automation with the Microsoft Graph API and integrating with Microsoft Intune, it allows users to move to Windows 365 more efficiently. This Migration API marks a major step forward in...",
       "category": "Device Management",
       "tags": [
         "ga"
@@ -718,7 +740,7 @@
       "date": "2025-11-17",
       "source": "enterprise",
       "title": "Windows 365 Reserve now generally available",
-      "desc": "Windows 365 Reserve has moved out of preview and into generally availability. Windows 365 Reserve is a version of Windows 365 designed for users who primarily work on physical PCs. It provides organizations with flexible, short-term Cloud PC access to keep employees productive during unexpected disruptions. This offering supports business continuity by enabling quick, secure access to Cloud PCs...",
+      "desc": "Windows 365 Reserve has moved out of preview and into general availability. Windows 365 Reserve is a version of Windows 365 designed for users who primarily work on physical PCs. It provides organizations with flexible, short-term Cloud PC access to keep employees productive during unexpected disruptions. This offering supports business continuity by enabling quick, secure access to Cloud PCs w...",
       "category": "Device Management",
       "tags": [
         "ga"
@@ -729,7 +751,7 @@
       "date": "2025-11-17",
       "source": "enterprise",
       "title": "Windows 365 Cloud Apps now generally available",
-      "desc": "Windows 365 Cloud Apps has moved out of preview and into generally availability and now supports publishing Intune apps as Cloud Apps via Autopilot Device Preparation (preview). For more information, seeWindows 365 Cloud Apps.",
+      "desc": "Windows 365 Cloud Apps has moved out of preview and into general availability and now supports publishing Intune apps as Cloud Apps via Autopilot Device Preparation (preview). For more information, seeWindows 365 Cloud Apps.",
       "category": "Apps",
       "tags": [
         "ga"
@@ -1221,7 +1243,7 @@
       "date": "2025-08-04",
       "source": "enterprise",
       "title": "Recover Windows 365 Enterprise Cloud PCs that were Deprovisioned due to License Expiration (preview)",
-      "desc": "You can now recover Window 365 Enterprise Cloud PCs that were deprovisioned due to license expiration. Once you repurchase the expired licenses and ensure you have followed the prerequisites, you can use the retention snapshot to restore the Cloud PC for your end user. For more information, seePoint-in-time restore for Windows 365 Enterprise.",
+      "desc": "You can now recover Windows 365 Enterprise Cloud PCs that were deprovisioned due to license expiration. Once you repurchase the expired licenses and ensure you have followed the prerequisites, you can use the retention snapshot to restore the Cloud PC for your end user. For more information, seePoint-in-time restore for Windows 365 Enterprise.",
       "category": "Provisioning",
       "tags": [
         "preview"
@@ -1467,7 +1489,7 @@
       "date": "2025-06-02",
       "source": "enterprise",
       "title": "Windows 365 Frontline dedicated mode concurrency management now generally available",
-      "desc": "Windows 365 Frontline dedicated mode concurrency management has moved out of preview and into generally availability. For more information, seeConcurrency management.",
+      "desc": "Windows 365 Frontline dedicated mode concurrency management has moved out of preview and into general availability. For more information, seeConcurrency management.",
       "category": "Device Management",
       "tags": [
         "ga",
@@ -2098,7 +2120,7 @@
       "date": "2025-02-03",
       "source": "enterprise",
       "title": "Storage access tier selection when placing Cloud PC under review",
-      "desc": "To help lower your storage costs, hot, cool, cold and archive tiers can now be selected when placing a Cloud PC under review. To help with compliance it is now also possible to  place a Cloud PC under review onto hot, cool and cold access tiers configured with immutability support.",
+      "desc": "To help lower your storage costs, hot, cool, cold and archive tiers can now be selected when placing a Cloud PC under review. To help with compliance it is now also possible to place a Cloud PC under review onto hot, cool and cold access tiers configured with immutability support.",
       "category": "Device Security",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#storage-access-tier-selection-when-placing-cloud-pc-under-review"
@@ -2355,7 +2377,7 @@
       "date": "2024-11-19",
       "source": "enterprise",
       "title": "Support for FIDO devices and passkeys on macOS and iOS",
-      "desc": "Windows App and the Remote Desktop app for macOS and iOS now support FIDO devices and passkeys for Microsoft Entra ID sign in on brokered and unbrokered devices.\nFor more information seeSupport for FIDO2 authentication with Microsoft Entra ID.",
+      "desc": "Windows App and the Remote Desktop app for macOS and iOS now support FIDO devices and passkeys for Microsoft Entra ID sign in on brokered and unbrokered devices.\nFor more information, seeSupport for FIDO2 authentication with Microsoft Entra ID.",
       "category": "Apps",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#support-for-fido-devices-and-passkeys-on-macos-and-ios"
