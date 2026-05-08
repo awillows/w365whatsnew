@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T09:33:48Z",
+  "lastUpdated": "2026-05-08T08:21:38Z",
   "announcements": [
     {
       "date": "2026-05-05",
@@ -34,16 +34,26 @@
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#admin-insights-for-windows-365"
     },
     {
+      "date": "2026-05-04",
+      "source": "business",
+      "title": "Windows 365 Business pricing update now generally available",
+      "desc": "Windows 365 Business now offers a lower price for Cloud PCs, making it easier for small and medium-sized businesses to get started. For more information, seeWindows 365 and Azure Virtual Desktop: Expanding access.",
+      "category": "Device Management",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/business/whats-new#windows-365-business-pricing-update-now-generally-available"
+    },
+    {
       "date": "2026-04-27",
       "source": "enterprise",
-      "title": "Snapshot-based reset for Windows 365 Frontline shared Cloud PCs (Public Preview)",
-      "desc": "Snapshot-based reset is in public preview for Windows 365 Frontline shared Cloud PCs. When a user signs out, the Cloud PC reverts to a known-good snapshot before the next user signs in. No files, settings, or app changes from the previous session carry over. Use snapshot-based reset to: Give each user a clean Cloud PC at sign-in. Keep user data isolated between sessions on a shared Cloud PC. Av...",
+      "title": "Snapshot-based reset for Windows 365 Flex shared Cloud PCs (Public Preview)",
+      "desc": "Snapshot-based reset is in public preview for Windows 365 Flex shared Cloud PCs. When a user signs out, the Cloud PC reverts to a known-good snapshot before the next user signs in. No files, settings, or app changes from the previous session carry over. Use snapshot-based reset to: Give each user a clean Cloud PC at sign-in. Keep user data isolated between sessions on a shared Cloud PC. Avoid c...",
       "category": "Apps",
       "tags": [
-        "preview",
-        "frontline"
+        "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#snapshot-based-reset-for-windows-365-frontline-shared-cloud-pcs-public-preview"
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#snapshot-based-reset-for-windows-365-flex-shared-cloud-pcs-public-preview"
     },
     {
       "date": "2026-04-24",
@@ -202,25 +212,22 @@
     {
       "date": "2026-03-30",
       "source": "enterprise",
-      "title": "Intelligent pre-start for Windows 365 Frontline (dedicated mode) is now generally available",
-      "desc": "This capability uses predictive insights to determine when a user is likely to connect and proactively starts their Cloud PC in advance, so it's ready when they sign in. By reducing the time required for the Cloud PC to boot, Intelligent pre-start helps minimize connection delays and improves the overall login experience for Frontline users. This enhancement is designed to support task-based an...",
+      "title": "Intelligent pre-start for Windows 365 Flex (Dedicated mode) is now generally available",
+      "desc": "This capability uses predictive insights to determine when a user is likely to connect and proactively starts their Cloud PC in advance, so it's ready when they sign in. By reducing the time required for the Cloud PC to boot, Intelligent pre-start helps minimize connection delays and improves the overall login experience for Windows 365 Flex users. This enhancement is designed to support task-b...",
       "category": "End User Experience",
       "tags": [
-        "ga",
-        "frontline"
+        "ga"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#intelligent-prestart-for-windows-365-frontline-dedicated-mode-is-now-generally-available"
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#intelligent-prestart-for-windows-365-flex-dedicated-mode-is-now-generally-available"
     },
     {
       "date": "2026-03-30",
       "source": "enterprise",
-      "title": "Additional regions for Windows 365 Frontline (shared)",
-      "desc": "Windows 365 Frontline in shared mode is now available in the following regions: Brazil - Brazil South Italy (EU) - Italy North Netherlands (EU) - West Europe These regions are now selectable in Windows 365 Frontline (shared) provisioning policies in Microsoft Intune.",
+      "title": "Additional regions for Windows 365 Flex (shared)",
+      "desc": "Windows 365 Flex in Shared mode is now available in the following regions: Brazil - Brazil South Italy (EU) - Italy North Netherlands (EU) - West Europe These regions are now selectable in Windows 365 Flex (shared) provisioning policies in Microsoft Intune.",
       "category": "Provisioning",
-      "tags": [
-        "frontline"
-      ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#additional-regions-for-windows-365-frontline-shared"
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#additional-regions-for-windows-365-flex-shared"
     },
     {
       "date": "2026-03-30",
@@ -246,13 +253,11 @@
     {
       "date": "2026-03-23",
       "source": "enterprise",
-      "title": "Additional regions for Windows 365 Frontline (shared)",
-      "desc": "Windows 365 Frontline in shared mode is now available in additional regions: Poland (EU) - Central Sweden (EU) - Central Mexico - Central New Zealand - North These regions are now selectable in Windows 365 Frontline (shared) provisioning policies in Microsoft Intune. For more information, seeSupported regions for Cloud PC provisioning.",
+      "title": "Additional regions for Windows 365 Flex (shared)",
+      "desc": "Windows 365 Flex in Shared mode is now available in additional regions: Poland (EU) - Central Sweden (EU) - Central Mexico - Central New Zealand - North These regions are now selectable in Windows 365 Flex (shared) provisioning policies in Microsoft Intune. For more information, seeSupported regions for Cloud PC provisioning.",
       "category": "Provisioning",
-      "tags": [
-        "frontline"
-      ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#additional-regions-for-windows-365-frontline-shared-1"
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#additional-regions-for-windows-365-flex-shared-1"
     },
     {
       "date": "2026-03-23",
@@ -318,13 +323,11 @@
     {
       "date": "2026-03-16",
       "source": "enterprise",
-      "title": "Expanded regional availability for Windows 365 Frontline (shared)",
-      "desc": "Windows 365 now supports Frontline (shared) deployments in the following additional regions: France (EU) - France Central Norway - Norway East Spain (EU) - Spain Central Windows 365 Frontline in shared mode is now available in these regions, enabling organizations to provision Cloud PCs closer to users. This expansion supports lower latency and local data residency requirements for shift-based ...",
+      "title": "Expanded regional availability for Windows 365 Flex (shared)",
+      "desc": "Windows 365 Flex (Shared mode) is now available in the following additional regions: France (EU) - France Central Norway - Norway East Spain (EU) - Spain Central Windows 365 Flex in Shared mode is now available in these regions, enabling organizations to provision Cloud PCs closer to users. This expansion supports lower latency and local data residency requirements for shift-based and shared ac...",
       "category": "Provisioning",
-      "tags": [
-        "frontline"
-      ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#expanded-regional-availability-for-windows-365-frontline-shared"
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#expanded-regional-availability-for-windows-365-flex-shared"
     },
     {
       "date": "2026-03-16",
@@ -361,23 +364,19 @@
       "date": "2026-03-09",
       "source": "enterprise",
       "title": "Windows 365 support for Germany West Central and Switzerland North",
-      "desc": "Windows 365 Frontline in shared mode is now available in Germany West Central and Switzerland North. This regional expansion helps organizations provision Cloud PCs closer to users, supporting lower latency and local data residency requirements for shift-based and shared access scenarios. For more information, seeSupported regions for Cloud PC provisioning.",
+      "desc": "Windows 365 Flex in Shared mode is now available in Germany West Central and Switzerland North. This regional expansion helps organizations provision Cloud PCs closer to users, supporting lower latency and local data residency requirements for shift-based and shared access scenarios. For more information, seeSupported regions for Cloud PC provisioning.",
       "category": "Provisioning",
-      "tags": [
-        "frontline"
-      ],
+      "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-support-for-germany-west-central-and-switzerland-north"
     },
     {
       "date": "2026-03-09",
       "source": "enterprise",
-      "title": "Frontline Shared Provisioning Policies Update",
-      "desc": "Windows 365 Frontline (Shared mode) provisioning policies now support up to 5,000 Cloud PCs per policy. This update allows organizations to scale Frontline deployments more efficiently and reduces the need to manage multiple provisioning policies as Frontline workforces grow.",
+      "title": "Windows 365 Flex shared provisioning policies update",
+      "desc": "Windows 365 Flex (Shared mode) provisioning policies now support up to 5,000 Cloud PCs per policy. This update allows organizations to scale Windows 365 Flex deployments more efficiently and reduces the need to manage multiple provisioning policies as Windows 365 Flex workforces grow.",
       "category": "Provisioning",
-      "tags": [
-        "frontline"
-      ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#frontline-shared-provisioning-policies-update"
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-flex-shared-provisioning-policies-update"
     },
     {
       "date": "2026-03-09",
@@ -400,14 +399,13 @@
     {
       "date": "2026-03-02",
       "source": "enterprise",
-      "title": "Resize support for Windows 365 Frontline Dedicated Cloud PCs",
-      "desc": "Resize support for Windows 365 Frontline Dedicated Cloud PCs is now generally available. Admins can resize Frontline Dedicated Cloud PCs after provisioning to adjust compute and storage configurations without reprovisioning. This capability provides greater operational flexibility when user requirements change and helps reduce the overhead of managing capacity. Admins can respond more easily to...",
+      "title": "Resize support for Windows 365 Flex dedicated Cloud PCs",
+      "desc": "Resize support for Windows 365 Flex dedicated Cloud PCs is now generally available. Admins can resize Windows 365 Flex dedicated Cloud PCs after provisioning to adjust compute and storage configurations without reprovisioning. This capability provides greater operational flexibility when user requirements change and helps reduce the overhead of managing capacity. Admins can respond more easily ...",
       "category": "Provisioning",
       "tags": [
-        "ga",
-        "frontline"
+        "ga"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#resize-support-for-windows-365-frontline-dedicated-cloud-pcs"
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#resize-support-for-windows-365-flex-dedicated-cloud-pcs"
     },
     {
       "date": "2026-03-02",
@@ -455,7 +453,7 @@
       "date": "2026-02-09",
       "source": "enterprise",
       "title": "Windows 365 support for New Zealand North",
-      "desc": "Windows 365 Enterprise and Windows 365 Frontline (dedicated mode) are now available in the New Zealand North region. This expansion allows organizations in New Zealand and nearby areas to provision Cloud PCs closer to their users, helping improve performance. For more information, seeSupported regions for Cloud PC provisioning.",
+      "desc": "Windows 365 Enterprise and Windows 365 Frontline (Dedicated mode) are now available in the New Zealand North region. This expansion allows organizations in New Zealand and nearby areas to provision Cloud PCs closer to their users, helping improve performance. For more information, seeSupported regions for Cloud PC provisioning.",
       "category": "Provisioning",
       "tags": [
         "frontline"
@@ -514,13 +512,11 @@
     {
       "date": "2026-01-26",
       "source": "enterprise",
-      "title": "Microsoft Purview Customer Key support for Windows 365 Frontline (Shared Mode)",
-      "desc": "Windows 365 Frontline in shared mode now supports Microsoft Purview Customer Key for service encryption. With this enhancement, newly provisioned Cloud PCs will automatically be protected using Customer Key for organizations that have onboarded the capability in Microsoft Purview. This update applies to customers using Windows 365 Frontline licenses who have configured Customer Key for added co...",
+      "title": "Microsoft Purview Customer Key support for Windows 365 Flex (Shared mode)",
+      "desc": "Windows 365 Flex in Shared mode now supports Microsoft Purview Customer Key for service encryption. With this enhancement, newly provisioned Cloud PCs will automatically be protected using Customer Key for organizations that have onboarded the capability in Microsoft Purview. This update applies to customers using Windows 365 Flex licenses who have configured Customer Key for added control over...",
       "category": "Provisioning",
-      "tags": [
-        "frontline"
-      ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#microsoft-purview-customer-key-support-for-windows-365-frontline-shared-mode"
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#microsoft-purview-customer-key-support-for-windows-365-flex-shared-mode"
     },
     {
       "date": "2026-01-23",
@@ -728,11 +724,10 @@
       "date": "2025-11-17",
       "source": "enterprise",
       "title": "Windows 365 support for external identities is now generally available",
-      "desc": "You can now provision a Cloud PC for an external identity. There's no change to the administrative flow to provision this Cloud PC, as it follows the same provisioning flows for both Enterprise and Frontline Cloud PCs. For more information, seeExternal identity, how toProvide Cloud PCs to external identities, and appropriateWindows 365 licensing guidance.",
+      "desc": "You can now provision a Cloud PC for an external identity. There's no change to the administrative flow to provision this Cloud PC, as it follows the same provisioning flows for both Windows 365 Enterprise and Windows 365 Flex Cloud PCs. For more information, seeExternal identity, how toProvide Cloud PCs to external identities, and appropriateWindows 365 licensing guidance.",
       "category": "Provisioning",
       "tags": [
-        "ga",
-        "frontline"
+        "ga"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-support-for-external-identities-is-now-generally-available"
     },
@@ -762,11 +757,10 @@
       "date": "2025-11-17",
       "source": "enterprise",
       "title": "User Experience Sync (UES) now generally available",
-      "desc": "User Experience Syncis now generally available for Windows 365. UES delivers a consistent experience by saving user settings and app data across sessions, so users can be productive as soon as they sign in. It's designed for Windows 365 Frontline Shared mode andCloud Appsscenarios, making it ideal for occasional use workers who share devices or need personalized settings across multiple session...",
+      "desc": "User Experience Syncis now generally available for Windows 365. UES delivers a consistent experience by saving user settings and app data across sessions, so users can be productive as soon as they sign in. It's designed for Windows 365 Flex Shared mode andCloud Appsscenarios, making it ideal for occasional use workers who share devices or need personalized settings across multiple sessions. IT...",
       "category": "Apps",
       "tags": [
-        "ga",
-        "frontline"
+        "ga"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#user-experience-sync-ues-now-generally-available"
     },
@@ -795,13 +789,11 @@
     {
       "date": "2025-11-17",
       "source": "enterprise",
-      "title": "Link Autopilot device preparation with Windows 365 Enterprise Cloud PCs and Frontline Cloud PCs in dedicated mode",
-      "desc": "You can now link Autopilot device preparation with Windows 365 Enterprise Cloud PCs and Frontline Cloud PCs dedicated mode. For more information, seeUse Autopilot device preparation with Cloud PCs.",
+      "title": "Link Autopilot device preparation with Windows 365 Enterprise Cloud PCs and Windows 365 Flex Cloud PCs in Dedicated mode",
+      "desc": "You can now link Autopilot device preparation with Windows 365 Enterprise Cloud PCs and Windows 365 Flex Cloud PCs Dedicated mode. For more information, seeUse Autopilot device preparation with Cloud PCs.",
       "category": "Device Management",
-      "tags": [
-        "frontline"
-      ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#link-autopilot-device-preparation-with-windows-365-enterprise-cloud-pcs-and-frontline-cloud-pcs-in-dedicated-mode"
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#link-autopilot-device-preparation-with-windows-365-enterprise-cloud-pcs-and-windows-365-flex-cloud-pcs-in-dedicated-mode"
     },
     {
       "date": "2025-11-17",
@@ -1019,11 +1011,10 @@
       "date": "2025-09-22",
       "source": "enterprise",
       "title": "Windows 365 support for external identities (preview)",
-      "desc": "You can now provision a Cloud PC for an external identity. There is no change to the administrative flow to provision this Cloud PC, as it follows the same provisioning flows for both Enterprise and Frontline Cloud PCs. For more information, seeExternal identity (preview), along with appropriateWindows 365 licensing guidance.",
+      "desc": "You can now provision a Cloud PC for an external identity. There is no change to the administrative flow to provision this Cloud PC, as it follows the same provisioning flows for both Windows 365 Enterprise and Windows 365 Flex Cloud PCs. For more information, seeExternal identity (preview), along with appropriateWindows 365 licensing guidance.",
       "category": "Provisioning",
       "tags": [
-        "preview",
-        "frontline"
+        "preview"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-support-for-external-identities-preview"
     },
@@ -1074,26 +1065,24 @@
       "date": "2025-09-15",
       "source": "enterprise",
       "title": "Windows 365 Cloud Apps (preview)",
-      "desc": "The Windows 365 Cloud Apps feature allows administrators to give users secure access to individual apps hosted on a Cloud PC, without requiring a dedicated Cloud PC for every user.Windows 365 Frontline licensesentitle organizations to stream Windows 365 Cloud Apps when operating Cloud PCs in shared mode. For more information, seeWindows 365 Cloud Apps.",
+      "desc": "The Windows 365 Cloud Apps feature allows administrators to give users secure access to individual apps hosted on a Cloud PC, without requiring a dedicated Cloud PC for every user.Windows 365 Flex licensesentitle organizations to stream Windows 365 Cloud Apps when operating Cloud PCs in Shared mode. For more information, seeWindows 365 Cloud Apps.",
       "category": "Apps",
       "tags": [
-        "preview",
-        "frontline"
+        "preview"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-cloud-apps-preview"
     },
     {
       "date": "2025-09-15",
       "source": "enterprise",
-      "title": "Windows 365 Frontline Cloud PCs in dedicated mode generally available on US government cloud",
-      "desc": "You can now provision Windows 365 Frontline Cloud PCs in dedicated mode in US Government Community Cloud (GCC). For more information, seeWindows 365 Government.",
+      "title": "Windows 365 Flex Cloud PCs in Dedicated mode generally available on US government cloud",
+      "desc": "You can now provision Windows 365 Flex Cloud PCs in Dedicated mode in US Government Community Cloud (GCC). For more information, seeWindows 365 Government.",
       "category": "Provisioning",
       "tags": [
         "ga",
-        "frontline",
         "government"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-frontline-cloud-pcs-in-dedicated-mode-generally-available-on-us-government-cloud-"
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-flex-cloud-pcs-in-dedicated-mode-generally-available-on-us-government-cloud-"
     },
     {
       "date": "2025-09-12",
@@ -1120,13 +1109,11 @@
     {
       "date": "2025-09-08",
       "source": "enterprise",
-      "title": "Cross-region Disaster Recovery for Windows 365 Frontline (dedicated mode)",
-      "desc": "Already available for W365 Enterprise, Cross-region DR now extends to Windows 365 Frontline (dedicated mode), supporting shift-based roles in critical industries where downtime is not an option and disaster recovery is essential. This add-on feature creates \"snapshots\" of Cloud PCs in customer-defined, geographically distant locations. In the event of a regional outage, these snapshots can be r...",
+      "title": "Cross-region Disaster Recovery for Windows 365 Flex (Dedicated mode)",
+      "desc": "Already available for W365 Enterprise, Cross-region DR now extends to Windows 365 Flex (Dedicated mode), supporting shift-based roles in critical industries where downtime is not an option and disaster recovery is essential. This add-on feature creates \"snapshots\" of Cloud PCs in customer-defined, geographically distant locations. In the event of a regional outage, these snapshots can be recove...",
       "category": "Regions",
-      "tags": [
-        "frontline"
-      ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#cross-region-disaster-recovery-for-windows-365-frontline-dedicated-mode"
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#cross-region-disaster-recovery-for-windows-365-flex-dedicated-mode"
     },
     {
       "date": "2025-09-08",
@@ -1355,25 +1342,22 @@
     {
       "date": "2025-06-30",
       "source": "enterprise",
-      "title": "Intelligent pre-start for Windows 365 Frontline in dedicated mode (preview)",
-      "desc": "Windows 365 Frontline Cloud PCs have the ability to predict when a user connects and pre-start their Cloud PC before they connect. This prediction improves connect times for such users' Cloud PCs. For more information, seeIntelligent pre-start for Windows 365 Frontline in dedicated mode.",
+      "title": "Intelligent pre-start for Windows 365 Flex in Dedicated mode (preview)",
+      "desc": "Windows 365 Flex Cloud PCs have the ability to predict when a user connects and pre-start their Cloud PC before they connect. This prediction improves connect times for such users' Cloud PCs. For more information, seeIntelligent pre-start for Windows 365 Flex in Dedicated mode.",
       "category": "Device Management",
       "tags": [
-        "preview",
-        "frontline"
+        "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#intelligent-pre-start-for-windows-365-frontline-in-dedicated-mode-preview"
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#intelligent-pre-start-for-windows-365-flex-in-dedicated-mode-preview"
     },
     {
       "date": "2025-06-30",
       "source": "enterprise",
-      "title": "Configure non-UTC time zones for bulk reprovisioning for Windows 365 Frontline Cloud PCs in shared mode",
-      "desc": "You can now configure non-UTC time zones when scheduling bulk reprovisioning for Windows 365 Frontline Cloud PCs in shared mode. For more information, seeSchedule bulk reprovision Frontline Cloud PCs in shared mode.",
+      "title": "Configure non-UTC time zones for bulk reprovisioning for Windows 365 Flex Cloud PCs in Shared mode",
+      "desc": "You can now configure non-UTC time zones when scheduling bulk reprovisioning for Windows 365 Flex Cloud PCs in Shared mode. For more information, seeSchedule bulk reprovision Windows 365 Flex Cloud PCs in Shared mode.",
       "category": "Provisioning",
-      "tags": [
-        "frontline"
-      ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#configure-non-utc-time-zones-for-bulk-reprovisioning-for-windows-365-frontline-cloud-pcs-in-shared-mode"
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#configure-non-utc-time-zones-for-bulk-reprovisioning-for-windows-365-flex-cloud-pcs-in-shared-mode"
     },
     {
       "date": "2025-06-30",
@@ -1398,14 +1382,13 @@
     {
       "date": "2025-06-23",
       "source": "enterprise",
-      "title": "Cross region disaster recovery for Windows 365 Frontline in dedicated mode (preview)",
-      "desc": "Windows 365 Frontline in dedicated mode now supports cross region disaster recovery. For more information, seeCross region disaster recovery in Windows 365.",
+      "title": "Cross region disaster recovery for Windows 365 Flex in Dedicated mode (preview)",
+      "desc": "Windows 365 Flex in Dedicated mode now supports cross region disaster recovery. For more information, seeCross region disaster recovery in Windows 365.",
       "category": "Regions",
       "tags": [
-        "preview",
-        "frontline"
+        "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#cross-region-disaster-recovery-for-windows-365-frontline-in-dedicated-mode-preview"
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#cross-region-disaster-recovery-for-windows-365-flex-in-dedicated-mode-preview"
     },
     {
       "date": "2025-06-17",
@@ -1488,14 +1471,14 @@
     {
       "date": "2025-06-02",
       "source": "enterprise",
-      "title": "Windows 365 Frontline dedicated mode concurrency management now generally available",
-      "desc": "Windows 365 Frontline dedicated mode concurrency management has moved out of preview and into general availability. For more information, seeConcurrency management.",
+      "title": "Windows 365 Flex Dedicated mode concurrency management now generally available",
+      "desc": "Windows 365 Frontline Dedicated mode concurrency management has moved out of preview and into general availability. For more information, seeConcurrency management.",
       "category": "Device Management",
       "tags": [
         "ga",
         "frontline"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-frontline-dedicated-mode-concurrency-management-now-generally-available"
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-flex-dedicated-mode-concurrency-management-now-generally-available"
     },
     {
       "date": "2025-06-02",
@@ -1610,14 +1593,13 @@
     {
       "date": "2025-04-28",
       "source": "enterprise",
-      "title": "Resize Windows 365 Frontline Cloud PCs in dedicated mode (preview)",
-      "desc": "Admins can now resize Windows 365 Frontline Cloud PCs in dedicated mode. For more information, seeResize Windows 365 Frontline Cloud PCs in dedicated mode.",
+      "title": "Resize Windows 365 Flex Cloud PCs in Dedicated mode (preview)",
+      "desc": "Admins can now resize Windows 365 Flex Cloud PCs in Dedicated mode. For more information, seeResize Windows 365 Flex Cloud PCs in Dedicated mode.",
       "category": "Device Management",
       "tags": [
-        "preview",
-        "frontline"
+        "preview"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#resize-windows-365-frontline-cloud-pcs-in-dedicated-mode-preview"
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#resize-windows-365-flex-cloud-pcs-in-dedicated-mode-preview"
     },
     {
       "date": "2025-04-28",
@@ -1631,14 +1613,13 @@
     {
       "date": "2025-04-28",
       "source": "enterprise",
-      "title": "Connected Frontline Cloud PCs report is generally available",
-      "desc": "The Connected Frontline Cloud PCs report has moved out of preview and into general availability. For more information, seeConnected Frontline Cloud PCs report.",
+      "title": "Connected Windows 365 Flex Cloud PCs report is generally available",
+      "desc": "The Connected Windows 365 Flex Cloud PCs report has moved out of preview and into general availability. For more information, seeConnected Windows 365 Flex Cloud PCs report.",
       "category": "Monitor & Troubleshoot",
       "tags": [
-        "ga",
-        "frontline"
+        "ga"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#connected-frontline-cloud-pcs-report-is-generally-available"
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#connected-windows-365-flex-cloud-pcs-report-is-generally-available"
     },
     {
       "date": "2025-04-28",
@@ -1693,13 +1674,11 @@
     {
       "date": "2025-04-21",
       "source": "enterprise",
-      "title": "Create provisioning policy process warning for lack of Windows 365 Frontline licenses",
-      "desc": "When creating a provisioning policy for Windows 365 Frontline Cloud PCs, the process now provides a warning if the tenant has no Windows 365 Frontline licenses.",
+      "title": "Create provisioning policy process warning for lack of Windows 365 Flex licenses",
+      "desc": "When creating a provisioning policy for Windows 365 Flex Cloud PCs, the process now provides a warning if the tenant has no Windows 365 Flex licenses.",
       "category": "Provisioning",
-      "tags": [
-        "frontline"
-      ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#create-provisioning-policy-process-warning-for-lack-of-windows-365-frontline-licenses"
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#create-provisioning-policy-process-warning-for-lack-of-windows-365-flex-licenses"
     },
     {
       "date": "2025-04-21",
@@ -1733,22 +1712,18 @@
       "date": "2025-04-14",
       "source": "enterprise",
       "title": "Concurrency buffer usage alert",
-      "desc": "You can set up a new alert to monitor concurrency buffer usage for Windows 365 Frontline in dedicated mode.",
+      "desc": "You can set up a new alert to monitor concurrency buffer usage for Windows 365 Flex in Dedicated mode.",
       "category": "Monitor & Troubleshoot",
-      "tags": [
-        "frontline"
-      ],
+      "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#concurrency-buffer-usage-alert"
     },
     {
       "date": "2025-04-14",
       "source": "enterprise",
       "title": "Cloud PC concurrency report update",
-      "desc": "The Connected Frontline Cloud PCs report now shows a user's session length. You can also restart Windows 365 Frontline Cloud PCs from the report if you've reached max concurrency on any individual assignments. For more information, seeConnected Frontline Cloud PCs report.",
+      "desc": "The Connected Windows 365 Flex Cloud PCs report now shows a user's session length. You can also restart Windows 365 Flex Cloud PCs from the report if you've reached max concurrency on any individual assignments. For more information, seeConnected Windows 365 Flex Cloud PCs report.",
       "category": "Monitor & Troubleshoot",
-      "tags": [
-        "frontline"
-      ],
+      "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#cloud-pc-concurrency-report-update"
     },
     {
@@ -1847,8 +1822,8 @@
     {
       "date": "2025-03-31",
       "source": "enterprise",
-      "title": "Windows 365 Frontline Cloud PCs in shared mode now generally available",
-      "desc": "Windows 365 Frontline Cloud PCs in shared mode has moved out of preview and into general availability. For more information, seeWindows 365 Frontline in shared mode.",
+      "title": "Windows 365 Frontline Cloud PCs in Shared mode now generally available",
+      "desc": "Windows 365 Frontline Cloud PCs in Shared mode has moved out of preview and into general availability. For more information, seeWindows 365 Frontline in Shared mode.",
       "category": "Device Management",
       "tags": [
         "ga",
@@ -1859,8 +1834,8 @@
     {
       "date": "2025-03-31",
       "source": "enterprise",
-      "title": "Link Autopilot device preparation with Windows 365 Frontline Cloud PCs in shared mode",
-      "desc": "You can now link Autopilot device preparation with Windows 365 Frontline Cloud PCs in shared mode. For more information, seeUse policy-driven Autopilot device preparation with Windows 365 Frontline Cloud PCs in shared mode.",
+      "title": "Link Autopilot device preparation with Windows 365 Frontline Cloud PCs in Shared mode",
+      "desc": "You can now link Autopilot device preparation with Windows 365 Frontline Cloud PCs in Shared mode. For more information, seeUse policy-driven Autopilot device preparation with Windows 365 Frontline Cloud PCs in Shared mode.",
       "category": "Device Management",
       "tags": [
         "frontline"
@@ -2148,8 +2123,8 @@
     {
       "date": "2025-02-03",
       "source": "enterprise",
-      "title": "Schedule bulk reprovisioning for Windows 365 Frontline Cloud PCs in shared mode",
-      "desc": "You can now schedule bulk reprovisioning for Windows 365 Frontline Cloud PCs in shared mode. For more information, seeBulk reprovision Windows 365 Frontline Cloud PCs in shared mode.",
+      "title": "Schedule bulk reprovisioning for Windows 365 Frontline Cloud PCs in Shared mode",
+      "desc": "You can now schedule bulk reprovisioning for Windows 365 Frontline Cloud PCs in Shared mode. For more information, seeBulk reprovision Windows 365 Frontline Cloud PCs in Shared mode.",
       "category": "Provisioning",
       "tags": [
         "frontline"
@@ -2160,7 +2135,7 @@
       "date": "2025-02-03",
       "source": "enterprise",
       "title": "More precise Windows 365 Frontline concurrency control",
-      "desc": "You can now allocate concurrent sessions for Windows 365 Frontline Cloud PCs in dedicated mode for each Microsoft Entra group assigned in the provisioning policy. This lets you reserve sessions to specific groups so sessions won't be consumed by other groups, and help you control your maximum concurrency limits.",
+      "desc": "You can now allocate concurrent sessions for Windows 365 Frontline Cloud PCs in Dedicated mode for each Microsoft Entra group assigned in the provisioning policy. This lets you reserve sessions to specific groups so sessions won't be consumed by other groups, and help you control your maximum concurrency limits.",
       "category": "Provisioning",
       "tags": [
         "frontline"
@@ -2353,8 +2328,8 @@
     {
       "date": "2024-11-19",
       "source": "enterprise",
-      "title": "Windows 365 Frontline in shared mode (preview)",
-      "desc": "Windows 365 Frontline in shared mode gives you the ability to provision a collection of Cloud PCs that can be used across multiple users mapped to a Microsoft Entra ID group. One active Cloud PC is permitted per license. For more information, seeWindows 365 Frontline in shared mode.",
+      "title": "Windows 365 Frontline in Shared mode (preview)",
+      "desc": "Windows 365 Frontline in Shared mode gives you the ability to provision a collection of Cloud PCs that can be used across multiple users mapped to a Microsoft Entra ID group. One active Cloud PC is permitted per license. For more information, seeWindows 365 Frontline in Shared mode.",
       "category": "Provisioning",
       "tags": [
         "preview",
@@ -3208,8 +3183,8 @@
     {
       "date": "2024-03-26",
       "source": "enterprise",
-      "title": "Windows 365 Boot shared mode supports FIDO",
-      "desc": "Windows 365 Boot shared mode now supports FIDO. For more information, seeHow-to: Password-less FIDO2 Security Key Sign-in to Windows 10 HAADJ Devices.",
+      "title": "Windows 365 Boot Shared mode supports FIDO",
+      "desc": "Windows 365 Boot Shared mode now supports FIDO. For more information, seeHow-to: Password-less FIDO2 Security Key Sign-in to Windows 10 HAADJ Devices.",
       "category": "Device Security",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-boot-shared-mode-supports-fido"
