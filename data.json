@@ -1,6 +1,26 @@
 {
-  "lastUpdated": "2026-05-11T10:38:44Z",
+  "lastUpdated": "2026-05-12T09:41:59Z",
   "announcements": [
+    {
+      "date": "2026-05-11",
+      "source": "enterprise",
+      "title": "Autopilot device preparation for Cloud PC provisioning now generally available",
+      "desc": "Windows 365 now supports Autopilot device preparation with Cloud PC provisioning, enabling admins to define readiness criteria and ensure apps and scripts are installed before a Cloud PC is marked as provisioned. For more information, seeUse Autopilot device preparation with Cloud PCs.",
+      "category": "Provisioning",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#autopilot-device-preparation-for-cloud-pc-provisioning-now-generally-available"
+    },
+    {
+      "date": "2026-05-11",
+      "source": "enterprise",
+      "title": "RDP Multipath with redundant TCP transport paths begins GA rollout",
+      "desc": "Windows 365 has started the general availability (GA) rollout ofRDP Multipath with redundant TCP transport paths. This enhancement improves connection resiliency toWindows 365 Cloud PCsby enabling multiple TCP transport paths and automatically switching between them when network degradation is detected. Redundant TCP transport paths complement existing UDP-based RDP Multipath and help maintain ...",
+      "category": "Networking",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#rdp-multipath-with-redundant-tcp-transport-paths-begins-ga-rollout"
+    },
     {
       "date": "2026-05-05",
       "source": "windowsapp",
@@ -10,6 +30,17 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2011290",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-05-04",
+      "source": "enterprise",
+      "title": "Windows Autopilot support for Windows 365 Reserve (Public Preview)",
+      "desc": "Autopilot Device Preparation is now available in Public Preview for Windows 365 Reserve. With DPP enabled, provisioning completes only after required applications and configurations are installed and validated - improving reliability and security while reducing the need for custom images. Admins can optionally linkAutopilot Device Preparationwith Reserve provisioning policies in Microsoft Intun...",
+      "category": "Provisioning",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-autopilot-support-for-windows-365-reserve-public-preview"
     },
     {
       "date": "2026-05-04",
@@ -789,11 +820,14 @@
     {
       "date": "2025-11-17",
       "source": "enterprise",
-      "title": "Link Autopilot device preparation with Windows 365 Enterprise Cloud PCs and Windows 365 Flex Cloud PCs in Dedicated mode",
+      "title": "Link Autopilot device preparation with Windows 365 Enterprise Cloud PCs and Frontline Cloud PCs in dedicated mode (Public Preview)",
       "desc": "You can now link Autopilot device preparation with Windows 365 Enterprise Cloud PCs and Windows 365 Flex Cloud PCs Dedicated mode. For more information, seeUse Autopilot device preparation with Cloud PCs.",
       "category": "Device Management",
-      "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#link-autopilot-device-preparation-with-windows-365-enterprise-cloud-pcs-and-windows-365-flex-cloud-pcs-in-dedicated-mode"
+      "tags": [
+        "preview",
+        "frontline"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#link-autopilot-device-preparation-with-windows-365-enterprise-cloud-pcs-and-frontline-cloud-pcs-in-dedicated-mode-public-preview"
     },
     {
       "date": "2025-11-17",
@@ -2733,7 +2767,7 @@
       "date": "2024-08-26",
       "source": "enterprise",
       "title": "Azure Monitor support on Windows 365 Cloud PCs",
-      "desc": "Azure Monitor Agent can now  be installed on Windows 365 Enterprise and Windows 365 Government Cloud PCs. For more information, seeAzure Monitor overview.",
+      "desc": "Azure Monitor Agent can now be installed on Windows 365 Enterprise and Windows 365 Government Cloud PCs. For more information, seeAzure Monitor overview.",
       "category": "Device Management",
       "tags": [
         "government"
@@ -2985,7 +3019,7 @@
       "date": "2024-06-24",
       "source": "enterprise",
       "title": "Windows 365 Government now supports Cloud PC utilization report",
-      "desc": "Windows 365 Government now supports the Cloud PC utilization report. For more information,  seeCloud PC utilization report.",
+      "desc": "Windows 365 Government now supports the Cloud PC utilization report. For more information, seeCloud PC utilization report.",
       "category": "Monitor & Troubleshoot",
       "tags": [
         "government"
@@ -3914,7 +3948,7 @@
       "date": "2023-09-25",
       "source": "enterprise",
       "title": "New report: Cloud PCs that can't connect",
-      "desc": "A new report is now available that provides metrics that help admins evaluate tenant level device connection status and reliability.  For example, you can observe: devices that have unhealthy hosts. users' connections that consistently or frequently fail. systemic issues, like an Azure infrastructure issue, that is impacting the ability of a user to connect. For more information, seeCloud PCs t...",
+      "desc": "A new report is now available that provides metrics that help admins evaluate tenant level device connection status and reliability. For example, you can observe: devices that have unhealthy hosts. users' connections that consistently or frequently fail. systemic issues, like an Azure infrastructure issue, that is impacting the ability of a user to connect. For more information, seeCloud PCs th...",
       "category": "Monitor & Troubleshoot",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#new-report-cloud-pcs-that-cant-connect-"
@@ -5604,7 +5638,7 @@
       "date": "2021-10-11",
       "source": "enterprise",
       "title": "Health check improvement",
-      "desc": "TheDNS can resolve Active Directory domainhealth check has been improved. A new step has been added to look for the following Azure Active Directory DNS record. If it can't be found, the check fails. _ldap._tcp.yourDomain.com -type SRV",
+      "desc": "TheDNS can resolve Active Directory domainhealth check has been improved. A new step has been added to look for the following Azure Active Directory DNS record. If it can't be found, the check fails. _ldap._tcp.example.com -type SRV",
       "category": "Monitor & Troubleshoot",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#health-check-improvement"
