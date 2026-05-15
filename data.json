@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T09:34:59Z",
+  "lastUpdated": "2026-05-15T09:48:21Z",
   "announcements": [
     {
       "date": "2026-05-11",
@@ -38,6 +38,44 @@
       "category": "Networking",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#rdp-multipath-with-redundant-tcp-transport-paths-begins-ga-rollout"
+    },
+    {
+      "date": "2026-05-11",
+      "source": "link",
+      "title": "Government Cloud Support (GCC/GCCH)",
+      "desc": "Windows 365 Link now supports connectivity to Windows 365 Government Cloud PCs in GCC and GCCH environments, bringing the Cloud PC device experience to government customers. To learn more, go hereWhat is Windows 365 Government?",
+      "category": "Device Management",
+      "tags": [
+        "government"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#government-cloud-support-gccgcch"
+    },
+    {
+      "date": "2026-05-11",
+      "source": "link",
+      "title": "Language & Localization Enhancements",
+      "desc": "This update adds expanded keyboard layouts and improved font rendering for mixed-language text. Whether you're navigating sign-in, settings, or typing in your preferred language, the experience adapts to you.",
+      "category": "Authentication",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#language--localization-enhancements"
+    },
+    {
+      "date": "2026-05-11",
+      "source": "link",
+      "title": "Disk Space Usage visibility in Intune",
+      "desc": "You can now view disk space usage for Windows 365 Link devices in Intune, providing insight into device health. You can do so by going to Hardware > storage when looking at the device details for a particular Link device.",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#disk-space-usage-visibility-in-intune"
+    },
+    {
+      "date": "2026-05-11",
+      "source": "link",
+      "title": "Bug fixes and performance improvements",
+      "desc": "We made a variety of fixes, performance improvements and more.",
+      "category": "Build Update",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
     },
     {
       "date": "2026-05-05",
@@ -159,7 +197,7 @@
       "desc": "Performance improvements in setup and sign-in experience.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-1"
     },
     {
       "date": "2026-04-13",
@@ -1488,7 +1526,7 @@
       "desc": "Fixed an issue that could cause Keyboard Language settings to not persist correctly during locked sessions and after profile updates (56347820). Fixed an issue that could sometimes prevent Task Manager from launching correctly (57115154). Fixed issue with inadvertent timeouts on certain actions in the security key sign-in process (57007130).",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-1"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-2"
     },
     {
       "date": "2025-06-05",
