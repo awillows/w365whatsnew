@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T10:40:02Z",
+  "lastUpdated": "2026-05-22T10:24:37Z",
   "announcements": [
     {
       "date": "2026-05-11",
@@ -76,6 +76,16 @@
       "category": "Build Update",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
+    },
+    {
+      "date": "2026-05-06",
+      "source": "windowsapp",
+      "title": "Version 11.3.1 (5869)",
+      "desc": "Fixed an issue where the \"Updating remote session display\" prompt did not dismiss. Fixed an issue to ensure Surface Arc Mouse activity resets the display auto-lock timer. Addressed additional reliability and stability issues.",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1131-5869",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2026-05-05",
@@ -385,6 +395,16 @@
       "category": "Device Management",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#new-recovery-option-available-bare-metal-recovery-bmr-for-windows-365-link"
+    },
+    {
+      "date": "2026-03-20",
+      "source": "windowsapp",
+      "title": "Version 11.3.0 (5863)",
+      "desc": "Updated the app with Liquid Glass styling across the user experience. Added a Personalization section in Settings to customize the app's appearance. Updated the Favorites experience. Favorites are now pinned to the top of the Devices and Apps pages. Added support for audio and video optimizations when connecting to Azure Virtual Desktop session hosts that support Teams redirection. For more inf...",
+      "category": "Apps",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1130-5863",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2026-03-19",
