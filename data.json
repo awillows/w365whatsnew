@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-05-27T10:56:06Z",
+  "lastUpdated": "2026-05-28T10:56:52Z",
   "announcements": [
+    {
+      "date": "2026-05-25",
+      "source": "enterprise",
+      "title": "Importing custom images from an Azure Compute Gallery now generally available",
+      "desc": "The ability for admins to import custom images from an Azure Compute Gallery is now generally available. Learn morehere.",
+      "category": "Provisioning",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#importing-custom-images-from-an-azure-compute-gallery-now-generally-available"
+    },
     {
       "date": "2026-05-19",
       "source": "windowsapp",
