@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T10:56:52Z",
+  "lastUpdated": "2026-05-29T10:47:05Z",
   "announcements": [
     {
       "date": "2026-05-25",
@@ -11,6 +11,17 @@
         "ga"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#importing-custom-images-from-an-azure-compute-gallery-now-generally-available"
+    },
+    {
+      "date": "2026-05-25",
+      "source": "enterprise",
+      "title": "Teams RemoteApp and CloudApp support for Windows App is now generally available",
+      "desc": "Slimcore-based Teams optimization is now supported for RemoteApps and CloudApps in the Windows App. This update enables Teams features beyond desktop sessions, with SlimCore-based optimization for improved performance. Support is limited to Windows App; non-Windows clients are not included. For more information, seeMicrosoft Teams on a Cloud PC.",
+      "category": "Apps",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#teams-remoteapp-and-cloudapp-support-for-windows-app-is-now-generally-available"
     },
     {
       "date": "2026-05-19",
@@ -431,9 +442,12 @@
       "date": "2026-03-19",
       "source": "windowsapp",
       "title": "Version 2.0.03334.1499",
-      "desc": "Improved load times by progressively loading devices and apps. Fixed an issue affecting copy and paste when using full-screen mode on macOS. Fixed an issue with cursor rendering. Fixed an issue where RemoteApp icons were not correctly displaying on the RemoteApp Launcher. Made some improvements to the folder-redirection based file-transfer experience. Made accessibility improvements.",
+      "desc": "Windows App on the web is now generally available forWindows 365 Government(GCC). Users in GCC environments can sign in and connect to their Windows 365 Government Cloud PCs from a web browser. Improved load times by progressively loading devices and apps. Fixed an issue affecting copy and paste when using full-screen mode on macOS. Fixed an issue with cursor rendering. Fixed an issue where Rem...",
       "category": "Apps",
-      "tags": [],
+      "tags": [
+        "ga",
+        "government"
+      ],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20033341499",
       "platform": "Web browser"
     },
