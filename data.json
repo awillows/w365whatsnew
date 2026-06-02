@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-06-01T12:37:58Z",
+  "lastUpdated": "2026-06-02T11:18:34Z",
   "announcements": [
+    {
+      "date": "2026-06-01",
+      "source": "windowsapp",
+      "title": "Version 2.2.0.03428.1635",
+      "desc": "Multiple monitor support is now available in public preview. For more information, seeConfigure display settings in Windows App. Fixed an issue affecting drag-and-drop file transfer in remote sessions.",
+      "category": "End User Experience",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-220034281635",
+      "platform": "Web browser"
+    },
     {
       "date": "2026-05-26",
       "source": "windowsapp",
@@ -32,6 +44,16 @@
         "ga"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#teams-remoteapp-and-cloudapp-support-for-windows-app-is-now-generally-available"
+    },
+    {
+      "date": "2026-05-21",
+      "source": "windowsapp",
+      "title": "Version 2.2.0.03427.1631",
+      "desc": "Fixed an issue affecting clipboard redirection that could cause copy and paste between the local device and the remote session to fail. Made some reliability and security improvements.",
+      "category": "Device Security",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-220034271631",
+      "platform": "Web browser"
     },
     {
       "date": "2026-05-11",
