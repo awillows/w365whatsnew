@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-06-02T11:18:34Z",
+  "lastUpdated": "2026-06-03T11:56:57Z",
   "announcements": [
+    {
+      "date": "2026-06-01",
+      "source": "enterprise",
+      "title": "Context-based redirections (Public Preview)",
+      "desc": "Context-based redirections are now available in public preview for Windows 365. This server-side capability enables admins to dynamically control clipboard, printer, drives, and low-level USB redirection behavior based on user identity, device compliance, and network conditions. By enforcing policies dynamically for bring-your-own-device (BYOD) scenarios, organizations can better protect sensit...",
+      "category": "Device Security",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#context-based-redirections-public-preview"
+    },
+    {
+      "date": "2026-06-01",
+      "source": "enterprise",
+      "title": "GPU support for Windows 365 Flex shared Cloud PCs",
+      "desc": "Windows 365 Flex now supports GPU-enabled Cloud PCs in shared mode. This allows admins to assign GPU SKUs to shared Cloud PCs, enabling users to run graphics-intensive or performance-heavy workloads. With support extended beyond dedicated configurations, organizations gain more flexibility in how they deploy GPU-powered environments. For more information, seeGPU Cloud PCs in Windows 365.",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#gpu-support-for-windows-365-flex-shared-cloud-pcs"
+    },
+    {
+      "date": "2026-06-01",
+      "source": "enterprise",
+      "title": "GPU Select SKU for Cloud PCs",
+      "desc": "Windows 365 introduces the GPU Select SKU, delivering higher-performance graphics capabilities at a lower cost for UI, multimedia, and productivity scenarios. Organizations can now choose from a broader set of GPU configurations to meet diverse performance needs. For more information, seeGPU Cloud PCs in Windows 365.",
+      "category": "Apps",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#gpu-select-sku-for-cloud-pcs"
+    },
+    {
+      "date": "2026-06-01",
+      "source": "enterprise",
+      "title": "32 vCPU Cloud PC size now available",
+      "desc": "Windows 365 introduces a new 32 vCPU Cloud PC size, enabling greater compute power for complex and resource-intensive workloads. Ideal for development, simulations, and data-heavy scenarios, it helps improve performance and execution speed while reducing dependence on local hardware. Organizations can now support advanced workloads with a broader set of Cloud PC configurations. For more informa...",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#32-vcpu-cloud-pc-size-now-available"
+    },
+    {
+      "date": "2026-06-01",
+      "source": "enterprise",
+      "title": "New Windows 11 dev-ready image for Cloud PCs",
+      "desc": "Windows 365 introduces a new Windows 11 developer optimized image (preview) that includes preinstalled tools and configurations for development scenarios. This helps reduce onboarding time and simplifies environment setup for developers while maintaining a consistent experience across Cloud PCs. Organizations can now provision development-ready environments with minimal configuration. For more ...",
+      "category": "Provisioning",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#new-windows-11-dev-ready-image-for-cloud-pcs"
+    },
     {
       "date": "2026-06-01",
       "source": "windowsapp",
