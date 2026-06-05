@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-04T10:38:57Z",
+  "lastUpdated": "2026-06-05T10:48:15Z",
   "announcements": [
+    {
+      "date": "2026-06-01",
+      "source": "enterprise",
+      "title": "Enhanced Windows 365 Flex Shared Cloud PC naming template (Public Preview)",
+      "desc": "Admins can now configure more flexible naming templates for Windows 365 Flex (shared mode) Cloud PCs. This update aligns Windows 365 Flex Shared with Enterprise and Windows 365 Flex Dedicated experiences, allowing device names between 5 and 15 characters, with a prefix of up to 10 characters and a random alphanumeric string of at least 5 characters. Hyphen placement is now fully flexible within...",
+      "category": "Device Management",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#enhanced-windows-365-flex-shared-cloud-pc-naming-template-public-preview"
+    },
     {
       "date": "2026-06-01",
       "source": "enterprise",
