@@ -1,6 +1,25 @@
 {
-  "lastUpdated": "2026-06-10T10:56:19Z",
+  "lastUpdated": "2026-06-11T11:22:47Z",
   "announcements": [
+    {
+      "date": "2026-06-10",
+      "source": "windowsapp",
+      "title": "Version 2.0.1193.0",
+      "desc": "CVE-2026-45639 CVE-2026-42908 CVE-2026-42909 CVE-2026-42913 CVE-2026-42992 CVE-2026-44799 CVE-2026-44801 CVE-2026-42985 CVE-2026-47289",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2011930",
+      "platform": "Windows"
+    },
+    {
+      "date": "2026-06-08",
+      "source": "enterprise",
+      "title": "Built-in administrator account disabled during Cloud PC provisioning",
+      "desc": "The built-in administrator account is no longer automatically created during Cloud PC provisioning for Windows 365 Enterprise, Windows 365 Flex (Dedicated and Shared), and Windows 365 Reserve. This change simplifies provisioning behavior, reduces customer confusion, and improves security by removing an unused default account.",
+      "category": "Provisioning",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#built-in-administrator-account-disabled-during-cloud-pc-provisioning"
+    },
     {
       "date": "2026-06-01",
       "source": "enterprise",
@@ -60,6 +79,16 @@
         "preview"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#new-windows-11-dev-ready-image-for-cloud-pcs"
+    },
+    {
+      "date": "2026-06-01",
+      "source": "windowsapp",
+      "title": "Version 11.0.0.106",
+      "desc": "Added clearer sign-in guidance and clarifications for available sign-in options. Removed the standalone sign-in page to improve the overall user experience. Fixed touchpad detection issues on Pixel devices. Improved resolution adjustment behavior. Improved resolution adjustment behavior and fixed resizing and full-window mode issues on Zebra devices. General bug fixes, performance improvements,...",
+      "category": "End User Experience",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1100106",
+      "platform": "Android/Chrome OS"
     },
     {
       "date": "2026-06-01",
