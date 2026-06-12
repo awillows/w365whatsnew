@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T11:22:47Z",
+  "lastUpdated": "2026-06-12T11:01:46Z",
   "announcements": [
     {
       "date": "2026-06-10",
@@ -19,6 +19,33 @@
       "category": "Provisioning",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#built-in-administrator-account-disabled-during-cloud-pc-provisioning"
+    },
+    {
+      "date": "2026-06-08",
+      "source": "link",
+      "title": "Refreshed Cloud PC device cards",
+      "desc": "Cloud PC cards have an updated design with a new details panel and improved loading indicators. You can quickly see more device information, including operating system and device details.",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#refreshed-cloud-pc-device-cards"
+    },
+    {
+      "date": "2026-06-08",
+      "source": "link",
+      "title": "Tenant branding",
+      "desc": "Windows 365 Link sign-in screens can now display your organization's background wallpaper, helping create a consistent, branded experience for your users. This builds on support for your organization's name and logo (available since April 2026, Build 26200.8246), and now wallpaper (available starting June 2026, Build 26200.8655). The experience automatically scales across all screens and monito...",
+      "category": "Authentication",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#tenant-branding"
+    },
+    {
+      "date": "2026-06-08",
+      "source": "link",
+      "title": "Bug fixes and performance improvements",
+      "desc": "We've made a range of updates to improve reliability, accessibility, and overall experience. This includes enhanced Narrator and keyboard support, security fixes, and fixes for keyboard Bluetooth pairing, settings navigation and more.",
+      "category": "Device Security",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
     },
     {
       "date": "2026-06-01",
@@ -218,7 +245,7 @@
       "desc": "We made a variety of fixes, performance improvements and more.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-1"
     },
     {
       "date": "2026-05-06",
@@ -350,7 +377,7 @@
       "desc": "Performance improvements in setup and sign-in experience.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-1"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-2"
     },
     {
       "date": "2026-04-13",
@@ -1692,7 +1719,7 @@
       "desc": "Fixed an issue that could cause Keyboard Language settings to not persist correctly during locked sessions and after profile updates (56347820). Fixed an issue that could sometimes prevent Task Manager from launching correctly (57115154). Fixed issue with inadvertent timeouts on certain actions in the security key sign-in process (57007130).",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-2"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-3"
     },
     {
       "date": "2025-06-05",
