@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T13:15:42Z",
+  "lastUpdated": "2026-06-16T12:11:57Z",
   "announcements": [
     {
       "date": "2026-06-10",
@@ -15,7 +15,7 @@
       "date": "2026-06-08",
       "source": "enterprise",
       "title": "Built-in administrator account disabled during Cloud PC provisioning",
-      "desc": "The built-in administrator account is no longer automatically created during Cloud PC provisioning for Windows 365 Enterprise, Windows 365 Flex (Dedicated and Shared), and Windows 365 Reserve. This change simplifies provisioning behavior, reduces customer confusion, and improves security by removing an unused default account.",
+      "desc": "During Cloud PC provisioning, the built-in administrator account is now disabled by default, helping improve security and reduce confusion without affecting admin or end-user workflows.",
       "category": "Provisioning",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#built-in-administrator-account-disabled-during-cloud-pc-provisioning"
