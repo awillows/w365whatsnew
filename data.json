@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T12:11:57Z",
+  "lastUpdated": "2026-06-17T11:49:06Z",
   "announcements": [
     {
       "date": "2026-06-10",
@@ -10,6 +10,16 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2011930",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-06-10",
+      "source": "windowsapp",
+      "title": "Version 11.3.6 (3024)",
+      "desc": "CVE-2026-47653 CVE-2026-45639 CVE-2026-42908 CVE-2026-47289",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1136-3024",
+      "platform": "macOS"
     },
     {
       "date": "2026-06-08",
@@ -2215,7 +2225,7 @@
       "date": "2025-03-11",
       "source": "windowsapp",
       "title": "Version 2.0.366.0",
-      "desc": "Fixes forCVE-2025-26645. Improve start up time of RemoteApps.",
+      "desc": "Fixes forCVE-2025-26645. Improved start up time of RemoteApps.",
       "category": "Device Management",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-203660",
