@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-06-30T10:31:20Z",
+  "lastUpdated": "2026-07-01T10:42:16Z",
   "announcements": [
+    {
+      "date": "2026-06-29",
+      "source": "windowsapp",
+      "title": "Version 11.0.0.113",
+      "desc": "Auto logoff for Windows App on Android is now available in public preview. For more information, seeConfigure auto logoff. Added a confirmation prompt for passkey sign-ins before authentication requests are processed. Added support for Zebra desktop mode with improved display sizing and layout alignment. Fixed an issue that could leave the app on a black screen after authentication prompts. Imp...",
+      "category": "Apps",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1100113",
+      "platform": "Android/Chrome OS"
+    },
     {
       "date": "2026-06-25",
       "source": "windowsapp",
