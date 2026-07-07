@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-06T11:27:36Z",
+  "lastUpdated": "2026-07-07T10:26:01Z",
   "announcements": [
+    {
+      "date": "2026-07-06",
+      "source": "enterprise",
+      "title": "More flexible device naming templates for Windows 365 Flex shared mode",
+      "desc": "Admins can now create more flexible device naming templates for Windows 365 Flex Cloud PCs in shared mode. Device names can be between 5 and 15 characters and include a prefix of up to 10 characters, with support for hyphens and a required random alphanumeric suffix of at least 5 characters. This update aligns naming capabilities across Windows 365 Enterprise and Windows 365 Flex, helping organ...",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#more-flexible-device-naming-templates-for-windows-365-flex-shared-mode"
+    },
     {
       "date": "2026-06-29",
       "source": "windowsapp",
