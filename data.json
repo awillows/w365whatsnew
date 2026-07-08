@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T10:26:01Z",
+  "lastUpdated": "2026-07-08T09:25:31Z",
   "announcements": [
     {
       "date": "2026-07-06",
@@ -9,6 +9,16 @@
       "category": "Device Management",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#more-flexible-device-naming-templates-for-windows-365-flex-shared-mode"
+    },
+    {
+      "date": "2026-06-29",
+      "source": "windowsapp",
+      "title": "Version 11.3.7 (3040)",
+      "desc": "Added a new Personalization section under Settings to customize how the app looks and feels. Updated the Quick Launcher to be detachable, resizable, and independent from the Connection Center lifetime. Moved the Search control from the sidebar to the toolbar, and reordered the toolbar items. Updated the First Run Experience and permission request dialogs. Adjusted the default size of the Connec...",
+      "category": "Apps",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1137-3040",
+      "platform": "macOS"
     },
     {
       "date": "2026-06-29",
@@ -73,17 +83,8 @@
     {
       "date": "2026-06-08",
       "source": "link",
-      "title": "Tenant branding",
-      "desc": "Windows 365 Link sign-in screens can now display your organization's background wallpaper, helping create a consistent, branded experience for your users. This builds on support for your organization's name and logo (available since April 2026, Build 26200.8246), and now wallpaper (available starting June 2026, Build 26200.8655). The experience automatically scales across all screens and monito...",
-      "category": "Authentication",
-      "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#tenant-branding"
-    },
-    {
-      "date": "2026-06-08",
-      "source": "link",
       "title": "Bug fixes and performance improvements",
-      "desc": "We've made a range of updates to improve reliability, accessibility, and overall experience. This includes enhanced Narrator and keyboard support, security fixes, and fixes for keyboard Bluetooth pairing, settings navigation and more.",
+      "desc": "We've made a range of updates to improve reliability, accessibility, and overall experience. This includes enhanced Narrator and keyboard support, security fixes, and fixes for keyboard Bluetooth pairing, settings navigation, updates in the table below, and more.",
       "category": "Device Security",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
