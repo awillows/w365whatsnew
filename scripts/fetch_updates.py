@@ -44,6 +44,12 @@ def normalize_text(text: str) -> str:
         text = text.replace(char, repl)
     return text
 
+
+def get_element_text(element) -> str:
+    """Extract text from an element preserving spaces around inline tags like <strong>."""
+    return re.sub(r"\s+", " ", element.get_text(separator=" ")).strip()
+
+
 SOURCES = {
     "enterprise": {
         "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new",
@@ -183,7 +189,7 @@ def _parse_windowsapp_tabs(soup: BeautifulSoup, base_url: str) -> list[dict]:
                 if sib.name and sib.name.startswith("h"):
                     break
                 if sib.name == "p":
-                    p_text = sib.get_text(strip=True)
+                    p_text = get_element_text(sib)
                     d = parse_published_date(p_text)
                     if d and not pub_date:
                         pub_date = d
@@ -191,7 +197,7 @@ def _parse_windowsapp_tabs(soup: BeautifulSoup, base_url: str) -> list[dict]:
                     desc_parts.append(p_text)
                 if sib.name in ("ul", "ol"):
                     for li in sib.find_all("li", recursive=False):
-                        desc_parts.append(li.get_text(strip=True))
+                        desc_parts.append(get_element_text(li))
             # Also try parsing the heading itself as a date (e.g. "January 21, 2026")
             if not pub_date:
                 pub_date = parse_week_date("Week of " + text) or parse_published_date("Date published: " + text)
@@ -226,10 +232,10 @@ def collect_description_paragraphs(element) -> str:
         if sib.name and sib.name.startswith("h"):
             break
         if sib.name == "p":
-            parts.append(sib.get_text(strip=True))
+            parts.append(get_element_text(sib))
         if sib.name in ("ul", "ol"):
             for li in sib.find_all("li", recursive=False):
-                parts.append(li.get_text(strip=True))
+                parts.append(get_element_text(li))
     return " ".join(parts)
 
 
@@ -270,10 +276,10 @@ def _collect_bold_paragraph_entries(
                         inner_strong = ns.find("strong") or ns.find("b")
                         if inner_strong and inner_strong.get_text(strip=True) == ns.get_text(strip=True):
                             break
-                        desc_parts.append(ns.get_text(strip=True))
+                        desc_parts.append(get_element_text(ns))
                     elif ns.name in ("ul", "ol"):
                         for li in ns.find_all("li", recursive=False):
-                            desc_parts.append(li.get_text(strip=True))
+                            desc_parts.append(get_element_text(li))
                     j += 1
 
                 desc = " ".join(desc_parts)
