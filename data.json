@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-08T09:25:31Z",
+  "lastUpdated": "2026-07-09T10:25:23Z",
   "announcements": [
+    {
+      "date": "2026-07-06",
+      "source": "enterprise",
+      "title": "RDP Multipath with redundant TCP transport paths is now generally available",
+      "desc": "RDP Multipath with redundant TCP transport paths is now generally available for Windows 365 Cloud PC. This enhancement extends the resiliency benefits of RDP Multipath to TCP-based connections, enabling Windows 365 Cloud PC to maintain multiple standby TCP transport paths and automatically switch between them when network degradation is detected. Key benefits include: Improved session resilienc...",
+      "category": "End User Experience",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#rdp-multipath-with-redundant-tcp-transport-paths-is-now-generally-available"
+    },
     {
       "date": "2026-07-06",
       "source": "enterprise",
