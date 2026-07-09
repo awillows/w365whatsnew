@@ -233,6 +233,70 @@ def collect_description_paragraphs(element) -> str:
     return " ".join(parts)
 
 
+def _collect_bold_paragraph_entries(
+    week_heading, current_date: str, source_key: str, base_url: str, entries: list
+):
+    """Detect announcements formatted as bold <p> tags directly under a week h2.
+
+    Some pages (especially Business) use this pattern:
+        <h2>Week of ...</h2>
+        <p><strong>Title</strong></p>
+        <p>Description...</p>
+    instead of using h3 sub-headings. This function walks siblings of the week
+    heading and extracts those as entries, stopping at the next heading.
+    """
+    siblings = []
+    for sib in week_heading.next_siblings:
+        if sib.name and sib.name.startswith("h"):
+            break
+        siblings.append(sib)
+
+    # Look for a <p> whose entire content is wrapped in <strong>/<b>
+    i = 0
+    while i < len(siblings):
+        sib = siblings[i]
+        if sib.name == "p":
+            # Check if this paragraph is a bold title
+            strong = sib.find("strong") or sib.find("b")
+            if strong and strong.get_text(strip=True) == sib.get_text(strip=True):
+                title = strong.get_text(strip=True)
+                # Collect subsequent paragraphs/lists as description
+                desc_parts = []
+                j = i + 1
+                while j < len(siblings):
+                    ns = siblings[j]
+                    if ns.name == "p":
+                        # Stop if we hit another bold title paragraph
+                        inner_strong = ns.find("strong") or ns.find("b")
+                        if inner_strong and inner_strong.get_text(strip=True) == ns.get_text(strip=True):
+                            break
+                        desc_parts.append(ns.get_text(strip=True))
+                    elif ns.name in ("ul", "ol"):
+                        for li in ns.find_all("li", recursive=False):
+                            desc_parts.append(li.get_text(strip=True))
+                    j += 1
+
+                desc = " ".join(desc_parts)
+                if desc:
+                    if len(desc) > 400:
+                        desc = desc[:397] + "..."
+                    # Use the week heading's id for the anchor (no per-entry id)
+                    anchor = week_heading.get("id", "")
+                    entry_url = f"{base_url}#{anchor}" if anchor else base_url
+                    entries.append({
+                        "date": current_date,
+                        "source": source_key,
+                        "title": normalize_text(title),
+                        "desc": normalize_text(desc),
+                        "category": detect_category(title, desc),
+                        "tags": detect_tags(title, desc),
+                        "url": entry_url,
+                    })
+                i = j  # skip past the description paragraphs
+                continue
+        i += 1
+
+
 def fetch_and_parse(source_key: str, url: str) -> list[dict]:
     """Fetch one What's New page and return a list of announcement dicts."""
     print(f"  Fetching {source_key}: {url}")
@@ -255,6 +319,18 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
     entries = []
     current_date = None
 
+    # Generic sub-section titles to skip
+    generic_sections = {
+        "device management", "device provisioning", "device security",
+        "provisioning", "apps", "documentation", "miscellaneous",
+        "monitor and troubleshoot", "end user experience",
+        "end-user experience", "role-based access control",
+        "windows 365 app", "windows 365 frontline", "partners",
+        "windows 365 government", "government community cloud",
+        "windows app", "windows 365 boot updates",
+        "copilot in intune for windows 365", "device security",
+    }
+
     for h in headings:
         text = h.get_text(strip=True)
 
@@ -262,6 +338,12 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
         week_date = parse_week_date(text)
         if week_date:
             current_date = week_date
+
+            # Some pages have announcements as bold <p> tags directly under the
+            # h2 week heading (no h3 sub-heading). Detect and capture those.
+            _collect_bold_paragraph_entries(
+                h, current_date, source_key, base_url, entries
+            )
             continue
 
         level = int(h.name[1])
@@ -271,16 +353,6 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
 
         # For other sources, feature announcements are typically h3/h4
         # Skip very generic sub-section titles
-        generic_sections = {
-            "device management", "device provisioning", "device security",
-            "provisioning", "apps", "documentation", "miscellaneous",
-            "monitor and troubleshoot", "end user experience",
-            "end-user experience", "role-based access control",
-            "windows 365 app", "windows 365 frontline", "partners",
-            "windows 365 government", "government community cloud",
-            "windows app", "windows 365 boot updates",
-            "copilot in intune for windows 365", "device security",
-        }
         if text.lower().strip() in generic_sections:
             continue
 

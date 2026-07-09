@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T16:45:37Z",
+  "lastUpdated": "2026-07-09T16:55:16Z",
   "announcements": [
     {
       "date": "2026-07-06",
@@ -261,6 +261,15 @@
       "category": "Networking",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#rdp-multipath-with-redundant-tcp-transport-paths-begins-ga-rollout"
+    },
+    {
+      "date": "2026-05-11",
+      "source": "business",
+      "title": "End grace period for Windows 365 Business Cloud PCs",
+      "desc": "Admins can now end the grace period early for Windows 365 Business Cloud PCs when a license is removed or expires. Instead of waiting seven days, you can immediately deprovision the Cloud PC using theDeprovision nowoption in the Microsoft 365 admin center. This releases the license right away so it can be reassigned to another user, helping reduce provisioning delays. Note: Ending the grace per...",
+      "category": "Provisioning",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/business/whats-new#week-of-may-11-2026"
     },
     {
       "date": "2026-05-11",
