@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-09T17:03:57Z",
+  "lastUpdated": "2026-07-10T10:23:45Z",
   "announcements": [
+    {
+      "date": "2026-07-06",
+      "source": "enterprise",
+      "title": "Rerank settings policies (Public Preview)",
+      "desc": "Windows 365 now supports reranking settings policies. Administrators can prioritize settings policies to determine which policy takes precedence when conflicting settings are configured. Policies can be reordered by changing their rank, using drag-and-drop controls, or moving policies up and down the list. Learn more in Settings overview .",
+      "category": "Device Management",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#rerank-settings-policies-public-preview"
+    },
     {
       "date": "2026-07-06",
       "source": "enterprise",
@@ -20,6 +31,17 @@
       "category": "Device Management",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#more-flexible-device-naming-templates-for-windows-365-flex-shared-mode"
+    },
+    {
+      "date": "2026-07-06",
+      "source": "enterprise",
+      "title": "Customer-managed encryption for Windows 365 Reserve (Public Preview)",
+      "desc": "Windows 365 Reserve now supports Microsoft Purview Customer Key (CMK), enabling administrators to encrypt Reserve Cloud PC disks with customer-managed keys stored in Azure Key Vault. This capability helps organizations meet security and compliance requirements by providing greater control over encryption key management, including key rotation, revocation, and auditing. Support for Customer Key ...",
+      "category": "Device Security",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#customer-managed-encryption-for-windows-365-reserve-public-preview"
     },
     {
       "date": "2026-06-29",
@@ -52,6 +74,15 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2012430-insider",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-06-15",
+      "source": "enterprise",
+      "title": "Added external identity support for Domainless federation",
+      "desc": "With the general availability of Domainless SAML IdP federation in Entra ID, you can provision a Cloud PC for an external identity whose email domain differs from the domain configured on the SAML IdP. These users must redeem their invitation to the organization prior to signing into the Windows App. For more information, see External identity and Domainless SAML IdP federation .",
+      "category": "Provisioning",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#added-external-identity-support-for-domainless-federation"
     },
     {
       "date": "2026-06-10",
