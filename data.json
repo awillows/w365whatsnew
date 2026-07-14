@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-07-13T10:27:19Z",
+  "lastUpdated": "2026-07-14T09:04:50Z",
   "announcements": [
+    {
+      "date": "2026-07-08",
+      "source": "windowsapp",
+      "title": "Version 2.0.1246.0",
+      "desc": "Improved accessibility in connection health checks, including keyboard focus order and screen reader announcements. Added clearer error messages when a session is disconnected by Display Protection. Improved connection reliability by retrying transient network issues during activation. Fixed an issue where icons for remote apps could display incorrectly. Fixed an issue where a license agreement...",
+      "category": "Monitor & Troubleshoot",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2012460",
+      "platform": "Windows"
+    },
     {
       "date": "2026-07-06",
       "source": "enterprise",
@@ -64,16 +74,6 @@
       ],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1100113",
       "platform": "Android/Chrome OS"
-    },
-    {
-      "date": "2026-06-25",
-      "source": "windowsapp",
-      "title": "Version 2.0.1243.0 (Insider)",
-      "desc": "Improved accessibility in connection health checks, including keyboard focus order and screen reader announcements. Added clearer error messages when a session is disconnected by Display Protection. Improved connection reliability by retrying transient network issues during activation. Fixed an issue where icons for remote apps could display incorrectly. Fixed an issue where a license agreement...",
-      "category": "Monitor & Troubleshoot",
-      "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2012430-insider",
-      "platform": "Windows"
     },
     {
       "date": "2026-06-15",
