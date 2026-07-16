@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T09:09:09Z",
+  "lastUpdated": "2026-07-16T09:14:52Z",
   "announcements": [
     {
       "date": "2026-07-14",
@@ -10,6 +10,80 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2012470",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-07-13",
+      "source": "enterprise",
+      "title": "Add Cloud Apps from a file path in Public Preview",
+      "desc": "Windows 365 admins can now manually add Cloud Apps by specifying a file path. This capability expands the set of applications you can deliver through Windows 365 Cloud Apps on Windows 365 Flex shared Cloud PCs, including apps that aren't surfaced through Start Menu discovery. This feature allows admins to duplicate applications, define custom app properties and set command-line parameters. For ...",
+      "category": "Apps",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#add-cloud-apps-from-a-file-path-in-public-preview"
+    },
+    {
+      "date": "2026-07-13",
+      "source": "enterprise",
+      "title": "Updated provisioning policy page in Microsoft Intune",
+      "desc": "In the Microsoft Intune admin center, when you go to Provision Cloud PCs > Provisioning policies and select a policy, you'll notice a new multi-tab page layout with Overview, Properties, Devices, and Action Status tabs. Admins can now view Cloud PCs from the policy, initiate bulk device actions, and view action status. Additionally, Windows 365 Flex shared provisioning policies with experience ...",
+      "category": "Provisioning",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#updated-provisioning-policy-page-in-microsoft-intune"
+    },
+    {
+      "date": "2026-07-13",
+      "source": "link",
+      "title": "Connection security",
+      "desc": "Improved protection for remote connections, audio setup, display information, and clipboard files.",
+      "category": "Device Security",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#connection-security"
+    },
+    {
+      "date": "2026-07-13",
+      "source": "link",
+      "title": "License policies",
+      "desc": "Resolved an issue where WAM sign in would fail unexpectedly.",
+      "category": "Authentication",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#license-policies"
+    },
+    {
+      "date": "2026-07-13",
+      "source": "link",
+      "title": "Connection reliability",
+      "desc": "Improvements to error handling during connection attempts and connection reliability during network drops",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#connection-reliability"
+    },
+    {
+      "date": "2026-07-13",
+      "source": "link",
+      "title": "Device Reset",
+      "desc": "You can now initiate a full Device Reset during OOBE only from the quick settings (i) menu.",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#device-reset"
+    },
+    {
+      "date": "2026-07-13",
+      "source": "link",
+      "title": "Security updates",
+      "desc": "This build includes the security updates described in July 2026 Security Updates - Release Notes - Security Update Guide - Microsoft.",
+      "category": "Device Security",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates"
+    },
+    {
+      "date": "2026-07-13",
+      "source": "link",
+      "title": "Bug fixes and performance improvements",
+      "desc": "We've made a variety of fixes to improve quality, and overall experience.",
+      "category": "Build Update",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
     },
     {
       "date": "2026-07-08",
@@ -139,7 +213,7 @@
       "desc": "We've made a range of updates to improve reliability, accessibility, and overall experience. This includes enhanced Narrator and keyboard support, security fixes, and fixes for keyboard Bluetooth pairing, settings navigation, updates in the table below, and more.",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-1"
     },
     {
       "date": "2026-06-01",
@@ -348,7 +422,7 @@
       "desc": "We made a variety of fixes, performance improvements and more.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-1"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-2"
     },
     {
       "date": "2026-05-06",
@@ -480,7 +554,7 @@
       "desc": "Performance improvements in setup and sign-in experience.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-2"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-3"
     },
     {
       "date": "2026-04-13",
@@ -1822,7 +1896,7 @@
       "desc": "Fixed an issue that could cause Keyboard Language settings to not persist correctly during locked sessions and after profile updates (56347820). Fixed an issue that could sometimes prevent Task Manager from launching correctly (57115154). Fixed issue with inadvertent timeouts on certain actions in the security key sign-in process (57007130).",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-3"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-4"
     },
     {
       "date": "2025-06-05",
