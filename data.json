@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T09:14:52Z",
+  "lastUpdated": "2026-07-17T09:10:02Z",
   "announcements": [
     {
       "date": "2026-07-14",
@@ -10,6 +10,17 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2012470",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-07-13",
+      "source": "enterprise",
+      "title": "Cloud PC Settings is now generally available",
+      "desc": "Cloud PC settings are now generally available in Microsoft Intune. Administrators can configure four different object types: Cloud PC configurations, Windows App settings, Remote connection experience and User settings. This will provide a centralized approach to managing Cloud PC settings and policies. For more information, see Settings overview .",
+      "category": "Apps",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#cloud-pc-settings-is-now-generally-available"
     },
     {
       "date": "2026-07-13",
