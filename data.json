@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-07-20T10:11:59Z",
+  "lastUpdated": "2026-07-21T09:26:36Z",
   "announcements": [
+    {
+      "date": "2026-07-20",
+      "source": "enterprise",
+      "title": "Alternate regions for Business Continuity and Disaster Recovery in Public Preview",
+      "desc": "Windows 365 now supports alternate Azure regions for Business Continuity and Disaster Recovery (BCDR) scenarios, helping organizations meet disaster recovery and data sovereignty requirements in geographies where only one Windows 365-supported region is available. Administrators can select alternate regions for Cross-region Disaster Recovery (CRDR) and Disaster Recovery Plus (DR+) configuration...",
+      "category": "Regions",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#alternate-regions-for-business-continuity-and-disaster-recovery-in-public-preview"
+    },
     {
       "date": "2026-07-14",
       "source": "windowsapp",
