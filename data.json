@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-07-29T09:37:30Z",
+  "lastUpdated": "2026-07-30T09:31:37Z",
   "announcements": [
+    {
+      "date": "2026-07-27",
+      "source": "enterprise",
+      "title": "Android support for external identities is now generally available",
+      "desc": "External identity support is now generally available for the Windows App on Android. For more information on client versions and capabilities, see Compare Windows App features across platforms and devices . For latest information on external identity support, see External identity .",
+      "category": "Apps",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#android-support-for-external-identities-is-now-generally-available"
+    },
+    {
+      "date": "2026-07-27",
+      "source": "enterprise",
+      "title": "Android preview support for in-session passwordless authentication",
+      "desc": "In-session passwordless authentication is in preview for the Windows App on Android. This allows users to complete in-session WebAuthn challenges using passkeys that are stored on the Android device through a (software-based) passkey provider like Microsoft Authenticator. Using passkeys from other devices (such as a physical security key or through QR code) is not supported. For more informatio...",
+      "category": "Device Security",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#android-preview-support-for-in-session-passwordless-authentication"
+    },
     {
       "date": "2026-07-24",
       "source": "windowsapp",
