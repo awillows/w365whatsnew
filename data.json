@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-07-30T09:31:37Z",
+  "lastUpdated": "2026-07-31T09:44:53Z",
   "announcements": [
+    {
+      "date": "2026-07-27",
+      "source": "enterprise",
+      "title": "Bulk deprovision for Cloud PCs in grace period (Public Preview)",
+      "desc": "Bulk deprovision for Cloud PCs in grace period is now available in Public Preview for Windows 365 Enterprise and Windows 365 Frontline Dedicated. Administrators can deprovision multiple Cloud PCs at once from the Windows 365 admin experience instead of waiting for the seven-day grace period to expire or ending the grace period one Cloud PC at a time. This update streamlines Cloud PC lifecycle m...",
+      "category": "Provisioning",
+      "tags": [
+        "preview",
+        "frontline"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#bulk-deprovision-for-cloud-pcs-in-grace-period-public-preview"
+    },
+    {
+      "date": "2026-07-27",
+      "source": "enterprise",
+      "title": "PowerShell execution policy hardening for Cloud PC provisioning",
+      "desc": "Windows 365 now sets the PowerShell execution policy to RemoteSigned at the LocalMachine scope during Cloud PC provisioning. This change improves security by requiring downloaded scripts to be digitally signed, while allowing locally created scripts and Custom Script Extension (CSE) scripts to run without signatures. This setting applies to all Cloud PC products. If your organization sets the P...",
+      "category": "Provisioning",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#powershell-execution-policy-hardening-for-cloud-pc-provisioning"
+    },
     {
       "date": "2026-07-27",
       "source": "enterprise",
