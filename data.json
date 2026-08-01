@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-07-31T09:44:53Z",
+  "lastUpdated": "2026-08-01T09:05:49Z",
   "announcements": [
+    {
+      "date": "2026-07-27",
+      "source": "enterprise",
+      "title": "Autopilot Device Preparation for Citrix Cloud PCs is now available",
+      "desc": "Windows Autopilot Device Preparation (DPP) is now supported for Cloud PCs with Citrix integration. This brings the Citrix Cloud PC provisioning experience in line with other supported Windows 365 deployment scenarios and helps make sure the required applications and scripts are installed before users access their Cloud PCs. Administrators can now include device preparation policies for Citrix C...",
+      "category": "Provisioning",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#autopilot-device-preparation-for-citrix-cloud-pcs-is-now-available"
+    },
     {
       "date": "2026-07-27",
       "source": "enterprise",
