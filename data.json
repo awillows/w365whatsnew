@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T09:38:29Z",
+  "lastUpdated": "2026-08-05T09:36:55Z",
   "announcements": [
     {
       "date": "2026-07-29",
@@ -72,6 +72,19 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1138-3054",
       "platform": "macOS"
+    },
+    {
+      "date": "2026-07-27",
+      "source": "windowsapp",
+      "title": "Version 11.0.0.119",
+      "desc": "Signing in with External Identity on Android/Chrome OS devices is now generally available. This includes support for connections to resources in Azure Government as an external identity. For more information, see Cloud service authentication . Support for connections to resources in Azure Government is now generally available. Support for security keys and passkeys in remote sessions (through W...",
+      "category": "Device Security",
+      "tags": [
+        "ga",
+        "government"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1100119",
+      "platform": "Android/Chrome OS"
     },
     {
       "date": "2026-07-24",
