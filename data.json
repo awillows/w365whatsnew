@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T08:21:06Z",
+  "lastUpdated": "2026-08-14T08:16:04Z",
   "announcements": [
     {
       "date": "2026-08-11",
@@ -10,6 +10,35 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2013150",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-08-10",
+      "source": "enterprise",
+      "title": "macOS preview support for in-session passwordless authentication",
+      "desc": "In-session passwordless authentication is in preview for the Windows App on macOS. This allows users to complete in-session WebAuthn challenges using passkeys that are stored on the macOS device or that are connected to the macOS device (such as a physical security key or through QR code). For more information on client versions and capabilities, see Compare Windows App features across platform...",
+      "category": "Device Security",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#macos-preview-support-for-in-session-passwordless-authentication"
+    },
+    {
+      "date": "2026-08-10",
+      "source": "enterprise",
+      "title": "Modern Auto-Reconnect begins rollout",
+      "desc": "Windows 365 has started the rollout of Modern Auto-Reconnect, a new connection recovery experience designed to improve resiliency during temporary network interruptions. Modern Auto-Reconnect helps users stay productive by preserving their Cloud PC connection experience and restoring connectivity more quickly when network connectivity returns. Instead of relying on repeated reconnect attempts, ...",
+      "category": "Networking",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#modern-auto-reconnect-begins-rollout"
+    },
+    {
+      "date": "2026-08-10",
+      "source": "enterprise",
+      "title": "Screen Capture Protection for web connections is now available",
+      "desc": "Screen Capture Protection is now available when accessing Windows 365 Cloud PCs from supported web browsers. This capability helps protect sensitive information by preventing screen content from being captured during remote sessions, enhancing security across more connection experiences. For more information, see Enable screen capture protection in Windows 365 .",
+      "category": "Device Security",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#screen-capture-protection-for-web-connections-is-now-available"
     },
     {
       "date": "2026-08-04",
