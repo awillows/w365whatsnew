@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T08:16:04Z",
+  "lastUpdated": "2026-08-15T07:30:47Z",
   "announcements": [
     {
       "date": "2026-08-11",
@@ -10,6 +10,17 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2013150",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-08-10",
+      "source": "enterprise",
+      "title": "Developer Configuration image adds Intelligent Terminal and Coreutils (Public Preview)",
+      "desc": "The Windows 11 Enterprise Developer Configuration gallery image now includes Intelligent Terminal and Coreutils, providing developers with additional built-in tools as part of the preconfigured development environment available in Windows 365. For more information, see Device images in Windows 365 .",
+      "category": "Provisioning",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#developer-configuration-image-adds-intelligent-terminal-and-coreutils-public-preview"
     },
     {
       "date": "2026-08-10",
