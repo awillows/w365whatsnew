@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T07:38:23Z",
+  "lastUpdated": "2026-08-20T07:41:03Z",
   "announcements": [
     {
       "date": "2026-08-18",
@@ -80,6 +80,60 @@
       "category": "Device Security",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#screen-capture-protection-for-web-connections-is-now-available"
+    },
+    {
+      "date": "2026-08-10",
+      "source": "link",
+      "title": "Device Update Indicator",
+      "desc": "The Power button now shows an indicator when an update is pending installation and requires your action. As the grace period approaches, the Power button also displays an Update available label.",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#device-update-indicator"
+    },
+    {
+      "date": "2026-08-10",
+      "source": "link",
+      "title": "Serial device support",
+      "desc": "Windows 365 Link now redirects local serial ports to Cloud PC sessions, so apps that rely on connected serial devices can use them during a session.",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#serial-device-support"
+    },
+    {
+      "date": "2026-08-10",
+      "source": "link",
+      "title": "Connection status and details",
+      "desc": "Connection Center marks the active Cloud PC with a green checkmark when more than one Cloud PC is available, and connection details are available from the actions menu.",
+      "category": "End User Experience",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#connection-status-and-details"
+    },
+    {
+      "date": "2026-08-10",
+      "source": "link",
+      "title": "Tenant wallpaper branding",
+      "desc": "Windows 365 Link sign-in screens can now display your organization's background wallpaper. This creates a consistent, branded experience for your users and builds on support for your organization's name and logo (available since April 2026, Build 26200.8246), and now wallpaper (available starting August 2026, Build 26200.9168). The experience automatically scales across all screens and monitors...",
+      "category": "Authentication",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#tenant-wallpaper-branding"
+    },
+    {
+      "date": "2026-08-10",
+      "source": "link",
+      "title": "Security updates",
+      "desc": "This build includes the security updates described in August 2026 Security Updates - Release Notes - Security Update Guide - Microsoft.",
+      "category": "Device Security",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates"
+    },
+    {
+      "date": "2026-08-10",
+      "source": "link",
+      "title": "Bug fixes and performance improvements",
+      "desc": "We've made a variety of fixes to improve quality, and overall experience. This includes fixes for sign in and setup reliability, wake behavior and more.",
+      "category": "Build Update",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
     },
     {
       "date": "2026-08-04",
@@ -282,7 +336,7 @@
       "desc": "This build includes the security updates described in July 2026 Security Updates - Release Notes - Security Update Guide - Microsoft.",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-1"
     },
     {
       "date": "2026-07-13",
@@ -291,7 +345,7 @@
       "desc": "We've made a variety of fixes to improve quality, and overall experience.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-1"
     },
     {
       "date": "2026-07-08",
@@ -461,7 +515,7 @@
       "desc": "We've made a range of updates to improve reliability, accessibility, and overall experience. This includes enhanced Narrator and keyboard support, security fixes, and fixes for keyboard Bluetooth pairing, settings navigation, updates in the table below, and more.",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-1"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-2"
     },
     {
       "date": "2026-06-08",
@@ -680,7 +734,7 @@
       "desc": "We made a variety of fixes, performance improvements and more.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-2"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-3"
     },
     {
       "date": "2026-05-06",
@@ -812,7 +866,7 @@
       "desc": "Performance improvements in setup and sign-in experience.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-3"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-4"
     },
     {
       "date": "2026-04-13",
@@ -2154,7 +2208,7 @@
       "desc": "Fixed an issue that could cause Keyboard Language settings to not persist correctly during locked sessions and after profile updates (56347820). Fixed an issue that could sometimes prevent Task Manager from launching correctly (57115154). Fixed issue with inadvertent timeouts on certain actions in the security key sign-in process (57007130).",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-4"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-5"
     },
     {
       "date": "2025-06-05",
