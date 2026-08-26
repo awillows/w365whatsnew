@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-25T07:43:17Z",
+  "lastUpdated": "2026-08-26T07:46:48Z",
   "announcements": [
+    {
+      "date": "2026-08-24",
+      "source": "enterprise",
+      "title": "Developer Configuration image adds M365 Apps (Public Preview)",
+      "desc": "The Windows 11 Enterprise Developer Configuration image now also includes M365 Apps. For more information, see Device images in Windows 365 .",
+      "category": "Device Management",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#developer-configuration-image-adds-m365-apps-public-preview"
+    },
     {
       "date": "2026-08-18",
       "source": "windowsapp",
