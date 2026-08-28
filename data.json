@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-08-27T18:07:17Z",
+  "lastUpdated": "2026-08-28T19:17:17Z",
   "announcements": [
+    {
+      "date": "2026-08-24",
+      "source": "enterprise",
+      "title": "Bulk provisioning and deprovisioning for Windows 365 Reserve supports up to 1,000 devices (Public Preview)",
+      "desc": "Windows 365 Reserve now supports bulk provisioning and deprovisioning of up to 1,000 Cloud PCs in a single request. Admins can provision and deprovision larger groups of Reserve Cloud PCs at once, reducing the need to split large-scale provisioning operations into smaller batches. For more information, see Managing Windows 365 Reserve .",
+      "category": "Provisioning",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#bulk-provisioning-and-deprovisioning-for-windows-365-reserve-supports-up-to-1000-devices-public-preview"
+    },
     {
       "date": "2026-08-24",
       "source": "enterprise",
