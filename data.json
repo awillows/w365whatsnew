@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T19:17:17Z",
+  "lastUpdated": "2026-08-29T12:58:54Z",
   "announcements": [
     {
       "date": "2026-08-24",
@@ -93,6 +93,18 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1134-5926",
       "platform": "iOS/iPadOS"
+    },
+    {
+      "date": "2026-08-10",
+      "source": "enterprise",
+      "title": "Autopilot Device Preparation support for Windows 365 Government",
+      "desc": "Autopilot Device Preparation is now generally available for Windows 365 Enterprise and Windows 365 Flex in dedicated mode in Government environments. IT administrators can use device preparation policies to help ensure required Intune apps and scripts are applied to Cloud PCs during provisioning before they're made available to users. For more information, see Use Autopilot device preparation w...",
+      "category": "Provisioning",
+      "tags": [
+        "ga",
+        "government"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#autopilot-device-preparation-support-for-windows-365-government"
     },
     {
       "date": "2026-08-10",
