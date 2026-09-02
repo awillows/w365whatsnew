@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-09-01T12:23:30Z",
+  "lastUpdated": "2026-09-02T11:58:40Z",
   "announcements": [
+    {
+      "date": "2026-08-31",
+      "source": "enterprise",
+      "title": "Autopilot Device Preparation support for Citrix Cloud PCs",
+      "desc": "Autopilot Device Preparation (DPP) support for Citrix Cloud PCs is now generally available for Windows 365 Government. Administrators can use device preparation policies with Citrix Cloud PCs to help ensure required apps and scripts are installed during provisioning before the Cloud PC is ready for use.",
+      "category": "Provisioning",
+      "tags": [
+        "ga",
+        "government"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#autopilot-device-preparation-support-for-citrix-cloud-pcs"
+    },
     {
       "date": "2026-08-24",
       "source": "enterprise",
@@ -136,6 +148,17 @@
       "category": "Networking",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#modern-auto-reconnect-begins-rollout"
+    },
+    {
+      "date": "2026-08-10",
+      "source": "enterprise",
+      "title": "Customer-managed encryption for Windows 365 Reserve (GA)",
+      "desc": "Microsoft Purview Customer Key (CMK) support for Windows 365 Reserve is now generally available. Administrators can encrypt Reserve Cloud PC disks with customer-managed keys stored in Azure Key Vault, providing greater control over encryption key management, including key rotation and revocation. This capability extends the existing Customer Key experience for Windows 365 Cloud PCs to Windows 3...",
+      "category": "Device Security",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#customer-managed-encryption-for-windows-365-reserve-ga"
     },
     {
       "date": "2026-08-10",
