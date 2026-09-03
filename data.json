@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-09-02T11:58:40Z",
+  "lastUpdated": "2026-09-03T11:58:04Z",
   "announcements": [
+    {
+      "date": "2026-08-31",
+      "source": "enterprise",
+      "title": "Pin RemoteApp shortcuts to local desktops (Public Preview)",
+      "desc": "Pinning RemoteApp shortcuts to local desktops is now available in public preview for Azure Virtual Desktop. Administrators can pin RemoteApp shortcuts to local desktops on behalf of users, and users can also pin RemoteApp shortcuts themselves. This provides faster access to frequently used remote applications directly from the local desktop. For more information, see Publish applications with R...",
+      "category": "Apps",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#pin-remoteapp-shortcuts-to-local-desktops-public-preview"
+    },
+    {
+      "date": "2026-08-31",
+      "source": "enterprise",
+      "title": "Add Cloud Apps from file path is now generally available.",
+      "desc": "Windows 365 administrators can add Cloud Apps by specifying a file path, expanding the applications available on Windows 365 Flex shared Cloud PCs. Administrators can define custom app properties and configure command-line parameters for applications that require manual configuration. For more information, see Windows 365 Cloud Apps .",
+      "category": "Apps",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#add-cloud-apps-from-file-path-is-now-generally-available"
+    },
     {
       "date": "2026-08-31",
       "source": "enterprise",
