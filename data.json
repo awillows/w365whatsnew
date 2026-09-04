@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-09-03T11:58:04Z",
+  "lastUpdated": "2026-09-04T11:59:41Z",
   "announcements": [
+    {
+      "date": "2026-09-02",
+      "source": "windowsapp",
+      "title": "Version 2.0.1373.0",
+      "desc": "Fixed an issue where Windows App could switch back to the system theme after signing out instead of preserving the selected app theme. Fixed an issue where the policy to skip the first-run experience might not take effect. Fixed an issue where Windows App could crash on Windows Server 2019 when opened while offline. Fixed an issue where launching an Enterprise or Flex Cloud PC from the web clie...",
+      "category": "Apps",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2013730",
+      "platform": "Windows"
+    },
     {
       "date": "2026-08-31",
       "source": "enterprise",
@@ -67,16 +77,6 @@
         "preview"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#developer-configuration-image-adds-m365-apps-public-preview"
-    },
-    {
-      "date": "2026-08-24",
-      "source": "windowsapp",
-      "title": "Version 2.0.1371.0 (Insider)",
-      "desc": "Fixed an issue where Windows App could switch back to the system theme after signing out instead of preserving the selected app theme. Fixed an issue where the policy to skip the first-run experience might not take effect. Fixed an issue where Windows App could crash on Windows Server 2019 when opened while offline. Fixed an issue where launching an Enterprise or Flex Cloud PC from the web clie...",
-      "category": "Apps",
-      "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2013710-insider",
-      "platform": "Windows"
     },
     {
       "date": "2026-08-18",
