@@ -1,6 +1,6 @@
 """
 Fetch and parse What's New pages from Microsoft Learn for:
-  - Windows 365 Enterprise & Frontline
+  - Windows 365 Enterprise & Flex
   - Windows 365 Business
   - Windows 365 Link
   - Windows App
@@ -53,7 +53,7 @@ def get_element_text(element) -> str:
 SOURCES = {
     "enterprise": {
         "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new",
-        "label": "Enterprise & Frontline",
+        "label": "Enterprise & Flex",
     },
     "business": {
         "url": "https://learn.microsoft.com/en-us/windows-365/business/whats-new",
@@ -84,6 +84,10 @@ MONTHS = {
     "may": 5, "june": 6, "july": 7, "august": 8,
     "september": 9, "october": 10, "november": 11, "december": 12,
 }
+
+# Windows 365 Frontline was renamed to Windows 365 Flex in May 2026; older
+# announcements still use the original name, so match both.
+FLEX_RE = re.compile(r"\bfrontline\b|\bflex\b", re.IGNORECASE)
 
 
 def parse_week_date(text: str) -> str | None:
@@ -134,8 +138,8 @@ def detect_tags(title: str, desc: str) -> list[str]:
         tags.append("ga")
     if "preview" in combined and "ga" not in tags:
         tags.append("preview")
-    if "frontline" in combined:
-        tags.append("frontline")
+    if FLEX_RE.search(combined):
+        tags.append("flex")
     if "government" in combined or "gcc" in combined:
         tags.append("government")
     return tags
@@ -331,7 +335,8 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
         "provisioning", "apps", "documentation", "miscellaneous",
         "monitor and troubleshoot", "end user experience",
         "end-user experience", "role-based access control",
-        "windows 365 app", "windows 365 frontline", "partners",
+        "windows 365 app", "windows 365 frontline", "windows 365 flex",
+        "partners",
         "windows 365 government", "government community cloud",
         "windows app", "windows 365 boot updates",
         "copilot in intune for windows 365", "device security",
