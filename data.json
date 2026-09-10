@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-09-09T12:10:57Z",
+  "lastUpdated": "2026-09-10T12:04:50Z",
   "announcements": [
+    {
+      "date": "2026-09-08",
+      "source": "windowsapp",
+      "title": "Version 2.0.1375.0",
+      "desc": "CVE-2026-69518 CVE-2026-69358 CVE-2026-69485",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2013750",
+      "platform": "Windows"
+    },
+    {
+      "date": "2026-09-07",
+      "source": "enterprise",
+      "title": "Enable local admin setting in Cloud PC configurations now in Public Preview",
+      "desc": "The existing Enable local admin setting can now be configured through Devices > Cloud PC Settings > Create > Cloud PC configurations in Intune. This setting allows IT admins to grant users local administrator permissions on their Cloud PCs. To learn more, see Cloud PC configurations .",
+      "category": "Device Management",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#enable-local-admin-setting-in-cloud-pc-configurations-now-in-public-preview"
+    },
     {
       "date": "2026-09-07",
       "source": "enterprise",
@@ -250,7 +271,7 @@
       "desc": "This build includes the security updates described in August 2026 Security Updates - Release Notes - Security Update Guide - Microsoft.",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-1"
     },
     {
       "date": "2026-08-10",
@@ -259,7 +280,7 @@
       "desc": "We've made a variety of fixes to improve quality, and overall experience. This includes fixes for sign in and setup reliability, wake behavior and more.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-1"
     },
     {
       "date": "2026-08-04",
@@ -270,6 +291,24 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2013140",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-08-03",
+      "source": "link",
+      "title": "Security updates",
+      "desc": "This release includes updates that help address Intel graphics, chipset, and processor advisories ( INTEL-SA-01356 , INTEL-SA-01371 , INTEL-SA-01372 , INTEL-SA-01427 , INTEL-SA-01428 , and INTEL-SA-01441 ). It also addresses potential security vulnerabilities that may allow escalation of privilege, denial of service, or information disclosure ( CVE-2026-6727 and CVE-2026-6726 ).",
+      "category": "Device Security",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-2"
+    },
+    {
+      "date": "2026-08-03",
+      "source": "link",
+      "title": "Windows Update name",
+      "desc": "· Microsoft Corporation System Hardware Update (200.0.6.0) · Microsoft Corporation System Hardware Update (200.0.7.0)",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#windows-update-name"
     },
     {
       "date": "2026-07-29",
@@ -476,7 +515,7 @@
       "desc": "This build includes the security updates described in July 2026 Security Updates - Release Notes - Security Update Guide - Microsoft.",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-1"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-3"
     },
     {
       "date": "2026-07-13",
@@ -485,7 +524,7 @@
       "desc": "We've made a variety of fixes to improve quality, and overall experience.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-1"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-2"
     },
     {
       "date": "2026-07-08",
@@ -657,7 +696,7 @@
       "desc": "We've made a range of updates to improve reliability, accessibility, and overall experience. This includes enhanced Narrator and keyboard support, security fixes, and fixes for keyboard Bluetooth pairing, settings navigation, updates in the table below, and more.",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-2"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-3"
     },
     {
       "date": "2026-06-08",
@@ -879,7 +918,7 @@
       "desc": "We made a variety of fixes, performance improvements and more.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-3"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-4"
     },
     {
       "date": "2026-05-06",
@@ -1012,7 +1051,7 @@
       "desc": "Performance improvements in setup and sign-in experience.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-4"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-5"
     },
     {
       "date": "2026-04-13",
@@ -2379,7 +2418,7 @@
       "desc": "Fixed an issue that could cause Keyboard Language settings to not persist correctly during locked sessions and after profile updates (56347820). Fixed an issue that could sometimes prevent Task Manager from launching correctly (57115154). Fixed issue with inadvertent timeouts on certain actions in the security key sign-in process (57007130).",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-5"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-6"
     },
     {
       "date": "2025-06-05",
