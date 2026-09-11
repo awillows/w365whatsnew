@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T12:04:50Z",
+  "lastUpdated": "2026-09-11T12:03:10Z",
   "announcements": [
     {
       "date": "2026-09-08",
@@ -10,6 +10,17 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2013750",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-09-07",
+      "source": "enterprise",
+      "title": "Admin Insights for Windows 365 is generally available",
+      "desc": "Admin Insights for Windows 365 is now generally available. The experience gives IT administrators a prioritized view of important signals across their Cloud PC environment, helping them quickly identify where attention may be needed. Administrators can review relevant insights directly within the Windows 365 experience and open associated reports or devices views for more information. For more ...",
+      "category": "Monitor & Troubleshoot",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#admin-insights-for-windows-365-is-generally-available"
     },
     {
       "date": "2026-09-07",
