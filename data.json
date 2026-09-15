@@ -1,6 +1,38 @@
 {
-  "lastUpdated": "2026-09-14T13:42:40Z",
+  "lastUpdated": "2026-09-15T12:29:36Z",
   "announcements": [
+    {
+      "date": "2026-09-14",
+      "source": "enterprise",
+      "title": "RDP Shortpath for public networks and RDP Multipath with UDP support in Windows App for macOS Beta",
+      "desc": "RDP Shortpath for public networks and RDP Multipath with UDP are now available in Windows App for macOS Beta, version 11.3.8 (3048) , for Azure Virtual Desktop and Windows 365. This update enables UDP-based connectivity over RDP Shortpath and extends RDP Multipath resiliency to macOS, helping provide a more reliable and consistent connection experience across changing network conditions.",
+      "category": "Networking",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#rdp-shortpath-for-public-networks-and-rdp-multipath-with-udp-support-in-windows-app-for-macos-beta"
+    },
+    {
+      "date": "2026-09-14",
+      "source": "enterprise",
+      "title": "RDP Multipath availability in Azure Government",
+      "desc": "RDP Multipath with redundant UDP transport paths is generally available for Windows 365 in Azure Government. The phased GA rollout of redundant TCP transport paths has also started, further improving connection resiliency by providing additional transport paths when network conditions change. For more information, see RDP Multipath .",
+      "category": "Networking",
+      "tags": [
+        "ga",
+        "government"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#rdp-multipath-availability-in-azure-government"
+    },
+    {
+      "date": "2026-09-14",
+      "source": "enterprise",
+      "title": "RDP Shortpath with TURN availability in Azure Government",
+      "desc": "The phased GA rollout of RDP Shortpath via TURN has started for Windows 365 in Azure Government. TURN provides relayed UDP connectivity when a direct connection can't be established. Azure Government uses the new dedicated 20.140.236.0/22 IP range for STUN and TURN connectivity.",
+      "category": "Networking",
+      "tags": [
+        "government"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#rdp-shortpath-with-turn-availability-in-azure-government"
+    },
     {
       "date": "2026-09-08",
       "source": "windowsapp",
