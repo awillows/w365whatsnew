@@ -1,6 +1,50 @@
 {
-  "lastUpdated": "2026-09-17T12:27:03Z",
+  "lastUpdated": "2026-09-18T12:05:51Z",
   "announcements": [
+    {
+      "date": "2026-09-14",
+      "source": "enterprise",
+      "title": "iOS preview support for in-session passwordless authentication",
+      "desc": "In-session passwordless authentication is in preview for the Windows App on iOS. This allows users to complete in-session WebAuthn challenges using passkeys that are stored on the iOS device or that are connected to the iOS device (such as a physical security key or through QR code). For more information on client versions and capabilities, see Compare Windows App features across platforms and ...",
+      "category": "Device Security",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#ios-preview-support-for-in-session-passwordless-authentication"
+    },
+    {
+      "date": "2026-09-14",
+      "source": "enterprise",
+      "title": "iOS preview support for external identities",
+      "desc": "External identity support is in preview for the Windows App on iOS. For more information on client versions and capabilities, see Compare Windows App features across platforms and devices . For latest information on external identity support, see External identity .",
+      "category": "Apps",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#ios-preview-support-for-external-identities"
+    },
+    {
+      "date": "2026-09-14",
+      "source": "enterprise",
+      "title": "macOS support for external identities is now generally available",
+      "desc": "External identity support is now generally available for the Windows App on macOS. For more information on client versions and capabilities, see Compare Windows App features across platforms and devices . For latest information on external identity support, see External identity .",
+      "category": "Apps",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#macos-support-for-external-identities-is-now-generally-available"
+    },
+    {
+      "date": "2026-09-14",
+      "source": "enterprise",
+      "title": "User provisioning for Windows 365 Reserve (Generally Available)",
+      "desc": "User provisioning for Windows 365 Reserve is now generally available. When enabled by IT, eligible users can initiate Cloud PC provisioning directly from Windows App, helping them quickly access a Reserve Cloud PC without waiting for an administrator to provision it. Administrators control availability through Windows App settings for Windows 365 in Microsoft Intune and can scope the capability...",
+      "category": "Provisioning",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#user-provisioning-for-windows-365-reserve-generally-available"
+    },
     {
       "date": "2026-09-14",
       "source": "enterprise",
@@ -75,6 +119,18 @@
         "preview"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#display-protection-for-windows-365-public-preview"
+    },
+    {
+      "date": "2026-09-07",
+      "source": "enterprise",
+      "title": "Cloud PC recovery is now available for Windows 365 Government",
+      "desc": "Cloud PC recovery is now generally available for Windows 365 Enterprise in GCC and GCCH. Administrators can recover eligible Cloud PCs that were deprovisioned after a license expired by reprovisioning the Cloud PC and using the restore action, extending the recovery capability previously released for commercial environments. For more information, see Overview of restoring a Cloud PC to a previo...",
+      "category": "Provisioning",
+      "tags": [
+        "ga",
+        "government"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#cloud-pc-recovery-is-now-available-for-windows-365-government"
     },
     {
       "date": "2026-09-02",
