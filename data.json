@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T12:03:30Z",
+  "lastUpdated": "2026-09-21T13:41:25Z",
   "announcements": [
     {
       "date": "2026-09-17",
@@ -24,6 +24,17 @@
       ],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1137-5939",
       "platform": "iOS/iPadOS"
+    },
+    {
+      "date": "2026-09-14",
+      "source": "enterprise",
+      "title": "Use TWAIN scanners in remote sessions (Public Preview)",
+      "desc": "TWAIN scanner redirection is now available in public preview for Windows 365. It enables supported scanners connected to a local Windows device to be redirected to a Cloud PC using high-level redirection, providing an optimized scanning experience compared to USB redirection. For more information, see Configure scanner redirection over the Remote Desktop Protocol .",
+      "category": "Regions",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#use-twain-scanners-in-remote-sessions-public-preview"
     },
     {
       "date": "2026-09-14",
