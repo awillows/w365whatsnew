@@ -1,6 +1,40 @@
 {
-  "lastUpdated": "2026-09-21T13:41:25Z",
+  "lastUpdated": "2026-09-22T12:24:28Z",
   "announcements": [
+    {
+      "date": "2026-09-21",
+      "source": "enterprise",
+      "title": "Developer Configuration with pre-installed Microsoft 365 Apps is generally available",
+      "desc": "This image provides a consistent, ready-to-use developer environment by preinstalling essential development tools and applying the required configurations across Windows 365 CPC. This image is available for Windows 365 Enterprise and Windows 365 Flex Dedicated mode. See more: Device images in Windows 365 .",
+      "category": "Device Management",
+      "tags": [
+        "ga",
+        "flex"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#developer-configuration-with-pre-installed-microsoft-365-apps-is-generally-available"
+    },
+    {
+      "date": "2026-09-21",
+      "source": "enterprise",
+      "title": "Alternate regions for Business Continuity and Disaster Recovery are now generally available",
+      "desc": "Alternate regions are generally available for Business Continuity and Disaster Recovery (BCDR) scenarios. These regions help organizations meet unique disaster recovery and data sovereignty requirements. Administrators can select alternate regions for Cross-region Disaster Recovery (CRDR) and Disaster Recovery Plus (DR+) configurations, including Australia Southeast, South India, Canada East, a...",
+      "category": "Regions",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#alternate-regions-for-business-continuity-and-disaster-recovery-are-now-generally-available"
+    },
+    {
+      "date": "2026-09-21",
+      "source": "enterprise",
+      "title": "Business Continuity and Disaster Recovery in Cloud PC Settings is now generally available",
+      "desc": "The setup process for Point-in-Time Restore, Cross-region Disaster Recovery, and Disaster Recovery Plus is now generally available within Cloud PC Settings. This aligns with the centralized approach that Cloud PC Settings offers. These features can now be enabled together within a singular Cloud PC Configuration. For more information, see Enable Business Continuity and Disaster Recovery",
+      "category": "Regions",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#business-continuity-and-disaster-recovery-in-cloud-pc-settings-is-now-generally-available"
+    },
     {
       "date": "2026-09-17",
       "source": "windowsapp",
