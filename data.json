@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T12:34:47Z",
+  "lastUpdated": "2026-09-25T12:36:00Z",
   "announcements": [
     {
       "date": "2026-09-21",
@@ -34,6 +34,38 @@
         "ga"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#business-continuity-and-disaster-recovery-in-cloud-pc-settings-is-now-generally-available"
+    },
+    {
+      "date": "2026-09-21",
+      "source": "enterprise",
+      "title": "Session State Retention for Windows 365 Flex dedicated Cloud PCs (Public Preview)",
+      "desc": "Session State Retention is now available in public preview for eligible Windows 365 Flex dedicated Cloud PCs. Session State Retention complements Intelligent pre-start to improve the reconnect experience for Windows 365 Flex dedicated users. Intelligent pre-start helps ensure the Cloud PC is powered on and ready when the user needs it, while Session State Retention preserves the user's active s...",
+      "category": "Regions",
+      "tags": [
+        "preview",
+        "flex"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#session-state-retention-for-windows-365-flex-dedicated-cloud-pcs-public-preview"
+    },
+    {
+      "date": "2026-09-21",
+      "source": "windowsapp",
+      "title": "Version 2.0.1478.0 (Insider)",
+      "desc": "Fixed an issue where endpoint reachability health checks could incorrectly report failures when running behind an authenticated proxy.",
+      "category": "Monitor & Troubleshoot",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2014780-insider",
+      "platform": "Windows"
+    },
+    {
+      "date": "2026-09-20",
+      "source": "windowsapp",
+      "title": "Version 11.0.26081.13925",
+      "desc": "Improved display reliability during screen rotation, resizing, and display layout changes. Improved the RemoteApp experience with clearer active-session indication, more reliable launching, and a modernized user interface. Improved passkey authentication and added audio configuration options for remote PC connections. General bug fixes and reliability improvements.",
+      "category": "Apps",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1102608113925",
+      "platform": "Android/Chrome OS"
     },
     {
       "date": "2026-09-17",
