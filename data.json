@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-09-28T15:00:48Z",
+  "lastUpdated": "2026-09-29T13:48:39Z",
   "announcements": [
+    {
+      "date": "2026-09-28",
+      "source": "enterprise",
+      "title": "Bulk deprovision Cloud PCs in grace period is generally available",
+      "desc": "Bulk deprovisioning for Windows 365 Enterprise and Windows 365 Flex dedicated Cloud PCs in grace period is now generally available. Administrators can deprovision multiple eligible Cloud PCs at once rather than waiting for the seven-day grace period to expire, simplifying management when multiple Cloud PCs need to be removed. The current documentation describes bulk deprovisioning through the p...",
+      "category": "Provisioning",
+      "tags": [
+        "ga",
+        "flex"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#bulk-deprovision-cloud-pcs-in-grace-period-is-generally-available"
+    },
     {
       "date": "2026-09-21",
       "source": "enterprise",
