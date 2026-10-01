@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T13:22:16Z",
+  "lastUpdated": "2026-10-01T14:16:11Z",
   "announcements": [
     {
       "date": "2026-09-28",
@@ -12,6 +12,15 @@
         "flex"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#bulk-deprovision-cloud-pcs-in-grace-period-is-generally-available"
+    },
+    {
+      "date": "2026-09-28",
+      "source": "enterprise",
+      "title": "Windows 11 26H2 Cloud PC gallery images",
+      "desc": "The latest Windows Enterprise 26H2 images are available for provisioning new devices. You can update your provisioning policies to use one of the following images: Windows 11 Enterprise 26H2 Windows 11 Enterprise + Microsoft Apps 26H2 Windows 11 Enterprise Developer Configuration + M365 Apps 26H2",
+      "category": "Provisioning",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-11-26h2-cloud-pc-gallery-images"
     },
     {
       "date": "2026-09-21",
