@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T14:16:11Z",
+  "lastUpdated": "2026-10-02T13:38:08Z",
   "announcements": [
     {
       "date": "2026-09-28",
@@ -59,14 +59,14 @@
     {
       "date": "2026-09-21",
       "source": "enterprise",
-      "title": "Session State Retention for Windows 365 Flex dedicated Cloud PCs (Public Preview)",
-      "desc": "Session State Retention is now available in public preview for eligible Windows 365 Flex dedicated Cloud PCs. Session State Retention complements Intelligent pre-start to improve the reconnect experience for Windows 365 Flex dedicated users. Intelligent pre-start helps ensure the Cloud PC is powered on and ready when the user needs it, while Session State Retention preserves the user's active s...",
-      "category": "Regions",
+      "title": "Session State Retention for Windows 365 Flex dedicated Cloud PCs is now generally available",
+      "desc": "Session State Retention is now generally available for eligible Windows 365 Flex dedicated Cloud PCs. Session State Retention complements Intelligent pre-start to improve the reconnect experience for Windows 365 Flex dedicated users. Intelligent pre-start helps ensure the Cloud PC is powered on and ready when the user needs it, while Session State Retention preserves the user's active session w...",
+      "category": "Device Management",
       "tags": [
-        "preview",
+        "ga",
         "flex"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#session-state-retention-for-windows-365-flex-dedicated-cloud-pcs-public-preview"
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#session-state-retention-for-windows-365-flex-dedicated-cloud-pcs-is-now-generally-available"
     },
     {
       "date": "2026-09-21",
