@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T14:15:37Z",
+  "lastUpdated": "2026-10-08T14:24:32Z",
   "announcements": [
     {
       "date": "2026-10-06",
@@ -12,6 +12,16 @@
       ],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2014820",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-09-29",
+      "source": "windowsapp",
+      "title": "Version 11.4.3 (3115)",
+      "desc": "Resolved an issue where the secure desktop window would appear empty while connecting to a remote app when using multiple monitors. Fixed mispaints that occurred if advanced RemoteFX graphics were not being used to render remote apps. Fixed issues with ALT-based shortcuts (such as ALT+ENTER and ALT+UP ARROW) in Unicode keyboard mode. Resolved modifier-key state that could interfere with subsequ...",
+      "category": "Apps",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1143-3115",
+      "platform": "macOS"
     },
     {
       "date": "2026-09-28",
@@ -33,6 +43,16 @@
       "category": "Provisioning",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-11-26h2-cloud-pc-gallery-images"
+    },
+    {
+      "date": "2026-09-24",
+      "source": "windowsapp",
+      "title": "Version 11.3.8 (5941)",
+      "desc": "Added support for iPhone 18 Pro and iPhone 18 Pro Max. Enhanced diagnostic insights for the external identity support feature.",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1138-5941",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2026-09-21",
