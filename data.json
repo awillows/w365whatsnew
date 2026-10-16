@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T12:29:06Z",
+  "lastUpdated": "2026-10-16T12:07:28Z",
   "announcements": [
     {
       "date": "2026-10-13",
@@ -10,6 +10,17 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2014840",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-10-12",
+      "source": "enterprise",
+      "title": "Default display settings for Cloud PCs now generally available",
+      "desc": "IT administrators can set a default display experience for Windows 365 Cloud PCs by choosing either a single display or all displays. Users can still override the default with their own display preferences in Windows App. For more information, see Remote Connection Experience .",
+      "category": "End User Experience",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#default-display-settings-for-cloud-pcs-now-generally-available"
     },
     {
       "date": "2026-10-12",
@@ -566,7 +577,7 @@
       "desc": "This build includes the security updates described in August 2026 Security Updates - Release Notes - Security Update Guide - Microsoft.",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-1"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-2"
     },
     {
       "date": "2026-08-10",
@@ -575,7 +586,7 @@
       "desc": "We've made a variety of fixes to improve quality, and overall experience. This includes fixes for sign in and setup reliability, wake behavior and more.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-1"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-2"
     },
     {
       "date": "2026-08-04",
@@ -594,7 +605,7 @@
       "desc": "This release includes updates that help address Intel graphics, chipset, and processor advisories ( INTEL-SA-01356 , INTEL-SA-01371 , INTEL-SA-01372 , INTEL-SA-01427 , INTEL-SA-01428 , and INTEL-SA-01441 ). It also addresses potential security vulnerabilities that may allow escalation of privilege, denial of service, or information disclosure ( CVE-2026-6727 and CVE-2026-6726 ).",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-2"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-3"
     },
     {
       "date": "2026-08-03",
@@ -810,7 +821,7 @@
       "desc": "This build includes the security updates described in July 2026 Security Updates - Release Notes - Security Update Guide - Microsoft.",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-3"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-4"
     },
     {
       "date": "2026-07-13",
@@ -819,7 +830,7 @@
       "desc": "We've made a variety of fixes to improve quality, and overall experience.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-2"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-3"
     },
     {
       "date": "2026-07-08",
@@ -991,7 +1002,7 @@
       "desc": "We've made a range of updates to improve reliability, accessibility, and overall experience. This includes enhanced Narrator and keyboard support, security fixes, and fixes for keyboard Bluetooth pairing, settings navigation, updates in the table below, and more.",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-3"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-4"
     },
     {
       "date": "2026-06-08",
@@ -1213,7 +1224,7 @@
       "desc": "We made a variety of fixes, performance improvements and more.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-4"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-5"
     },
     {
       "date": "2026-05-06",
@@ -1346,7 +1357,7 @@
       "desc": "Performance improvements in setup and sign-in experience.",
       "category": "Build Update",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-5"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-6"
     },
     {
       "date": "2026-04-13",
@@ -2713,7 +2724,7 @@
       "desc": "Fixed an issue that could cause Keyboard Language settings to not persist correctly during locked sessions and after profile updates (56347820). Fixed an issue that could sometimes prevent Task Manager from launching correctly (57115154). Fixed issue with inadvertent timeouts on certain actions in the security key sign-in process (57007130).",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-6"
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-7"
     },
     {
       "date": "2025-06-05",
