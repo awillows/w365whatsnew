@@ -1,6 +1,15 @@
 {
-  "lastUpdated": "2026-10-20T12:33:47Z",
+  "lastUpdated": "2026-10-21T12:45:05Z",
   "announcements": [
+    {
+      "date": "2026-10-19",
+      "source": "enterprise",
+      "title": "Windows 365 cloud-native and Zero Trust deployment guidance",
+      "desc": "New guidance is available to help you make key architecture and operating-model decisions when deploying Windows 365. It provides recommended cloud-native and Zero Trust-aligned approaches for identity, networking, images, updates, management, user data, clients, and supportability. For more information, see Windows 365 cloud-native and Zero Trust deployment guidance .",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-cloud-native-and-zero-trust-deployment-guidance"
+    },
     {
       "date": "2026-10-13",
       "source": "windowsapp",
