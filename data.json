@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-10-22T12:48:33Z",
+  "lastUpdated": "2026-10-23T12:26:57Z",
   "announcements": [
+    {
+      "date": "2026-10-19",
+      "source": "enterprise",
+      "title": "RDP Multipath and RDP Shortpath with TURN relay are now generally available in Azure Government",
+      "desc": "RDP Multipath with redundant TCP and UDP transport paths is now generally available in Azure Government. RDP Multipath improves connection resiliency by maintaining multiple network paths and automatically switching to an available path when network conditions change. For more information, see Use RDP Multipath to improve connection reliability . RDP Shortpath with TURN relay is also now genera...",
+      "category": "Networking",
+      "tags": [
+        "ga",
+        "government"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#rdp-multipath-and-rdp-shortpath-with-turn-relay-are-now-generally-available-in-azure-government"
+    },
     {
       "date": "2026-10-19",
       "source": "enterprise",
@@ -9,6 +21,28 @@
       "category": "Device Management",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-cloud-native-and-zero-trust-deployment-guidance"
+    },
+    {
+      "date": "2026-10-14",
+      "source": "windowsapp",
+      "title": "Version 11.4.4 (3132)",
+      "desc": "Added a confirmation dialog for RDP file-based connections, showing the remote PC name and shared local resources. Prevented duplicate desktop sessions when the same connection is launched in quick succession. Improved stability when pinning, unpinning, and reordering apps and devices in the Connection Center. Fixed an issue that could cause the app to become unresponsive when deleting a worksp...",
+      "category": "Apps",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1144-3132",
+      "platform": "macOS"
+    },
+    {
+      "date": "2026-10-14",
+      "source": "windowsapp",
+      "title": "Version 11.3.9 (5948)",
+      "desc": "Resolved an issue where relaunching an active PC connection could switch to an existing remote app session. Fixed the Connection Center active connection preview so it reflects and reopens the most recently visited session. Improved handling of missing or invalid saved usernames to help prevent connection failures. Improved authentication reliability when starting multiple connections and refin...",
+      "category": "Apps",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1139-5948",
+      "platform": "iOS/iPadOS"
     },
     {
       "date": "2026-10-13",
