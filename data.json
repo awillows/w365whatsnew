@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T13:51:17Z",
+  "lastUpdated": "2026-10-29T13:57:47Z",
   "announcements": [
     {
       "date": "2026-10-23",
@@ -97,6 +97,19 @@
       ],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2014820",
       "platform": "Windows"
+    },
+    {
+      "date": "2026-10-06",
+      "source": "windowsapp",
+      "title": "Version 2026.0.8033.6",
+      "desc": "Windows App on the web is now generally available for Windows 365 Government (GCC High). Users in GCC High environments can sign in and connect to their Windows 365 Government Cloud PCs from a web browser. Windows App on the web is now generally available for Azure Virtual Desktop in Azure Government. Users can sign in and connect to their Azure Virtual Desktop resources in Azure Government fro...",
+      "category": "Apps",
+      "tags": [
+        "ga",
+        "government"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2026080336",
+      "platform": "Web browser"
     },
     {
       "date": "2026-10-05",
