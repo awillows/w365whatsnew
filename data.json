@@ -1,6 +1,28 @@
 {
-  "lastUpdated": "2026-11-02T16:51:53Z",
+  "lastUpdated": "2026-11-03T14:52:35Z",
   "announcements": [
+    {
+      "date": "2026-11-02",
+      "source": "enterprise",
+      "title": "User settings (legacy) policy creation is being disabled in Cloud PC Settings (Public Preview)",
+      "desc": "As part of the User settings (legacy) transition, we're rolling out changes to Cloud PC Settings in the Microsoft Intune admin center. The User settings tab is being renamed to User settings (legacy) , and the ability to create new policies is being disabled. Existing policies can still be edited for a limited time and will continue to apply until their migration is complete. We encourage admin...",
+      "category": "Device Management",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#user-settings-legacy-policy-creation-is-being-disabled-in-cloud-pc-settings-public-preview"
+    },
+    {
+      "date": "2026-11-02",
+      "source": "enterprise",
+      "title": "Enable local admin setting in Cloud PC configurations now generally available",
+      "desc": "The Enable local admin setting in Cloud PC configurations is now generally available in Intune. This setting allows IT admins to grant users local administrator permissions on their Cloud PCs. To learn more, see Cloud PC configurations .",
+      "category": "Device Management",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#enable-local-admin-setting-in-cloud-pc-configurations-now-generally-available"
+    },
     {
       "date": "2026-10-27",
       "source": "windowsapp",
