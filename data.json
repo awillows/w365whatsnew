@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T14:52:35Z",
+  "lastUpdated": "2026-11-04T15:10:34Z",
   "announcements": [
     {
       "date": "2026-11-02",
@@ -24,13 +24,13 @@
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#enable-local-admin-setting-in-cloud-pc-configurations-now-generally-available"
     },
     {
-      "date": "2026-10-27",
+      "date": "2026-11-02",
       "source": "windowsapp",
-      "title": "Version 2.0.1587.0(Insider)",
-      "desc": "Improved app close behavior to help ensure Windows App exits cleanly when you close it. Improved reliability when opening Connection Center while another connection window is already open. Improved sign-in experience for organization-managed accounts after signing out and signing back in. Improved connection setup reliability by refining endpoint discovery during connection startup.",
+      "title": "Version 2.0.1592.0(Insider)",
+      "desc": "Improved app close behavior to help ensure Windows App exits cleanly when you close it. Improved reliability when opening Connection Center while another connection window is already open. Improved sign-in experience for organization-managed accounts after signing out and signing back in. Improved connection setup reliability by refining endpoint discovery during connection startup. Improved re...",
       "category": "Apps",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2015870-insider",
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2015920-insider",
       "platform": "Windows"
     },
     {
