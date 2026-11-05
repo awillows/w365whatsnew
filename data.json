@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-11-04T15:10:34Z",
+  "lastUpdated": "2026-11-05T15:12:13Z",
   "announcements": [
+    {
+      "date": "2026-11-02",
+      "source": "enterprise",
+      "title": "Auto-deprovisioning setting for Windows 365 Reserve Cloud PCs (Public Preview)",
+      "desc": "Auto-deprovisioning is an optional setting that helps admins maximize the value of the 10-day entitlement for a Reserve Cloud PC. When enabled, this setting automatically deprovisions Cloud PCs that are provisioned but not actively connected to, based on a threshold configured by the admin. Administrators control availability through Cloud PC configuration settings for Windows 365 in Microsoft ...",
+      "category": "Provisioning",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#auto-deprovisioning-setting-for-windows-365-reserve-cloud-pcs-public-preview"
+    },
     {
       "date": "2026-11-02",
       "source": "enterprise",
@@ -6537,13 +6548,13 @@
     {
       "date": "2022-05-09",
       "source": "enterprise",
-      "title": "Support for Azure AD joined Cloud PCs now general available",
+      "title": "Support for Azure AD joined Cloud PCs now generally available",
       "desc": "Support for Azure AD joined Cloud PCs has moved out of preview and into general availability.",
       "category": "Device Management",
       "tags": [
         "ga"
       ],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#support-for-azure-ad-joined-cloud-pcs-now-general-available"
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#support-for-azure-ad-joined-cloud-pcs-now-generally-available"
     },
     {
       "date": "2022-05-09",
