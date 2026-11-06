@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-11-05T15:12:13Z",
+  "lastUpdated": "2026-11-06T14:49:03Z",
   "announcements": [
+    {
+      "date": "2026-11-03",
+      "source": "windowsapp",
+      "title": "Version 11.0.26091.14132",
+      "desc": "Added Remote PC connections (preview) with Microsoft Entra ID authentication and more reliable connection and reconnection experiences. Improved Windows App auto logoff, giving administrators greater control over inactivity timeout settings. Improved the RemoteApp experience with more reliable app icons, keyboard focus, and mouse interactions. Improved display scaling when using Samsung DeX for...",
+      "category": "Apps",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1102609114132",
+      "platform": "Android/Chrome OS"
+    },
     {
       "date": "2026-11-02",
       "source": "enterprise",
