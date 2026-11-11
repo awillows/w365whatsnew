@@ -1,6 +1,26 @@
 {
-  "lastUpdated": "2026-11-10T15:26:27Z",
+  "lastUpdated": "2026-11-11T14:56:33Z",
   "announcements": [
+    {
+      "date": "2026-11-10",
+      "source": "windowsapp",
+      "title": "Version 2.0.1489.0",
+      "desc": "CVE-2026-119824 CVE-2026-119839 CVE-2026-95908 CVE-2026-119932 CVE-2026-95964 CVE-2026-119858 CVE-2026-108417 CVE-2026-108418 CVE-2026-108419 CVE-2026-119934 CVE-2026-121678",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2014890",
+      "platform": "Windows"
+    },
+    {
+      "date": "2026-11-10",
+      "source": "windowsapp",
+      "title": "Version 2.0.1595.0(Insider)",
+      "desc": "Improved app close behavior to help ensure Windows App exits cleanly when you close it. Improved reliability when opening Connection Center while another connection window is already open. Improved sign-in experience for organization-managed accounts after signing out and signing back in. Improved connection setup reliability by refining endpoint discovery during connection startup. Improved re...",
+      "category": "Apps",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2015950-insider",
+      "platform": "Windows"
+    },
     {
       "date": "2026-11-03",
       "source": "windowsapp",
@@ -45,16 +65,6 @@
         "ga"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#enable-local-admin-setting-in-cloud-pc-configurations-now-generally-available"
-    },
-    {
-      "date": "2026-11-02",
-      "source": "windowsapp",
-      "title": "Version 2.0.1592.0(Insider)",
-      "desc": "Improved app close behavior to help ensure Windows App exits cleanly when you close it. Improved reliability when opening Connection Center while another connection window is already open. Improved sign-in experience for organization-managed accounts after signing out and signing back in. Improved connection setup reliability by refining endpoint discovery during connection startup. Improved re...",
-      "category": "Apps",
-      "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2015920-insider",
-      "platform": "Windows"
     },
     {
       "date": "2026-10-23",
@@ -2480,7 +2490,7 @@
       "date": "2025-09-12",
       "source": "windowsapp",
       "title": "Version 2.0.704.0",
-      "desc": "Added support for health checks, a diagnostic platform designed to proactively identify and resolve issues on end-user devices, improving reliability and performance. Added support for auto logoff. For more information see, Configure auto logoff on Windows . Improved client logging, diagnostics, and error classification to help admins troubleshoot connection and feed issues. Support for Windows...",
+      "desc": "Added support for health checks, a diagnostic platform designed to proactively identify and resolve issues on end-user devices, improving reliability and performance. Added support for auto logoff. For more information, see Configure auto logoff on Windows . Improved client logging, diagnostics, and error classification to help admins troubleshoot connection and feed issues. Support for Windows...",
       "category": "Monitor & Troubleshoot",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-207040",
