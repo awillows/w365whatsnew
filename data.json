@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T15:08:51Z",
+  "lastUpdated": "2026-11-14T13:57:57Z",
   "announcements": [
     {
       "date": "2026-11-10",
@@ -22,6 +22,18 @@
       "platform": "Windows"
     },
     {
+      "date": "2026-11-10",
+      "source": "windowsapp",
+      "title": "Version 11.0.26101.14228 (Beta)",
+      "desc": "Multiple-monitor support on Chromebooks (Preview): Expand your Windows 365 or Azure Virtual Desktop workspace across up to four monitors on supported Chromebooks for a more productive multitasking experience. Learn more in Configure display settings in Windows App . Enhanced accessibility, including improved TalkBack navigation and larger text support. Additional usability, security, and reliab...",
+      "category": "Device Security",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1102610114228-beta",
+      "platform": "Android/Chrome OS"
+    },
+    {
       "date": "2026-11-09",
       "source": "enterprise",
       "title": "Admin Alerting support for Windows 365 Government",
@@ -32,6 +44,17 @@
         "government"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#admin-alerting-support-for-windows-365-government"
+    },
+    {
+      "date": "2026-11-09",
+      "source": "enterprise",
+      "title": "Export Windows 365 monitoring data to Azure Monitor (Public Preview)",
+      "desc": "Windows 365 now supports exporting Cloud PC connection, connection error, and network logs to Azure Monitor. Administrators can send these logs to Azure Storage, Azure Event Hubs, or Log Analytics for longer retention, custom analysis, and troubleshooting. For more information, see Send Windows 365 log data to Azure Storage, Event Hub, or Log Analytics .",
+      "category": "Monitor & Troubleshoot",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#export-windows-365-monitoring-data-to-azure-monitor-public-preview"
     },
     {
       "date": "2026-11-03",
@@ -576,11 +599,11 @@
     {
       "date": "2026-08-13",
       "source": "windowsapp",
-      "title": "Version 11.0.0.120",
+      "title": "Version 11.0.26071.13915",
       "desc": "Improved mouse and keyboard experience, including middle mouse button support enabled by default and refinements to keyboard settings. Enhanced session reliability with fixes for reconnect issues after session lock, black-screen scenarios, and keep-alive behavior during long-running sessions. Improved Cloud PC and connection experience with better handling of inactive Cloud PCs, feed discovery ...",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1100120",
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-1102607113915",
       "platform": "Android/Chrome OS"
     },
     {
