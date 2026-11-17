@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T19:05:44Z",
+  "lastUpdated": "2026-11-17T19:10:25Z",
   "announcements": [
     {
       "date": "2026-11-17",
@@ -158,6 +158,51 @@
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#export-windows-365-monitoring-data-to-azure-monitor-public-preview"
     },
     {
+      "date": "2026-11-09",
+      "source": "link",
+      "title": "Windows 11, version 26H2 rollout",
+      "desc": "Windows 11, version 26H2 is rolling out to Windows 365 Link devices, increasing the OS build number from 26200 to 26300. Some devices may receive the quality update before 26H2; most should need only one restart when both updates are installed together.",
+      "category": "Build Update",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#windows-11-version-26h2-rollout"
+    },
+    {
+      "date": "2026-11-09",
+      "source": "link",
+      "title": "User-initiated device reset",
+      "desc": "Device reset is now available everywhere via Quick Settings. By default, users can reset their device while preserving enrollment. Admins can control both the type of reset available and where users can initiate the reset. To learn more, see Wipe or reset Windows 365 Link device",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#user-initiated-device-reset"
+    },
+    {
+      "date": "2026-11-09",
+      "source": "link",
+      "title": "Update restart deferral",
+      "desc": "Windows 365 Link now more reliably postpones update restarts while the device is in use.",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#update-restart-deferral"
+    },
+    {
+      "date": "2026-11-09",
+      "source": "link",
+      "title": "Bug fixes and performance improvements",
+      "desc": "This update improves keyboard focus visibility for the Return to Cloud PC and sign-out buttons in high contrast mode, detection of an unresponsive sign-in screen, and update error messaging when the device is offline.",
+      "category": "Networking",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements"
+    },
+    {
+      "date": "2026-11-09",
+      "source": "link",
+      "title": "Security updates",
+      "desc": "This build includes the security updates described in November 2026 Security Updates",
+      "category": "Device Security",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates"
+    },
+    {
       "date": "2026-11-03",
       "source": "windowsapp",
       "title": "Version 11.0.26091.14132",
@@ -286,6 +331,46 @@
         "ga"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#ios-support-for-external-identities-is-now-generally-available"
+    },
+    {
+      "date": "2026-10-12",
+      "source": "link",
+      "title": "More reliable Cloud PC connections",
+      "desc": "If something goes wrong with your Cloud PC connection, it no longer affects the rest of Windows 365 Link. Your device stays responsive, so you can get back to your Cloud PC faster.",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#more-reliable-cloud-pc-connections"
+    },
+    {
+      "date": "2026-10-12",
+      "source": "link",
+      "title": "Windows 365 Flex naming",
+      "desc": "Windows 365 Frontline is now Windows 365 Flex . Cloud PC cards on Windows 365 Link now show Flex and Flex Shared instead of Frontline and Frontline Shared . These Cloud PCs work the same as before.",
+      "category": "Device Management",
+      "tags": [
+        "flex"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#windows-365-flex-naming"
+    },
+    {
+      "date": "2026-10-12",
+      "source": "link",
+      "title": "Bug fixes and performance improvements",
+      "desc": "We've made accessibility improvements and improved connection and display reliability. This update fixes an issue that could cause black boxes or other graphics glitches during a Cloud PC session. Cloud PC cards now show the correct status icon while a Flex Cloud PC is starting or turned off. When a Cloud PC is busy, the error messages are clearer, and you now see a confirmation when you copy c...",
+      "category": "Networking",
+      "tags": [
+        "flex"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-1"
+    },
+    {
+      "date": "2026-10-12",
+      "source": "link",
+      "title": "Security updates",
+      "desc": "This build includes the security updates described in October 2026 Security Updates .",
+      "category": "Device Security",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-1"
     },
     {
       "date": "2026-10-06",
@@ -530,6 +615,24 @@
         "government"
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#rdp-shortpath-with-turn-availability-in-azure-government"
+    },
+    {
+      "date": "2026-09-08",
+      "source": "link",
+      "title": "Bug fixes and performance improvements",
+      "desc": "This update includes a fix for an issue that could cause the sign-in screen to become unresponsive after an OS update or during update checks. It also includes security updates, improves setup reliability and Bluetooth pairing, enhances keyboard navigation across Cloud PC screens and diagnostic reports, and addresses issues with Wi-Fi accessibility and Magnifier behavior.",
+      "category": "Device Security",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-2"
+    },
+    {
+      "date": "2026-09-08",
+      "source": "link",
+      "title": "Security updates",
+      "desc": "This build includes the security updates described in September 2026 Security Updates",
+      "category": "Device Security",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-2"
     },
     {
       "date": "2026-09-08",

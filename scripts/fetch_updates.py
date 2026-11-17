@@ -70,7 +70,7 @@ SOURCES = {
 }
 
 WEEK_RE = re.compile(
-    r"Week\s+of\s+(\w+\s+\d{1,2},?\s+\d{4})", re.IGNORECASE
+    r"Week\s+of\s+(\w+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})", re.IGNORECASE
 )
 
 DATE_PUBLISHED_RE = re.compile(
@@ -96,6 +96,7 @@ def parse_week_date(text: str) -> str | None:
     if not m:
         return None
     raw = m.group(1).replace(",", "")
+    raw = re.sub(r"(\d+)(?:st|nd|rd|th)", r"\1", raw)
     parts = raw.split()
     if len(parts) != 3:
         return None
