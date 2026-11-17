@@ -288,6 +288,8 @@
             color: #fff;
             border-color: var(--color-primary);
         }
+        .platform-filters { margin: -12px 0 24px; }
+        .platform-filters[hidden] { display: none; }
         .card-readmore {
             display: inline-block;
             margin-top: 10px;
@@ -435,6 +437,16 @@
             <button class="release-btn" data-release="preview">Public Preview</button>
         </div>
         <span class="results-count"></span>
+    </div>
+
+    <div class="release-filters platform-filters" hidden>
+        <span class="label">Platform:</span>
+        <button class="release-btn platform-btn active" data-platform="all">All</button>
+        <button class="release-btn platform-btn" data-platform="Windows">Windows</button>
+        <button class="release-btn platform-btn" data-platform="macOS">macOS</button>
+        <button class="release-btn platform-btn" data-platform="iOS/iPadOS">iOS/iPadOS</button>
+        <button class="release-btn platform-btn" data-platform="Android/Chrome OS">Android/ChromeOS</button>
+        <button class="release-btn platform-btn" data-platform="Web browser">Web</button>
     </div>
 
     <div class="legend">
@@ -994,6 +1006,7 @@ const filterBtns = document.querySelectorAll('.filter-btn');
 
 let activeFilter = 'all';
 let activeRelease = 'all';
+let activePlatform = 'all';
 
 function sourceLabel(s) {
     const map = { enterprise: 'Enterprise & Flex', business: 'Business', link: 'W365 Link', windowsapp: 'Windows App' };
@@ -1020,11 +1033,12 @@ function render() {
 
     const filtered = announcements.filter(a => {
         if (activeFilter !== 'all' && a.source !== activeFilter) return false;
+        if (activePlatform !== 'all' && a.platform !== activePlatform) return false;
         if (activeRelease !== 'all') {
             if (!a.tags || !a.tags.includes(activeRelease)) return false;
         }
         if (query) {
-            const hay = (a.title + ' ' + a.desc + ' ' + a.category + ' ' + a.tags.join(' ')).toLowerCase();
+            const hay = (a.title + ' ' + a.desc + ' ' + a.category + ' ' + a.tags.join(' ') + ' ' + (a.platform || '')).toLowerCase();
             return hay.includes(query);
         }
         return true;
@@ -1087,6 +1101,22 @@ filterBtns.forEach(btn => {
         filterBtns.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         activeFilter = btn.dataset.filter;
+        platformBar.hidden = activeFilter !== 'windowsapp';
+        if (platformBar.hidden) setPlatform('all');
+        render();
+    });
+});
+
+// Platform filter (Windows App only)
+const platformBar = document.querySelector('.platform-filters');
+const platformBtns = document.querySelectorAll('.platform-btn');
+function setPlatform(p) {
+    activePlatform = p;
+    platformBtns.forEach(b => b.classList.toggle('active', b.dataset.platform === p));
+}
+platformBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        setPlatform(btn.dataset.platform);
         render();
     });
 });
@@ -1095,7 +1125,7 @@ filterBtns.forEach(btn => {
 searchInput.addEventListener('input', render);
 
 // Release status filter
-const releaseBtns = document.querySelectorAll('.release-btn');
+const releaseBtns = document.querySelectorAll('.release-btn[data-release]');
 releaseBtns.forEach(btn => {
     btn.addEventListener('click', () => {
         releaseBtns.forEach(b => b.classList.remove('active'));
