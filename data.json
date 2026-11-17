@@ -1,6 +1,117 @@
 {
-  "lastUpdated": "2026-11-17T16:43:47Z",
+  "lastUpdated": "2026-11-17T19:05:44Z",
   "announcements": [
+    {
+      "date": "2026-11-17",
+      "source": "windowsapp",
+      "title": "Version 2.0.1601.0",
+      "desc": "The new connection experience in Windows App for Windows is now in public preview. To learn more, see New connection experience on Windows (preview) . Microsoft Intune mobile application management (MAM) for Windows App on Windows is now in public preview. To learn more, see Require device security compliance for Windows App with Microsoft Intune and Microsoft Entra Conditional Access . Improve...",
+      "category": "Device Security",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2016010",
+      "platform": "Windows"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "windowsapp",
+      "title": "Version 2026.0.10051.3",
+      "desc": "Multiple monitor support is now generally available. For more information, see Configure display settings in Windows App . Windows App on the web is now generally available for Azure Virtual Desktop in Microsoft Azure China operated by 21Vianet. Users can sign in and connect to their Azure Virtual Desktop resources in Azure China from a web browser. The new connection bar is now in public previ...",
+      "category": "Apps",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20260100513",
+      "platform": "Web browser"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "enterprise",
+      "title": "Direct Stream: the cloud streaming technology powering Windows 365",
+      "desc": "Direct Stream is the cloud streaming technology powering Windows 365, reflecting capabilities that have evolved beyond the traditional Remote Desktop Protocol (RDP). Direct Stream brings together multi-year investment of innovation in connection reliability, speed, transport security, and in-session performance to make a Cloud PC feel like a local PC, including capabilities like multipath , fas...",
+      "category": "Device Security",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#direct-stream-the-cloud-streaming-technology-powering-windows-365"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "enterprise",
+      "title": "Monitor Cloud PCs is now generally available",
+      "desc": "Monitor Cloud PCs is now generally available for Windows 365. It gives IT administrators one place in the Microsoft Intune admin center to monitor Cloud PC health, connection quality, and configuration. Administrators can review connection health and trends, investigate problems at the user and device level, and see detailed connection data. Scope tags now apply to supported views. For more inf...",
+      "category": "Device Management",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#monitor-cloud-pcs-is-now-generally-available"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "enterprise",
+      "title": "Bulk provisioning and deprovisioning for Windows 365 Reserve supports up to 1,000 devices (Generally Available)",
+      "desc": "Windows 365 Reserve now supports bulk provisioning and deprovisioning of up to 1,000 Cloud PCs in a single request. Admins can provision and deprovision larger groups of Reserve Cloud PCs at once, reducing the need to split large-scale provisioning operations into smaller batches. For more information, see Managing Windows 365 Reserve .",
+      "category": "Provisioning",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#bulk-provisioning-and-deprovisioning-for-windows-365-reserve-supports-up-to-1000-devices-generally-available"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "enterprise",
+      "title": "Context-based redirections are now generally available",
+      "desc": "Context-based redirections are now generally available for Windows 365 Enterprise, Flex Dedicated, Azure Virtual Desktop, and Remote Apps. IT administrators can use Microsoft Entra authentication context and Conditional Access policies to control which redirections, such as clipboard, drive, printer, and USB, are available in a remote session based on device compliance and network context. This...",
+      "category": "Device Security",
+      "tags": [
+        "ga",
+        "flex"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#context-based-redirections-are-now-generally-available"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "enterprise",
+      "title": "License and utilization report (Public Preview)",
+      "desc": "A new License and utilization report is now available in public preview for Windows 365. The report helps IT administrators monitor how licenses are allocated and used in their environment. It shows assigned and unassigned licenses by SKU, peak concurrent Cloud PC connections, total usage hours, and usage trends over a selectable period of up to 180 days. For more information, see License and u...",
+      "category": "Monitor & Troubleshoot",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#license-and-utilization-report-public-preview"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "enterprise",
+      "title": "Windows 365 Admin Assistant now available in public preview",
+      "desc": "Windows 365 Admin Assistant is a new AI-powered experience in Microsoft Intune that helps IT administrators investigate and troubleshoot Cloud PC issues using natural language. Administrators can ask questions about their Cloud PC environment, investigate connectivity failures, analyze performance trends, and identify potential root causes across multiple Cloud PCs. Admin Assistant brings toget...",
+      "category": "Monitor & Troubleshoot",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-admin-assistant-now-available-in-public-preview"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "enterprise",
+      "title": "Windows 365 Early Release (Public Preview)",
+      "desc": "Windows 365 Early Release is now rolling out to public preview. IT administrators can configure a tenant to receive Windows 365 service releases before the standard release, so they can validate upcoming service changes before those changes reach end users. In this release, Early Release applies to the service components that manage access and connections to Cloud PCs. Use Early Release only in...",
+      "category": "Device Management",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-early-release-public-preview"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "enterprise",
+      "title": "Move Cloud PCs to a different region or network (Public Preview)",
+      "desc": "The new Move device action is rolling out in public preview for Windows 365 Enterprise. Administrators can move one or more selected Cloud PCs to a different supported region or network from a Cloud PC's page, a provisioning policy's Devices tab, or Bulk device actions, without editing the provisioning policy. The policy's settings for new Cloud PCs, and other Cloud PCs in the policy, aren't af...",
+      "category": "Provisioning",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#move-cloud-pcs-to-a-different-region-or-network-public-preview"
+    },
     {
       "date": "2026-11-10",
       "source": "windowsapp",
@@ -9,16 +120,6 @@
       "category": "Device Management",
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2014890",
-      "platform": "Windows"
-    },
-    {
-      "date": "2026-11-10",
-      "source": "windowsapp",
-      "title": "Version 2.0.1595.0(Insider)",
-      "desc": "Improved app close behavior to help ensure Windows App exits cleanly when you close it. Improved reliability when opening Connection Center while another connection window is already open. Improved sign-in experience for organization-managed accounts after signing out and signing back in. Improved connection setup reliability by refining endpoint discovery during connection startup. Improved re...",
-      "category": "Apps",
-      "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2015950-insider",
       "platform": "Windows"
     },
     {
