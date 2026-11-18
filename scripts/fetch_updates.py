@@ -8,11 +8,14 @@ Fetch and parse What's New pages from Microsoft Learn for:
 Outputs a structured data.json consumed by the aggregator page.
 """
 
+import hashlib
 import json
+import os
 import re
-import sys
 import unicodedata
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from email.utils import format_datetime
 from pathlib import Path
 
 import requests
@@ -85,9 +88,24 @@ MONTHS = {
     "september": 9, "october": 10, "november": 11, "december": 12,
 }
 
+
+def month_number(name: str) -> int | None:
+    name = name.lower().rstrip(".")
+    return MONTHS.get(name) or {k[:3]: v for k, v in MONTHS.items()}.get(name[:3])
+
 # Windows 365 Frontline was renamed to Windows 365 Flex in May 2026; older
 # announcements still use the original name, so match both.
 FLEX_RE = re.compile(r"\bfrontline\b|\bflex\b", re.IGNORECASE)
+
+SITE_URL = "https://awillows.github.io/w365whatsnew/"
+FEED_SIZE = 50
+
+WARNINGS: list[str] = []
+
+
+def warn(msg: str) -> None:
+    WARNINGS.append(msg)
+    print(f"::warning::{msg}")
 
 
 def parse_week_date(text: str) -> str | None:
@@ -101,7 +119,7 @@ def parse_week_date(text: str) -> str | None:
     if len(parts) != 3:
         return None
     month_name, day_str, year_str = parts
-    month = MONTHS.get(month_name.lower())
+    month = month_number(month_name)
     if not month:
         return None
     try:
@@ -122,7 +140,7 @@ def parse_published_date(text: str) -> str | None:
     if len(parts) != 3:
         return None
     month_name, day_str, year_str = parts
-    month = MONTHS.get(month_name.lower())
+    month = month_number(month_name)
     if not month:
         return None
     try:
@@ -182,7 +200,7 @@ def _parse_windowsapp_tabs(soup: BeautifulSoup, base_url: str) -> list[dict]:
     for tab_key, platform_label in TAB_PLATFORM_MAP.items():
         panel = soup.find(id=f"tabpanel_2_{tab_key}")
         if not panel:
-            print(f"    WARNING: tab panel tabpanel_2_{tab_key} not found")
+            warn(f"windowsapp: tab panel tabpanel_2_{tab_key} not found")
             continue
         headings = panel.find_all("h3")
         count = 0
@@ -227,6 +245,8 @@ def _parse_windowsapp_tabs(soup: BeautifulSoup, base_url: str) -> list[dict]:
             })
             count += 1
         print(f"    -> {count} announcements parsed ({platform_label})")
+        if count == 0:
+            warn(f"windowsapp: no announcements parsed for {platform_label}")
     return entries
 
 
@@ -358,6 +378,12 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
             )
             continue
 
+        # Learn sometimes changes heading formats; skip rather than misdate entries.
+        if re.match(r"week\s+of\b", text, re.IGNORECASE):
+            warn(f"{source_key}: unrecognised week heading '{normalize_text(text)}' - entries under it skipped")
+            current_date = None
+            continue
+
         level = int(h.name[1])
 
         if not current_date:
@@ -396,16 +422,75 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
     return entries
 
 
+def entry_id(e: dict) -> str:
+    key = "|".join([e["source"], e["date"], e["title"], e.get("platform", "")])
+    return "a-" + hashlib.sha1(key.encode("utf-8")).hexdigest()[:10]
+
+
+def load_previous(path: Path) -> list[dict]:
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f).get("announcements", [])
+    except (OSError, ValueError):
+        return []
+
+
+def rfc822(date_str: str) -> str:
+    dt = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    return format_datetime(dt)
+
+
+def write_feed(entries: list[dict], path: Path) -> None:
+    rss = ET.Element("rss", version="2.0")
+    ch = ET.SubElement(rss, "channel")
+    ET.SubElement(ch, "title").text = "What's New in Windows 365"
+    ET.SubElement(ch, "link").text = SITE_URL
+    ET.SubElement(ch, "description").text = (
+        "Announcements from Windows 365 Enterprise & Flex, Business, Link and Windows App, "
+        "aggregated from Microsoft Learn."
+    )
+    ET.SubElement(ch, "language").text = "en"
+    items = entries[:FEED_SIZE]
+    # Newest item date rather than run time, so the feed only changes when content does.
+    if items:
+        ET.SubElement(ch, "lastBuildDate").text = rfc822(items[0]["date"])
+    for e in items:
+        label = SOURCES[e["source"]]["label"]
+        if e.get("platform"):
+            label += f" - {e['platform']}"
+        it = ET.SubElement(ch, "item")
+        ET.SubElement(it, "title").text = f"[{label}] {e['title']}"
+        ET.SubElement(it, "link").text = e.get("url") or SITE_URL
+        ET.SubElement(it, "guid", isPermaLink="false").text = e["id"]
+        ET.SubElement(it, "pubDate").text = rfc822(e["date"])
+        ET.SubElement(it, "category").text = label
+        ET.SubElement(it, "description").text = e["desc"]
+    ET.indent(rss)
+    ET.ElementTree(rss).write(path, encoding="utf-8", xml_declaration=True)
+
+
 def main():
+    out_path = Path(__file__).resolve().parent.parent / "data.json"
+    previous = load_previous(out_path)
+
     all_entries = []
     for key, info in SOURCES.items():
         try:
             entries = fetch_and_parse(key, info["url"])
-            if key != "windowsapp":
-                print(f"    -> {len(entries)} announcements parsed")
-            all_entries.extend(entries)
         except Exception as e:
-            print(f"  ERROR fetching {key}: {e}", file=sys.stderr)
+            warn(f"{key}: fetch failed ({e})")
+            entries = []
+        if key != "windowsapp":
+            print(f"    -> {len(entries)} announcements parsed")
+
+        prev_count = sum(1 for p in previous if p["source"] == key)
+        if not entries:
+            # Keep yesterday's data rather than wiping the source from the site.
+            entries = [p for p in previous if p["source"] == key]
+            warn(f"{key}: no announcements parsed - keeping {len(entries)} from previous run")
+        elif prev_count and len(entries) < prev_count * 0.8:
+            warn(f"{key}: parsed {len(entries)} announcements, previous run had {prev_count}")
+        all_entries.extend(entries)
 
     # Deduplicate by (date, source, title, platform)
     seen = set()
@@ -419,7 +504,9 @@ def main():
     # Sort by date descending
     unique.sort(key=lambda x: x["date"], reverse=True)
 
-    out_path = Path(__file__).resolve().parent.parent / "data.json"
+    for e in unique:
+        e["id"] = entry_id(e)
+
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(
             {
@@ -431,6 +518,16 @@ def main():
             ensure_ascii=False,
         )
     print(f"\nWrote {len(unique)} announcements to {out_path}")
+
+    feed_path = out_path.parent / "feed.xml"
+    write_feed(unique, feed_path)
+    print(f"Wrote {min(len(unique), FEED_SIZE)} items to {feed_path}")
+
+    print(f"{len(WARNINGS)} warning(s)")
+    gh_output = os.environ.get("GITHUB_OUTPUT")
+    if gh_output:
+        with open(gh_output, "a", encoding="utf-8") as f:
+            f.write(f"warnings={len(WARNINGS)}\n")
 
 
 if __name__ == "__main__":

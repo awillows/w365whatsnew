@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>What's New in Windows 365</title>
+    <link>https://awillows.github.io/w365whatsnew/</link>
+    <description>Announcements from Windows 365 Enterprise &amp; Flex, Business, Link and Windows App, aggregated from Microsoft Learn.</description>
+    <language>en</language>
+    <lastBuildDate>Tue, 17 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[Windows App - Windows] Version 2.0.1601.0</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-2016010</link>
+      <guid isPermaLink="false">a-425f26ce12</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - Windows</category>
+      <description>The new connection experience in Windows App for Windows is now in public preview. To learn more, see New connection experience on Windows (preview) . Microsoft Intune mobile application management (MAM) for Windows App on Windows is now in public preview. To learn more, see Require device security compliance for Windows App with Microsoft Intune and Microsoft Entra Conditional Access . Improve...</description>
+    </item>
+    <item>
+      <title>[Windows App - Web browser] Version 2026.0.10051.3</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-20260100513</link>
+      <guid isPermaLink="false">a-af58202c5e</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - Web browser</category>
+      <description>Multiple monitor support is now generally available. For more information, see Configure display settings in Windows App . Windows App on the web is now generally available for Azure Virtual Desktop in Microsoft Azure China operated by 21Vianet. Users can sign in and connect to their Azure Virtual Desktop resources in Azure China from a web browser. The new connection bar is now in public previ...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Direct Stream: the cloud streaming technology powering Windows 365</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#direct-stream-the-cloud-streaming-technology-powering-windows-365</link>
+      <guid isPermaLink="false">a-b5c1d70b93</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>Direct Stream is the cloud streaming technology powering Windows 365, reflecting capabilities that have evolved beyond the traditional Remote Desktop Protocol (RDP). Direct Stream brings together multi-year investment of innovation in connection reliability, speed, transport security, and in-session performance to make a Cloud PC feel like a local PC, including capabilities like multipath , fas...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Monitor Cloud PCs is now generally available</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#monitor-cloud-pcs-is-now-generally-available</link>
+      <guid isPermaLink="false">a-331087220b</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>Monitor Cloud PCs is now generally available for Windows 365. It gives IT administrators one place in the Microsoft Intune admin center to monitor Cloud PC health, connection quality, and configuration. Administrators can review connection health and trends, investigate problems at the user and device level, and see detailed connection data. Scope tags now apply to supported views. For more inf...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Bulk provisioning and deprovisioning for Windows 365 Reserve supports up to 1,000 devices (Generally Available)</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#bulk-provisioning-and-deprovisioning-for-windows-365-reserve-supports-up-to-1000-devices-generally-available</link>
+      <guid isPermaLink="false">a-2c6a12bf4e</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>Windows 365 Reserve now supports bulk provisioning and deprovisioning of up to 1,000 Cloud PCs in a single request. Admins can provision and deprovision larger groups of Reserve Cloud PCs at once, reducing the need to split large-scale provisioning operations into smaller batches. For more information, see Managing Windows 365 Reserve .</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Context-based redirections are now generally available</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#context-based-redirections-are-now-generally-available</link>
+      <guid isPermaLink="false">a-457f2f0096</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>Context-based redirections are now generally available for Windows 365 Enterprise, Flex Dedicated, Azure Virtual Desktop, and Remote Apps. IT administrators can use Microsoft Entra authentication context and Conditional Access policies to control which redirections, such as clipboard, drive, printer, and USB, are available in a remote session based on device compliance and network context. This...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] License and utilization report (Public Preview)</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#license-and-utilization-report-public-preview</link>
+      <guid isPermaLink="false">a-c41cd6064e</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>A new License and utilization report is now available in public preview for Windows 365. The report helps IT administrators monitor how licenses are allocated and used in their environment. It shows assigned and unassigned licenses by SKU, peak concurrent Cloud PC connections, total usage hours, and usage trends over a selectable period of up to 180 days. For more information, see License and u...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Windows 365 Admin Assistant now available in public preview</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-admin-assistant-now-available-in-public-preview</link>
+      <guid isPermaLink="false">a-b918b0b9ef</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>Windows 365 Admin Assistant is a new AI-powered experience in Microsoft Intune that helps IT administrators investigate and troubleshoot Cloud PC issues using natural language. Administrators can ask questions about their Cloud PC environment, investigate connectivity failures, analyze performance trends, and identify potential root causes across multiple Cloud PCs. Admin Assistant brings toget...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Windows 365 Early Release (Public Preview)</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-early-release-public-preview</link>
+      <guid isPermaLink="false">a-92dbd01a97</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>Windows 365 Early Release is now rolling out to public preview. IT administrators can configure a tenant to receive Windows 365 service releases before the standard release, so they can validate upcoming service changes before those changes reach end users. In this release, Early Release applies to the service components that manage access and connections to Cloud PCs. Use Early Release only in...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Move Cloud PCs to a different region or network (Public Preview)</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#move-cloud-pcs-to-a-different-region-or-network-public-preview</link>
+      <guid isPermaLink="false">a-fd39ff6f85</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>The new Move device action is rolling out in public preview for Windows 365 Enterprise. Administrators can move one or more selected Cloud PCs to a different supported region or network from a Cloud PC's page, a provisioning policy's Devices tab, or Bulk device actions, without editing the provisioning policy. The policy's settings for new Cloud PCs, and other Cloud PCs in the policy, aren't af...</description>
+    </item>
+    <item>
+      <title>[Windows App - Windows] Version 2.0.1489.0</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-2014890</link>
+      <guid isPermaLink="false">a-48e6aadd52</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - Windows</category>
+      <description>CVE-2026-119824 CVE-2026-119839 CVE-2026-95908 CVE-2026-119932 CVE-2026-95964 CVE-2026-119858 CVE-2026-108417 CVE-2026-108418 CVE-2026-108419 CVE-2026-119934 CVE-2026-121678</description>
+    </item>
+    <item>
+      <title>[Windows App - Android/Chrome OS] Version 11.0.26101.14228 (Beta)</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-1102610114228-beta</link>
+      <guid isPermaLink="false">a-8727a4972e</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - Android/Chrome OS</category>
+      <description>Multiple-monitor support on Chromebooks (Preview): Expand your Windows 365 or Azure Virtual Desktop workspace across up to four monitors on supported Chromebooks for a more productive multitasking experience. Learn more in Configure display settings in Windows App . Enhanced accessibility, including improved TalkBack navigation and larger text support. Additional usability, security, and reliab...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Admin Alerting support for Windows 365 Government</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#admin-alerting-support-for-windows-365-government</link>
+      <guid isPermaLink="false">a-a9ca3cbe7d</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>Windows 365 Admin Alerting is now generally available for Windows 365 Government in GCC and GCC High environments. IT administrators can use Admin Alerting to monitor Cloud PC conditions and receive notifications when configured alert conditions are triggered. To learn more, see Alerts in Windows 365 .</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Export Windows 365 monitoring data to Azure Monitor (Public Preview)</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#export-windows-365-monitoring-data-to-azure-monitor-public-preview</link>
+      <guid isPermaLink="false">a-4b74fdca1a</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>Windows 365 now supports exporting Cloud PC connection, connection error, and network logs to Azure Monitor. Administrators can send these logs to Azure Storage, Azure Event Hubs, or Log Analytics for longer retention, custom analysis, and troubleshooting. For more information, see Send Windows 365 log data to Azure Storage, Event Hub, or Log Analytics .</description>
+    </item>
+    <item>
+      <title>[Windows 365 Link] Windows 11, version 26H2 rollout</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#windows-11-version-26h2-rollout</link>
+      <guid isPermaLink="false">a-0be15f3782</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 Link</category>
+      <description>Windows 11, version 26H2 is rolling out to Windows 365 Link devices, increasing the OS build number from 26200 to 26300. Some devices may receive the quality update before 26H2; most should need only one restart when both updates are installed together.</description>
+    </item>
+    <item>
+      <title>[Windows 365 Link] User-initiated device reset</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#user-initiated-device-reset</link>
+      <guid isPermaLink="false">a-503a6f067f</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 Link</category>
+      <description>Device reset is now available everywhere via Quick Settings. By default, users can reset their device while preserving enrollment. Admins can control both the type of reset available and where users can initiate the reset. To learn more, see Wipe or reset Windows 365 Link device</description>
+    </item>
+    <item>
+      <title>[Windows 365 Link] Update restart deferral</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#update-restart-deferral</link>
+      <guid isPermaLink="false">a-c095e0f6c9</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 Link</category>
+      <description>Windows 365 Link now more reliably postpones update restarts while the device is in use.</description>
+    </item>
+    <item>
+      <title>[Windows 365 Link] Bug fixes and performance improvements</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements</link>
+      <guid isPermaLink="false">a-7ef578f745</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 Link</category>
+      <description>This update improves keyboard focus visibility for the Return to Cloud PC and sign-out buttons in high contrast mode, detection of an unresponsive sign-in screen, and update error messaging when the device is offline.</description>
+    </item>
+    <item>
+      <title>[Windows 365 Link] Security updates</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates</link>
+      <guid isPermaLink="false">a-dc9b73f90a</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 Link</category>
+      <description>This build includes the security updates described in November 2026 Security Updates</description>
+    </item>
+    <item>
+      <title>[Windows App - Android/Chrome OS] Version 11.0.26091.14132</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-1102609114132</link>
+      <guid isPermaLink="false">a-e08248223d</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - Android/Chrome OS</category>
+      <description>Added Remote PC connections (preview) with Microsoft Entra ID authentication and more reliable connection and reconnection experiences. Improved Windows App auto logoff, giving administrators greater control over inactivity timeout settings. Improved the RemoteApp experience with more reliable app icons, keyboard focus, and mouse interactions. Improved display scaling when using Samsung DeX for...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Auto-deprovisioning setting for Windows 365 Reserve Cloud PCs (Public Preview)</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#auto-deprovisioning-setting-for-windows-365-reserve-cloud-pcs-public-preview</link>
+      <guid isPermaLink="false">a-9c86235268</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>Auto-deprovisioning is an optional setting that helps admins maximize the value of the 10-day entitlement for a Reserve Cloud PC. When enabled, this setting automatically deprovisions Cloud PCs that are provisioned but not actively connected to, based on a threshold configured by the admin. Administrators control availability through Cloud PC configuration settings for Windows 365 in Microsoft ...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] User settings (legacy) policy creation is being disabled in Cloud PC Settings (Public Preview)</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#user-settings-legacy-policy-creation-is-being-disabled-in-cloud-pc-settings-public-preview</link>
+      <guid isPermaLink="false">a-2aed3bf65f</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>As part of the User settings (legacy) transition, we're rolling out changes to Cloud PC Settings in the Microsoft Intune admin center. The User settings tab is being renamed to User settings (legacy) , and the ability to create new policies is being disabled. Existing policies can still be edited for a limited time and will continue to apply until their migration is complete. We encourage admin...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Enable local admin setting in Cloud PC configurations now generally available</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#enable-local-admin-setting-in-cloud-pc-configurations-now-generally-available</link>
+      <guid isPermaLink="false">a-f9a51dfcfd</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>The Enable local admin setting in Cloud PC configurations is now generally available in Intune. This setting allows IT admins to grant users local administrator permissions on their Cloud PCs. To learn more, see Cloud PC configurations .</description>
+    </item>
+    <item>
+      <title>[Windows App - Windows] Version 2.0.1485.0</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-2014850</link>
+      <guid isPermaLink="false">a-3a77376dcb</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - Windows</category>
+      <description>Fixed an issue in versions 2.0.1482.0 and 2.0.1484.0 affecting drive redirection for Azure Virtual Desktop resources when configured to redirect drives connected later or specific drive letters.</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] RDP Multipath and RDP Shortpath with TURN relay are now generally available in Azure Government</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#rdp-multipath-and-rdp-shortpath-with-turn-relay-are-now-generally-available-in-azure-government</link>
+      <guid isPermaLink="false">a-2e4f294e9f</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>RDP Multipath with redundant TCP and UDP transport paths is now generally available in Azure Government. RDP Multipath improves connection resiliency by maintaining multiple network paths and automatically switching to an available path when network conditions change. For more information, see Use RDP Multipath to improve connection reliability . RDP Shortpath with TURN relay is also now genera...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Windows 365 cloud-native and Zero Trust deployment guidance</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-cloud-native-and-zero-trust-deployment-guidance</link>
+      <guid isPermaLink="false">a-4347dc7fd5</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>New guidance is available to help you make key architecture and operating-model decisions when deploying Windows 365. It provides recommended cloud-native and Zero Trust-aligned approaches for identity, networking, images, updates, management, user data, clients, and supportability. For more information, see Windows 365 cloud-native and Zero Trust deployment guidance .</description>
+    </item>
+    <item>
+      <title>[Windows App - macOS] Version 11.4.4 (3132)</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-1144-3132</link>
+      <guid isPermaLink="false">a-d041a40952</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - macOS</category>
+      <description>Added a confirmation dialog for RDP file-based connections, showing the remote PC name and shared local resources. Prevented duplicate desktop sessions when the same connection is launched in quick succession. Improved stability when pinning, unpinning, and reordering apps and devices in the Connection Center. Fixed an issue that could cause the app to become unresponsive when deleting a worksp...</description>
+    </item>
+    <item>
+      <title>[Windows App - iOS/iPadOS] Version 11.3.9 (5948)</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-1139-5948</link>
+      <guid isPermaLink="false">a-34ea82abb2</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - iOS/iPadOS</category>
+      <description>Resolved an issue where relaunching an active PC connection could switch to an existing remote app session. Fixed the Connection Center active connection preview so it reflects and reopens the most recently visited session. Improved handling of missing or invalid saved usernames to help prevent connection failures. Improved authentication reliability when starting multiple connections and refin...</description>
+    </item>
+    <item>
+      <title>[Windows App - Windows] Version 2.0.1484.0</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-2014840</link>
+      <guid isPermaLink="false">a-eef44a3380</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - Windows</category>
+      <description>Fixed an issue where health checks could show incorrect warnings on some versions of Windows, even when users could still connect successfully. CVE-2026-69976 CVE-2026-83688 CVE-2026-97789 CVE-2026-100218 CVE-2026-69536 CVE-2026-85337</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Default display settings for Cloud PCs now generally available</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#default-display-settings-for-cloud-pcs-now-generally-available</link>
+      <guid isPermaLink="false">a-10c69ecbb6</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>IT administrators can set a default display experience for Windows 365 Cloud PCs by choosing either a single display or all displays. Users can still override the default with their own display preferences in Windows App. For more information, see Remote Connection Experience .</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] iOS support for external identities is now generally available</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#ios-support-for-external-identities-is-now-generally-available</link>
+      <guid isPermaLink="false">a-6a2aa8e854</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>External identity support is now generally available for the Windows App on iOS. For more information on client versions and capabilities, see Compare Windows App features across platforms and devices . For latest information on external identity support, see External identity .</description>
+    </item>
+    <item>
+      <title>[Windows 365 Link] More reliable Cloud PC connections</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#more-reliable-cloud-pc-connections</link>
+      <guid isPermaLink="false">a-bb7070cf83</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 Link</category>
+      <description>If something goes wrong with your Cloud PC connection, it no longer affects the rest of Windows 365 Link. Your device stays responsive, so you can get back to your Cloud PC faster.</description>
+    </item>
+    <item>
+      <title>[Windows 365 Link] Windows 365 Flex naming</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#windows-365-flex-naming</link>
+      <guid isPermaLink="false">a-6cd15d2358</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 Link</category>
+      <description>Windows 365 Frontline is now Windows 365 Flex . Cloud PC cards on Windows 365 Link now show Flex and Flex Shared instead of Frontline and Frontline Shared . These Cloud PCs work the same as before.</description>
+    </item>
+    <item>
+      <title>[Windows 365 Link] Bug fixes and performance improvements</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#bug-fixes-and-performance-improvements-1</link>
+      <guid isPermaLink="false">a-65d5cabf7f</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 Link</category>
+      <description>We've made accessibility improvements and improved connection and display reliability. This update fixes an issue that could cause black boxes or other graphics glitches during a Cloud PC session. Cloud PC cards now show the correct status icon while a Flex Cloud PC is starting or turned off. When a Cloud PC is busy, the error messages are clearer, and you now see a confirmation when you copy c...</description>
+    </item>
+    <item>
+      <title>[Windows 365 Link] Security updates</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-1</link>
+      <guid isPermaLink="false">a-02fb28c723</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 Link</category>
+      <description>This build includes the security updates described in October 2026 Security Updates .</description>
+    </item>
+    <item>
+      <title>[Windows App - Windows] Version 2.0.1482.0</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-2014820</link>
+      <guid isPermaLink="false">a-6ef55b89ae</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - Windows</category>
+      <description>Remote PC connections is now generally available. Fixed an issue where endpoint reachability health checks could incorrectly report failures when running behind an authenticated proxy. Improved connection reliability by addressing issues that could cause remote sessions to disconnect or close unexpectedly. Improved diagnostics when reconnecting to a remote session.</description>
+    </item>
+    <item>
+      <title>[Windows App - Web browser] Version 2026.0.8033.6</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-2026080336</link>
+      <guid isPermaLink="false">a-c094434a25</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - Web browser</category>
+      <description>Windows App on the web is now generally available for Windows 365 Government (GCC High). Users in GCC High environments can sign in and connect to their Windows 365 Government Cloud PCs from a web browser. Windows App on the web is now generally available for Azure Virtual Desktop in Azure Government. Users can sign in and connect to their Azure Virtual Desktop resources in Azure Government fro...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] All users and all devices targeting for Cloud PC Settings (Public Preview)</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#all-users-and-all-devices-targeting-for-cloud-pc-settings-public-preview</link>
+      <guid isPermaLink="false">a-2df9cd70c5</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>IT administrators can now assign Cloud PC Settings to user groups, device groups, all users, or all devices, depending on the settings object. For more information, see the Cloud PC configurations , Windows App settings , and Remote Connection Experience documentation.</description>
+    </item>
+    <item>
+      <title>[Windows App - macOS] Version 11.4.3 (3115)</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-1143-3115</link>
+      <guid isPermaLink="false">a-11bf9bf85e</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - macOS</category>
+      <description>Resolved an issue where the secure desktop window would appear empty while connecting to a remote app when using multiple monitors. Fixed mispaints that occurred if advanced RemoteFX graphics were not being used to render remote apps. Fixed issues with ALT-based shortcuts (such as ALT+ENTER and ALT+UP ARROW) in Unicode keyboard mode. Resolved modifier-key state that could interfere with subsequ...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Bulk deprovision Cloud PCs in grace period is generally available</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#bulk-deprovision-cloud-pcs-in-grace-period-is-generally-available</link>
+      <guid isPermaLink="false">a-eecac09f47</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>Bulk deprovisioning for Windows 365 Enterprise and Windows 365 Flex dedicated Cloud PCs in grace period is now generally available. Administrators can deprovision multiple eligible Cloud PCs at once rather than waiting for the seven-day grace period to expire, simplifying management when multiple Cloud PCs need to be removed. The current documentation describes bulk deprovisioning through the p...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Windows 11 26H2 Cloud PC gallery images</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-11-26h2-cloud-pc-gallery-images</link>
+      <guid isPermaLink="false">a-00d4b34f65</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>The latest Windows Enterprise 26H2 images are available for provisioning new devices. You can update your provisioning policies to use one of the following images: Windows 11 Enterprise 26H2 Windows 11 Enterprise + Microsoft Apps 26H2 Windows 11 Enterprise Developer Configuration + M365 Apps 26H2</description>
+    </item>
+    <item>
+      <title>[Windows App - iOS/iPadOS] Version 11.3.8 (5941)</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-1138-5941</link>
+      <guid isPermaLink="false">a-cb2a60d7c5</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - iOS/iPadOS</category>
+      <description>Added support for iPhone 18 Pro and iPhone 18 Pro Max. Enhanced diagnostic insights for the external identity support feature.</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Developer Configuration with pre-installed Microsoft 365 Apps is generally available</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#developer-configuration-with-pre-installed-microsoft-365-apps-is-generally-available</link>
+      <guid isPermaLink="false">a-e43b5b4699</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>This image provides a consistent, ready-to-use developer environment by preinstalling essential development tools and applying the required configurations across Windows 365 CPC. This image is available for Windows 365 Enterprise and Windows 365 Flex Dedicated mode. See more: Device images in Windows 365 .</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Alternate regions for Business Continuity and Disaster Recovery are now generally available</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#alternate-regions-for-business-continuity-and-disaster-recovery-are-now-generally-available</link>
+      <guid isPermaLink="false">a-360096806b</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>Alternate regions are generally available for Business Continuity and Disaster Recovery (BCDR) scenarios. These regions help organizations meet unique disaster recovery and data sovereignty requirements. Administrators can select alternate regions for Cross-region Disaster Recovery (CRDR) and Disaster Recovery Plus (DR+) configurations, including Australia Southeast, South India, Canada East, a...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Business Continuity and Disaster Recovery in Cloud PC Settings is now generally available</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#business-continuity-and-disaster-recovery-in-cloud-pc-settings-is-now-generally-available</link>
+      <guid isPermaLink="false">a-22b01f2927</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>The setup process for Point-in-Time Restore, Cross-region Disaster Recovery, and Disaster Recovery Plus is now generally available within Cloud PC Settings. This aligns with the centralized approach that Cloud PC Settings offers. These features can now be enabled together within a singular Cloud PC Configuration. For more information, see Enable Business Continuity and Disaster Recovery</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Session State Retention for Windows 365 Flex dedicated Cloud PCs is now generally available</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#session-state-retention-for-windows-365-flex-dedicated-cloud-pcs-is-now-generally-available</link>
+      <guid isPermaLink="false">a-2da1a77f0d</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>Session State Retention is now generally available for eligible Windows 365 Flex dedicated Cloud PCs. Session State Retention complements Intelligent pre-start to improve the reconnect experience for Windows 365 Flex dedicated users. Intelligent pre-start helps ensure the Cloud PC is powered on and ready when the user needs it, while Session State Retention preserves the user's active session w...</description>
+    </item>
+    <item>
+      <title>[Windows App - Android/Chrome OS] Version 11.0.26081.13925</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-1102608113925</link>
+      <guid isPermaLink="false">a-34198853fc</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - Android/Chrome OS</category>
+      <description>Improved display reliability during screen rotation, resizing, and display layout changes. Improved the RemoteApp experience with clearer active-session indication, more reliable launching, and a modernized user interface. Improved passkey authentication and added audio configuration options for remote PC connections. General bug fixes and reliability improvements.</description>
+    </item>
+    <item>
+      <title>[Windows App - macOS] Version 11.4.2 (3104)</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-1142-3104</link>
+      <guid isPermaLink="false">a-c0d643c64b</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - macOS</category>
+      <description>Added support for completing in-session WebAuthn challenges by using local passwordless credentials. Added external identity support. • Made updates to support macOS 27. Updated the UX to replace "Frontline" with "Flex Dedicated" and "Frontline Shared" with "Flex Shared". Improved the Quick Launcher shortcut recording experience. Improved camera resource handling when closing a session window. ...</description>
+    </item>
+    <item>
+      <title>[Windows App - iOS/iPadOS] Version 11.3.7 (5939)</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-1137-5939</link>
+      <guid isPermaLink="false">a-f8fa093767</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - iOS/iPadOS</category>
+      <description>Added support for completing in-session WebAuthn challenges by using local passwordless credentials. Added external identity support. • Updated the UX to replace "Frontline" with "Flex Shared" and "Frontline Shared" with "Flex Dedicated". Addressed Cloud PC tile status not updating automatically (or promptly) after a state change. Fixed an issue where remote audio stopped rendering when connect...</description>
+    </item>
+    <item>
+      <title>[Enterprise &amp; Flex] Use TWAIN scanners in remote sessions (Public Preview)</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#use-twain-scanners-in-remote-sessions-public-preview</link>
+      <guid isPermaLink="false">a-18547f60ee</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>TWAIN scanner redirection is now available in public preview for Windows 365. It enables supported scanners connected to a local Windows device to be redirected to a Cloud PC using high-level redirection, providing an optimized scanning experience compared to USB redirection. For more information, see Configure scanner redirection over the Remote Desktop Protocol .</description>
+    </item>
+  </channel>
+</rss>

@@ -25,16 +25,24 @@ jobs:
         run: pip install -r scripts/requirements.txt
 
       - name: Fetch and parse What's New pages
+        id: fetch
         run: python scripts/fetch_updates.py
 
       - name: Commit and push if data changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json
+          git add data.json feed.xml
           if git diff --cached --quiet; then
             echo "No changes to data.json — skipping commit."
           else
             git commit -m "chore: update What's New data [automated]"
             git push
           fi
+
+      # Runs after publishing so good data still ships; the failed run triggers an email.
+      - name: Fail if any source needs attention
+        if: steps.fetch.outputs.warnings != '0'
+        run: |
+          echo "::error::Scraper reported ${{ steps.fetch.outputs.warnings }} warning(s). See the 'Fetch and parse' step."
+          exit 1
