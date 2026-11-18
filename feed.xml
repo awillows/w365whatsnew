@@ -4,7 +4,7 @@
   <channel>
     <title>What's New in Windows 365</title>
     <link>https://awillows.github.io/w365whatsnew/</link>
-    <description>Announcements from Windows 365 Enterprise &amp; Flex, Business, Link and Windows App, aggregated from Microsoft Learn.</description>
+    <description>Announcements from Windows 365 Enterprise &amp; Flex, Business, Link, Windows 365 for Agents and Windows App, aggregated from Microsoft Learn.</description>
     <language>en</language>
     <lastBuildDate>Tue, 17 Nov 2026 00:00:00 +0000</lastBuildDate>
     <item>
@@ -86,6 +86,38 @@
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
       <category>Enterprise &amp; Flex</category>
       <description>The new Move device action is rolling out in public preview for Windows 365 Enterprise. Administrators can move one or more selected Cloud PCs to a different supported region or network from a Cloud PC's page, a provisioning policy's Devices tab, or Bulk device actions, without editing the provisioning policy. The policy's settings for new Cloud PCs, and other Cloud PCs in the policy, aren't af...</description>
+    </item>
+    <item>
+      <title>[Windows 365 for Agents] Windows 365 for Agents through Agent 365 is now billed in Copilot Credits</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/agents/whats-new#windows-365-for-agents-through-agent-365-is-now-billed-in-copilot-credits</link>
+      <guid isPermaLink="false">a-1be037c086</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 for Agents</category>
+      <description>Windows 365 for Agents through Agent 365 now consumes Copilot Credits for new customers instead of pay-as-you-go billing in dollars. IT administrators can fund Windows 365 for Agents from the same Copilot Credits budgets they already manage other AI and agent services. New customers will now be billed in Copilot Credits. Existing customers have the option to migrate to Copilot Credits or contin...</description>
+    </item>
+    <item>
+      <title>[Windows 365 for Agents] On-premises app access for agent users (preview)</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/agents/whats-new#on-premises-app-access-for-agent-users-preview</link>
+      <guid isPermaLink="false">a-02b62d219e</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 for Agents</category>
+      <description>Agent users on Windows 365 for Agents Cloud PCs can now securely access on-premises apps, including legacy apps that don't have APIs. This capability is in preview. It uses the Global Secure Access client, deployed through Microsoft Intune, for network connectivity and Microsoft Entra for Kerberos-based authentication, so a cloud-only agent identity can sign in to line-of-business apps in your ...</description>
+    </item>
+    <item>
+      <title>[Windows 365 for Agents] License and utilization report for Windows 365 for Agents (Public Preview)</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/agents/whats-new#license-and-utilization-report-for-windows-365-for-agents-public-preview</link>
+      <guid isPermaLink="false">a-1815dfaf14</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 for Agents</category>
+      <description>The License and utilization report now includes Windows 365 for Agents in public preview. Windows 365 for Agents is based on consumption and has no license type, so the report shows session utilization hours instead of license counts. IT administrators can view session utilization hours as a trend and as a total over a selectable period of up to 180 days, and group the data by user type, pool n...</description>
+    </item>
+    <item>
+      <title>[Windows 365 for Agents] Single scroll view now available in provisioning policies for agents</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/agents/whats-new#single-scroll-view-now-available-in-provisioning-policies-for-agents</link>
+      <guid isPermaLink="false">a-2513e88f92</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 for Agents</category>
+      <description>IT admins can now create provisioning policies using a single scroll view rather than a tabbed view for Windows 365 for agents. For more information, see Create a provisioning policy for Windows 365 for Agents .</description>
     </item>
     <item>
       <title>[Windows App - Windows] Version 2.0.1489.0</title>
@@ -374,38 +406,6 @@
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
       <category>Enterprise &amp; Flex</category>
       <description>Session State Retention is now generally available for eligible Windows 365 Flex dedicated Cloud PCs. Session State Retention complements Intelligent pre-start to improve the reconnect experience for Windows 365 Flex dedicated users. Intelligent pre-start helps ensure the Cloud PC is powered on and ready when the user needs it, while Session State Retention preserves the user's active session w...</description>
-    </item>
-    <item>
-      <title>[Windows App - Android/Chrome OS] Version 11.0.26081.13925</title>
-      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-1102608113925</link>
-      <guid isPermaLink="false">a-34198853fc</guid>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Windows App - Android/Chrome OS</category>
-      <description>Improved display reliability during screen rotation, resizing, and display layout changes. Improved the RemoteApp experience with clearer active-session indication, more reliable launching, and a modernized user interface. Improved passkey authentication and added audio configuration options for remote PC connections. General bug fixes and reliability improvements.</description>
-    </item>
-    <item>
-      <title>[Windows App - macOS] Version 11.4.2 (3104)</title>
-      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-1142-3104</link>
-      <guid isPermaLink="false">a-c0d643c64b</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Windows App - macOS</category>
-      <description>Added support for completing in-session WebAuthn challenges by using local passwordless credentials. Added external identity support. • Made updates to support macOS 27. Updated the UX to replace "Frontline" with "Flex Dedicated" and "Frontline Shared" with "Flex Shared". Improved the Quick Launcher shortcut recording experience. Improved camera resource handling when closing a session window. ...</description>
-    </item>
-    <item>
-      <title>[Windows App - iOS/iPadOS] Version 11.3.7 (5939)</title>
-      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-1137-5939</link>
-      <guid isPermaLink="false">a-f8fa093767</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Windows App - iOS/iPadOS</category>
-      <description>Added support for completing in-session WebAuthn challenges by using local passwordless credentials. Added external identity support. • Updated the UX to replace "Frontline" with "Flex Shared" and "Frontline Shared" with "Flex Dedicated". Addressed Cloud PC tile status not updating automatically (or promptly) after a state change. Fixed an issue where remote audio stopped rendering when connect...</description>
-    </item>
-    <item>
-      <title>[Enterprise &amp; Flex] Use TWAIN scanners in remote sessions (Public Preview)</title>
-      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#use-twain-scanners-in-remote-sessions-public-preview</link>
-      <guid isPermaLink="false">a-18547f60ee</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Enterprise &amp; Flex</category>
-      <description>TWAIN scanner redirection is now available in public preview for Windows 365. It enables supported scanners connected to a local Windows device to be redirected to a Cloud PC using high-level redirection, providing an optimized scanning experience compared to USB redirection. For more information, see Configure scanner redirection over the Remote Desktop Protocol .</description>
     </item>
   </channel>
 </rss>

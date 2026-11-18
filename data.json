@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T16:14:14Z",
+  "lastUpdated": "2026-11-18T18:48:55Z",
   "announcements": [
     {
       "date": "2026-11-17",
@@ -121,6 +121,50 @@
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#move-cloud-pcs-to-a-different-region-or-network-public-preview",
       "id": "a-fd39ff6f85"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "agents",
+      "title": "Windows 365 for Agents through Agent 365 is now billed in Copilot Credits",
+      "desc": "Windows 365 for Agents through Agent 365 now consumes Copilot Credits for new customers instead of pay-as-you-go billing in dollars. IT administrators can fund Windows 365 for Agents from the same Copilot Credits budgets they already manage other AI and agent services. New customers will now be billed in Copilot Credits. Existing customers have the option to migrate to Copilot Credits or contin...",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/agents/whats-new#windows-365-for-agents-through-agent-365-is-now-billed-in-copilot-credits",
+      "id": "a-1be037c086"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "agents",
+      "title": "On-premises app access for agent users (preview)",
+      "desc": "Agent users on Windows 365 for Agents Cloud PCs can now securely access on-premises apps, including legacy apps that don't have APIs. This capability is in preview. It uses the Global Secure Access client, deployed through Microsoft Intune, for network connectivity and Microsoft Entra for Kerberos-based authentication, so a cloud-only agent identity can sign in to line-of-business apps in your ...",
+      "category": "Apps",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/agents/whats-new#on-premises-app-access-for-agent-users-preview",
+      "id": "a-02b62d219e"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "agents",
+      "title": "License and utilization report for Windows 365 for Agents (Public Preview)",
+      "desc": "The License and utilization report now includes Windows 365 for Agents in public preview. Windows 365 for Agents is based on consumption and has no license type, so the report shows session utilization hours instead of license counts. IT administrators can view session utilization hours as a trend and as a total over a selectable period of up to 180 days, and group the data by user type, pool n...",
+      "category": "Monitor & Troubleshoot",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/agents/whats-new#license-and-utilization-report-for-windows-365-for-agents-public-preview",
+      "id": "a-1815dfaf14"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "agents",
+      "title": "Single scroll view now available in provisioning policies for agents",
+      "desc": "IT admins can now create provisioning policies using a single scroll view rather than a tabbed view for Windows 365 for agents. For more information, see Create a provisioning policy for Windows 365 for Agents .",
+      "category": "Provisioning",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/agents/whats-new#single-scroll-view-now-available-in-provisioning-policies-for-agents",
+      "id": "a-2513e88f92"
     },
     {
       "date": "2026-11-10",
@@ -841,6 +885,18 @@
     },
     {
       "date": "2026-08-24",
+      "source": "agents",
+      "title": "Secure baseline for Windows 365 for Agents",
+      "desc": "A dedicated security baseline for Windows 365 for Agents is now generally available in Microsoft Intune. Administrators can apply Microsoft-recommended security configurations to agent Cloud PCs, helping establish a consistent security posture and protect agent workloads from common security risks. For more information, see Windows 365 for Agents Security Baseline .",
+      "category": "Device Security",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/agents/whats-new#secure-baseline-for-windows-365-for-agents",
+      "id": "a-7d7fa0a1c3"
+    },
+    {
+      "date": "2026-08-24",
       "source": "windowsapp",
       "title": "August 24, 2026",
       "desc": "Display Protection is now available in public preview when you connect to Windows 365 or Azure Virtual Desktop. Display Protection helps prevent the remote session's display output from being captured or recorded on the physical device. It requires Windows App on Windows version 2.0.1236.0 or later. For more information, see Display Protection .",
@@ -1078,6 +1134,18 @@
       "tags": [],
       "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#windows-update-name",
       "id": "a-96b560401b"
+    },
+    {
+      "date": "2026-08-03",
+      "source": "agents",
+      "title": "Device grouping and Intune Autopilot device preparation profiles for Cloud PC agent pools (preview)",
+      "desc": "Windows 365 for Agents Cloud PC agent pools now support linking either a Microsoft Entra group or a Microsoft Intune Autopilot device preparation profile. This enables IT administrators to manage Cloud PC agent pools at scale by providing a way to target security and compliance policies, deploy required applications, and maintain consistent configurations across Cloud PCs for Agents using exist...",
+      "category": "Device Security",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/agents/whats-new#device-grouping-and-intune-autopilot-device-preparation-profiles-for-cloud-pc-agent-pools-preview",
+      "id": "a-bc844dc914"
     },
     {
       "date": "2026-07-29",
@@ -1584,6 +1652,28 @@
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#new-windows-11-dev-ready-image-for-cloud-pcs",
       "id": "a-815ded7085"
+    },
+    {
+      "date": "2026-06-01",
+      "source": "agents",
+      "title": "Windows 365 for Agents now generally available",
+      "desc": "Windows 365 for Agents is now generally available, delivering a purpose-built Cloud PC solution for agentic workloads. This offering enables agent users to check out, sign in to, and complete tasks on managed Cloud PCs, with access and permissions managed through Agent 365. By providing secure, scalable environments for automated and assisted workflows, organizations can better support agent-dr...",
+      "category": "Device Management",
+      "tags": [
+        "ga"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/agents/whats-new#windows-365-for-agents-now-generally-available",
+      "id": "a-0599b4c4c0"
+    },
+    {
+      "date": "2026-06-01",
+      "source": "agents",
+      "title": "Conditional access for agent users with device compliance",
+      "desc": "Windows 365 now integrates with Microsoft Entra Conditional Access for agent users, enabling admins to enforce device compliance before allowing access. Agents connecting from non-compliant Cloud PCs are blocked from accessing resources or executing tasks. This capability strengthens security by ensuring agent operations occur only on compliant devices. For more information, see Identity Securi...",
+      "category": "Device Security",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/agents/whats-new#conditional-access-for-agent-users-with-device-compliance",
+      "id": "a-b0f4d314ba"
     },
     {
       "date": "2026-06-01",
@@ -3875,16 +3965,6 @@
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#windows-365-link-now-generally-available",
       "id": "a-b1578b3c19"
-    },
-    {
-      "date": "2025-03-31",
-      "source": "link",
-      "title": "Next steps",
-      "desc": "For more information about Windows 365 Link, see What is Windows 365 Link?",
-      "category": "Device Management",
-      "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#next-steps",
-      "id": "a-a6665da592"
     },
     {
       "date": "2025-03-27",
@@ -7955,16 +8035,6 @@
       "id": "a-1622248eb0"
     },
     {
-      "date": "2021-11-01",
-      "source": "business",
-      "title": "Next steps",
-      "desc": "Get started with Windows 365 Business .",
-      "category": "Device Management",
-      "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/business/whats-new#next-steps",
-      "id": "a-c5c04112af"
-    },
-    {
       "date": "2021-10-11",
       "source": "enterprise",
       "title": "Resize support for preview and trial licenses",
@@ -8057,16 +8127,6 @@
       ],
       "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#windows-365-now-generally-available",
       "id": "a-0387d7054f"
-    },
-    {
-      "date": "2021-08-02",
-      "source": "enterprise",
-      "title": "Next steps",
-      "desc": "For details about Windows 365 licensing, see Windows 365 pricing .",
-      "category": "Device Management",
-      "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#next-steps",
-      "id": "a-8d1432990f"
     }
   ]
 }

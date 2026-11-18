@@ -66,6 +66,10 @@ SOURCES = {
         "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new",
         "label": "Windows 365 Link",
     },
+    "agents": {
+        "url": "https://learn.microsoft.com/en-us/windows-365/agents/whats-new",
+        "label": "Windows 365 for Agents",
+    },
     "windowsapp": {
         "url": "https://learn.microsoft.com/en-us/windows-app/whats-new",
         "label": "Windows App",
@@ -361,6 +365,7 @@ def fetch_and_parse(source_key: str, url: str) -> list[dict]:
         "windows 365 government", "government community cloud",
         "windows app", "windows 365 boot updates",
         "copilot in intune for windows 365", "device security",
+        "next steps", "related content",
     }
 
     for h in headings:
@@ -446,7 +451,7 @@ def write_feed(entries: list[dict], path: Path) -> None:
     ET.SubElement(ch, "title").text = "What's New in Windows 365"
     ET.SubElement(ch, "link").text = SITE_URL
     ET.SubElement(ch, "description").text = (
-        "Announcements from Windows 365 Enterprise & Flex, Business, Link and Windows App, "
+        "Announcements from Windows 365 Enterprise & Flex, Business, Link, Windows 365 for Agents and Windows App, "
         "aggregated from Microsoft Learn."
     )
     ET.SubElement(ch, "language").text = "en"
