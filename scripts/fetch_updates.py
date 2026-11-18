@@ -466,7 +466,10 @@ def write_feed(entries: list[dict], path: Path) -> None:
         ET.SubElement(it, "category").text = label
         ET.SubElement(it, "description").text = e["desc"]
     ET.indent(rss)
-    ET.ElementTree(rss).write(path, encoding="utf-8", xml_declaration=True)
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write('<?xml version="1.0" encoding="utf-8"?>\n')
+        f.write('<?xml-stylesheet type="text/css" href="feed.css"?>\n')
+        f.write(ET.tostring(rss, encoding="unicode") + "\n")
 
 
 def main():

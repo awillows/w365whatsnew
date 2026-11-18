@@ -1,0 +1,36 @@
+/* Styles feed.xml when opened directly in a browser; feed readers ignore this. */
+:root {
+    display: block;
+    background: #f5f5f5;
+    color: #242424;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    line-height: 1.6;
+}
+rss { display: block; max-width: 860px; margin: 0 auto; padding: 32px 24px; }
+channel { display: block; }
+channel::before {
+    content: "This is an RSS feed. To subscribe, copy this page's address into classic Outlook, a Teams Workflow, or your feed reader. Step-by-step instructions are on the site's Subscribe page (feed.html).";
+    display: block;
+    background: #e8f4fd;
+    border: 1px solid #0078d4;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+channel > title { display: block; font-size: 28px; font-weight: 600; }
+channel > description { display: block; color: #616161; margin-bottom: 20px; }
+channel > link, language, lastBuildDate, guid, category { display: none; }
+item {
+    display: block;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-left: 4px solid #0078d4;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 10px;
+}
+item > title { display: block; font-weight: 600; }
+item > pubDate { display: block; font-size: 12px; color: #616161; }
+item > description { display: block; font-size: 14px; color: #616161; margin-top: 6px; }
+item > link { display: block; font-size: 12px; color: #0078d4; word-break: break-all; margin-top: 6px; }

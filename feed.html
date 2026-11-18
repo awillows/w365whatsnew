@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS feed — What's New in Windows 365</title>
+    <link rel="alternate" type="application/rss+xml" title="What's New in Windows 365" href="feed.xml">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='32' y2='32' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2300bcf2'/%3E%3Cstop offset='1' stop-color='%230078d4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='7' fill='url(%23g)'/%3E%3Cpath d='M7 9h8v8H7V9zm10 0h8v8H17V9zM7 19h8v6H7v-6zm10 0h8v6H17v-6z' fill='%23fff' opacity='.95'/%3E%3C/svg%3E">
+    <style>
+        :root {
+            --color-primary: #0078d4;
+            --color-bg: #f5f5f5;
+            --color-surface: #ffffff;
+            --color-text: #242424;
+            --color-text-secondary: #616161;
+            --color-border: #e0e0e0;
+            --color-callout: #e8f4fd;
+            --color-topbar: #1b1b1b;
+            --radius: 8px;
+        }
+        html.dark {
+            --color-primary: #4db8ff;
+            --color-bg: #1a1a1a;
+            --color-surface: #2d2d2d;
+            --color-text: #e0e0e0;
+            --color-text-secondary: #a0a0a0;
+            --color-border: #404040;
+            --color-callout: #1e3a5f;
+            --color-topbar: #111111;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.6;
+        }
+        .top-bar {
+            background: var(--color-topbar);
+            color: #fff;
+            padding: 8px 24px;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .top-bar svg { width: 20px; height: 20px; flex-shrink: 0; }
+        .top-bar a { color: #fff; text-decoration: none; opacity: .85; }
+        .top-bar a:hover { opacity: 1; }
+        main { max-width: 860px; margin: 0 auto; padding: 32px 24px 48px; }
+        h1 { font-size: 30px; font-weight: 600; margin-bottom: 4px; }
+        .subtitle { color: var(--color-text-secondary); font-size: 15px; margin-bottom: 24px; }
+        h2 { font-size: 18px; font-weight: 600; margin: 32px 0 12px; }
+
+        .callout {
+            background: var(--color-callout);
+            border: 1px solid var(--color-primary);
+            border-radius: var(--radius);
+            padding: 16px 20px;
+        }
+        .callout p { font-size: 14px; margin-bottom: 10px; }
+        .url-row { display: flex; gap: 8px; flex-wrap: wrap; }
+        .url-row input {
+            flex: 1;
+            min-width: 240px;
+            padding: 9px 12px;
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            font-family: Consolas, 'Cascadia Mono', monospace;
+            font-size: 13px;
+            background: var(--color-surface);
+            color: var(--color-text);
+        }
+        .btn {
+            padding: 9px 18px;
+            border: none;
+            border-radius: 6px;
+            background: var(--color-primary);
+            color: #fff;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .btn:hover { filter: brightness(1.08); }
+
+        .options { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+        .option {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 16px 18px;
+        }
+        .option h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+        .option ol { font-size: 13px; padding-left: 18px; color: var(--color-text-secondary); }
+        .option li { margin-bottom: 3px; }
+        .option .note { font-size: 12px; color: var(--color-text-secondary); margin-top: 8px; font-style: italic; }
+
+        .items { display: flex; flex-direction: column; gap: 10px; }
+        .item {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-left: 4px solid var(--color-primary);
+            border-radius: var(--radius);
+            padding: 14px 18px;
+        }
+        .item a { font-weight: 600; color: var(--color-text); text-decoration: none; }
+        .item a:hover { color: var(--color-primary); text-decoration: underline; }
+        .item .meta { font-size: 12px; color: var(--color-text-secondary); margin: 2px 0 6px; }
+        .item p { font-size: 14px; color: var(--color-text-secondary); }
+        .muted { font-size: 13px; color: var(--color-text-secondary); }
+        footer { text-align: center; padding: 24px; font-size: 13px; color: var(--color-text-secondary); border-top: 1px solid var(--color-border); }
+        footer a, main a.inline { color: var(--color-primary); }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        <defs><linearGradient id="w365g" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00bcf2"/><stop offset="1" stop-color="#0078d4"/></linearGradient></defs>
+        <rect width="32" height="32" rx="7" fill="url(#w365g)"/>
+        <path d="M7 9h8v8H7V9zm10 0h8v8H17V9zM7 19h8v6H7v-6zm10 0h8v6H17v-6z" fill="#fff" opacity=".95"/>
+    </svg>
+    <a href="./">&larr; Back to What's New in Windows 365</a>
+</div>
+
+<main>
+    <h1>Subscribe to updates</h1>
+    <p class="subtitle">Get new Windows 365 announcements delivered to Outlook, a Teams channel, or your feed reader.</p>
+
+    <div class="callout">
+        <p><strong>Feed address</strong> — copy this into whichever app you use below.</p>
+        <div class="url-row">
+            <input id="feedUrl" type="text" readonly aria-label="Feed URL">
+            <button class="btn" id="copyBtn" type="button">Copy</button>
+        </div>
+    </div>
+
+    <h2>How to subscribe</h2>
+    <div class="options">
+        <div class="option">
+            <h3>Outlook (classic)</h3>
+            <ol>
+                <li>In the folder pane, right-click <strong>RSS Subscriptions</strong>.</li>
+                <li>Select <strong>Add a New RSS Feed</strong>.</li>
+                <li>Paste the feed address and select <strong>Add</strong>.</li>
+            </ol>
+            <p class="note">The new Outlook doesn't support RSS feeds.</p>
+        </div>
+        <div class="option">
+            <h3>Teams channel</h3>
+            <ol>
+                <li>Open the <strong>Workflows</strong> app in Teams, or Power Automate.</li>
+                <li>Create a flow using the RSS trigger <strong>When a feed item is published</strong> and paste the feed address.</li>
+                <li>Add the action <strong>Post message in a chat or channel</strong>.</li>
+            </ol>
+            <p class="note">The old RSS connector for Teams was retired with Office 365 connectors.</p>
+        </div>
+        <div class="option">
+            <h3>Feed reader</h3>
+            <ol>
+                <li>Open your reader (Feedly, Inoreader, NetNewsWire, Thunderbird, etc.).</li>
+                <li>Add a new feed and paste the feed address.</li>
+            </ol>
+            <p class="note">Most readers also accept the main site address and find the feed automatically.</p>
+        </div>
+    </div>
+
+    <h2>Latest in the feed</h2>
+    <p class="muted" id="feedSummary">Loading…</p>
+    <div class="items" id="items"></div>
+</main>
+
+<footer>
+    This page aggregates official Microsoft Learn documentation. All content belongs to Microsoft. <a href="./">Back to the full timeline</a>
+</footer>
+
+<script>
+(function() {
+    const saved = localStorage.getItem('theme');
+    if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    }
+})();
+
+const feedUrl = new URL('feed.xml', location.href).href;
+const urlInput = document.getElementById('feedUrl');
+urlInput.value = feedUrl;
+urlInput.addEventListener('focus', () => urlInput.select());
+
+const copyBtn = document.getElementById('copyBtn');
+copyBtn.addEventListener('click', () => {
+    navigator.clipboard.writeText(feedUrl).then(() => {
+        copyBtn.textContent = 'Copied';
+        setTimeout(() => { copyBtn.textContent = 'Copy'; }, 1500);
+    }).catch(() => urlInput.select());
+});
+
+// Preview straight from feed.xml so it matches what subscribers receive.
+async function loadPreview() {
+    const summary = document.getElementById('feedSummary');
+    const list = document.getElementById('items');
+    try {
+        const resp = await fetch('feed.xml');
+        if (!resp.ok) throw new Error(resp.status);
+        const doc = new DOMParser().parseFromString(await resp.text(), 'application/xml');
+        const items = [...doc.querySelectorAll('item')];
+        summary.textContent = `The feed carries the ${items.length} most recent announcements. The newest 10 are shown here.`;
+        items.slice(0, 10).forEach(it => {
+            const text = sel => it.querySelector(sel)?.textContent || '';
+            const card = document.createElement('div');
+            card.className = 'item';
+            const a = document.createElement('a');
+            a.href = text('link');
+            a.target = '_blank';
+            a.rel = 'noopener';
+            a.textContent = text('title');
+            const meta = document.createElement('div');
+            meta.className = 'meta';
+            const d = new Date(text('pubDate'));
+            meta.textContent = isNaN(d) ? '' : d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+            const p = document.createElement('p');
+            p.textContent = text('description');
+            card.append(a, meta, p);
+            list.append(card);
+        });
+    } catch {
+        summary.textContent = 'The preview could not be loaded, but the feed address above still works.';
+    }
+}
+loadPreview();
+</script>
+</body>
+</html>

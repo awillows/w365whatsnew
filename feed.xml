@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="feed.css"?>
 <rss version="2.0">
   <channel>
     <title>What's New in Windows 365</title>
