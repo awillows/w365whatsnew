@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T15:56:15Z",
+  "lastUpdated": "2026-11-21T15:07:15Z",
   "announcements": [
     {
       "date": "2026-11-17",
@@ -26,6 +26,18 @@
       "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-20260100513",
       "platform": "Web browser",
       "id": "a-af58202c5e"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "enterprise",
+      "title": "Resultant Set of Policies (RSOP) in Monitor Cloud PCs (Public Preview)",
+      "desc": "Resultant Set of Policies (RSOP) is now available in public preview in Monitor Cloud PCs. RSOP shows IT administrators the effective redirection setting that applies to a connection and the corresponding policies that set it. This will allow admins to determine why a redirection was allowed or blocked. The initial release covers clipboard, drive and storage, printer, and USB redirection settings.",
+      "category": "Regions",
+      "tags": [
+        "preview"
+      ],
+      "url": "https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#resultant-set-of-policies-rsop-in-monitor-cloud-pcs-public-preview",
+      "id": "a-94cd6223a2"
     },
     {
       "date": "2026-11-16",

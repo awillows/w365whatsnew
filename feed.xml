@@ -24,6 +24,14 @@
       <description>Multiple monitor support is now generally available. For more information, see Configure display settings in Windows App . Windows App on the web is now generally available for Azure Virtual Desktop in Microsoft Azure China operated by 21Vianet. Users can sign in and connect to their Azure Virtual Desktop resources in Azure China from a web browser. The new connection bar is now in public previ...</description>
     </item>
     <item>
+      <title>[Enterprise &amp; Flex] Resultant Set of Policies (RSOP) in Monitor Cloud PCs (Public Preview)</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#resultant-set-of-policies-rsop-in-monitor-cloud-pcs-public-preview</link>
+      <guid isPermaLink="false">a-94cd6223a2</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Enterprise &amp; Flex</category>
+      <description>Resultant Set of Policies (RSOP) is now available in public preview in Monitor Cloud PCs. RSOP shows IT administrators the effective redirection setting that applies to a connection and the corresponding policies that set it. This will allow admins to determine why a redirection was allowed or blocked. The initial release covers clipboard, drive and storage, printer, and USB redirection settings.</description>
+    </item>
+    <item>
       <title>[Enterprise &amp; Flex] Direct Stream: the cloud streaming technology powering Windows 365</title>
       <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#direct-stream-the-cloud-streaming-technology-powering-windows-365</link>
       <guid isPermaLink="false">a-b5c1d70b93</guid>
@@ -398,14 +406,6 @@
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
       <category>Enterprise &amp; Flex</category>
       <description>The setup process for Point-in-Time Restore, Cross-region Disaster Recovery, and Disaster Recovery Plus is now generally available within Cloud PC Settings. This aligns with the centralized approach that Cloud PC Settings offers. These features can now be enabled together within a singular Cloud PC Configuration. For more information, see Enable Business Continuity and Disaster Recovery</description>
-    </item>
-    <item>
-      <title>[Enterprise &amp; Flex] Session State Retention for Windows 365 Flex dedicated Cloud PCs is now generally available</title>
-      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#session-state-retention-for-windows-365-flex-dedicated-cloud-pcs-is-now-generally-available</link>
-      <guid isPermaLink="false">a-2da1a77f0d</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Enterprise &amp; Flex</category>
-      <description>Session State Retention is now generally available for eligible Windows 365 Flex dedicated Cloud PCs. Session State Retention complements Intelligent pre-start to improve the reconnect experience for Windows 365 Flex dedicated users. Intelligent pre-start helps ensure the Cloud PC is powered on and ready when the user needs it, while Session State Retention preserves the user's active session w...</description>
     </item>
   </channel>
 </rss>
