@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-11-22T15:04:51Z",
+  "lastUpdated": "2026-11-23T19:00:36Z",
   "announcements": [
+    {
+      "date": "2026-11-18",
+      "source": "windowsapp",
+      "title": "Version 2.0.1744.0(Insider)",
+      "desc": "Improved accessibility in the connection experience to make navigation and interaction more reliable. Fixed an issue where the AI-enabled indicator could be missing for eligible Cloud PCs. Improved app startup and RemoteApp icon loading reliability by optimizing cache validation behavior.",
+      "category": "Apps",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-app/whats-new#version-2017440-insider",
+      "platform": "Windows",
+      "id": "a-059b63d378"
+    },
     {
       "date": "2026-11-17",
       "source": "windowsapp",

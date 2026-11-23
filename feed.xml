@@ -6,7 +6,15 @@
     <link>https://awillows.github.io/w365whatsnew/</link>
     <description>Announcements from Windows 365 Enterprise &amp; Flex, Business, Link, Windows 365 for Agents and Windows App, aggregated from Microsoft Learn.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>[Windows App - Windows] Version 2.0.1744.0(Insider)</title>
+      <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-2017440-insider</link>
+      <guid isPermaLink="false">a-059b63d378</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows App - Windows</category>
+      <description>Improved accessibility in the connection experience to make navigation and interaction more reliable. Fixed an issue where the AI-enabled indicator could be missing for eligible Cloud PCs. Improved app startup and RemoteApp icon loading reliability by optimizing cache validation behavior.</description>
+    </item>
     <item>
       <title>[Windows App - Windows] Version 2.0.1601.0</title>
       <link>https://learn.microsoft.com/en-us/windows-app/whats-new#version-2016010</link>
@@ -398,14 +406,6 @@
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
       <category>Enterprise &amp; Flex</category>
       <description>Alternate regions are generally available for Business Continuity and Disaster Recovery (BCDR) scenarios. These regions help organizations meet unique disaster recovery and data sovereignty requirements. Administrators can select alternate regions for Cross-region Disaster Recovery (CRDR) and Disaster Recovery Plus (DR+) configurations, including Australia Southeast, South India, Canada East, a...</description>
-    </item>
-    <item>
-      <title>[Enterprise &amp; Flex] Business Continuity and Disaster Recovery in Cloud PC Settings is now generally available</title>
-      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#business-continuity-and-disaster-recovery-in-cloud-pc-settings-is-now-generally-available</link>
-      <guid isPermaLink="false">a-22b01f2927</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Enterprise &amp; Flex</category>
-      <description>The setup process for Point-in-Time Restore, Cross-region Disaster Recovery, and Disaster Recovery Plus is now generally available within Cloud PC Settings. This aligns with the centralized approach that Cloud PC Settings offers. These features can now be enabled together within a singular Cloud PC Configuration. For more information, see Enable Business Continuity and Disaster Recovery</description>
     </item>
   </channel>
 </rss>
