@@ -104,6 +104,22 @@
       <description>The new Move device action is rolling out in public preview for Windows 365 Enterprise. Administrators can move one or more selected Cloud PCs to a different supported region or network from a Cloud PC's page, a provisioning policy's Devices tab, or Bulk device actions, without editing the provisioning policy. The policy's settings for new Cloud PCs, and other Cloud PCs in the policy, aren't af...</description>
     </item>
     <item>
+      <title>[Windows 365 Link] Security updates</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates</link>
+      <guid isPermaLink="false">a-b5288b4c0b</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 Link</category>
+      <description>This update addresses potential security vulnerabilities that might allow escalation of privilege, denial of service, or information disclosure.</description>
+    </item>
+    <item>
+      <title>[Windows 365 Link] Windows Update name</title>
+      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#windows-update-name</link>
+      <guid isPermaLink="false">a-1117cbcd1c</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Windows 365 Link</category>
+      <description>Microsoft Corporation System Hardware Update (200.0.7.0) Microsoft Corporation System Hardware Update (200.0.8.0)</description>
+    </item>
+    <item>
       <title>[Windows 365 for Agents] Windows 365 for Agents through Agent 365 is now billed in Copilot Credits</title>
       <link>https://learn.microsoft.com/en-us/windows-365/agents/whats-new#windows-365-for-agents-through-agent-365-is-now-billed-in-copilot-credits</link>
       <guid isPermaLink="false">a-1be037c086</guid>
@@ -201,7 +217,7 @@
     </item>
     <item>
       <title>[Windows 365 Link] Security updates</title>
-      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates</link>
+      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-1</link>
       <guid isPermaLink="false">a-dc9b73f90a</guid>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
       <category>Windows 365 Link</category>
@@ -329,7 +345,7 @@
     </item>
     <item>
       <title>[Windows 365 Link] Security updates</title>
-      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-1</link>
+      <link>https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-2</link>
       <guid isPermaLink="false">a-02fb28c723</guid>
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
       <category>Windows 365 Link</category>
@@ -390,22 +406,6 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
       <category>Windows App - iOS/iPadOS</category>
       <description>Added support for iPhone 18 Pro and iPhone 18 Pro Max. Enhanced diagnostic insights for the external identity support feature.</description>
-    </item>
-    <item>
-      <title>[Enterprise &amp; Flex] Developer Configuration with pre-installed Microsoft 365 Apps is generally available</title>
-      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#developer-configuration-with-pre-installed-microsoft-365-apps-is-generally-available</link>
-      <guid isPermaLink="false">a-e43b5b4699</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Enterprise &amp; Flex</category>
-      <description>This image provides a consistent, ready-to-use developer environment by preinstalling essential development tools and applying the required configurations across Windows 365 CPC. This image is available for Windows 365 Enterprise and Windows 365 Flex Dedicated mode. See more: Device images in Windows 365 .</description>
-    </item>
-    <item>
-      <title>[Enterprise &amp; Flex] Alternate regions for Business Continuity and Disaster Recovery are now generally available</title>
-      <link>https://learn.microsoft.com/en-us/windows-365/enterprise/whats-new#alternate-regions-for-business-continuity-and-disaster-recovery-are-now-generally-available</link>
-      <guid isPermaLink="false">a-360096806b</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Enterprise &amp; Flex</category>
-      <description>Alternate regions are generally available for Business Continuity and Disaster Recovery (BCDR) scenarios. These regions help organizations meet unique disaster recovery and data sovereignty requirements. Administrators can select alternate regions for Cross-region Disaster Recovery (CRDR) and Disaster Recovery Plus (DR+) configurations, including Australia Southeast, South India, Canada East, a...</description>
     </item>
   </channel>
 </rss>

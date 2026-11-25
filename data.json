@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T18:41:05Z",
+  "lastUpdated": "2026-11-25T17:50:01Z",
   "announcements": [
     {
       "date": "2026-11-18",
@@ -147,6 +147,26 @@
     },
     {
       "date": "2026-11-16",
+      "source": "link",
+      "title": "Security updates",
+      "desc": "This update addresses potential security vulnerabilities that might allow escalation of privilege, denial of service, or information disclosure.",
+      "category": "Device Security",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates",
+      "id": "a-b5288b4c0b"
+    },
+    {
+      "date": "2026-11-16",
+      "source": "link",
+      "title": "Windows Update name",
+      "desc": "Microsoft Corporation System Hardware Update (200.0.7.0) Microsoft Corporation System Hardware Update (200.0.8.0)",
+      "category": "Device Management",
+      "tags": [],
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#windows-update-name",
+      "id": "a-1117cbcd1c"
+    },
+    {
+      "date": "2026-11-16",
       "source": "agents",
       "title": "Windows 365 for Agents through Agent 365 is now billed in Copilot Credits",
       "desc": "Windows 365 for Agents through Agent 365 now consumes Copilot Credits for new customers instead of pay-as-you-go billing in dollars. IT administrators can fund Windows 365 for Agents from the same Copilot Credits budgets they already manage other AI and agent services. New customers will now be billed in Copilot Credits. Existing customers have the option to migrate to Copilot Credits or contin...",
@@ -285,7 +305,7 @@
       "desc": "This build includes the security updates described in November 2026 Security Updates",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates",
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-1",
       "id": "a-dc9b73f90a"
     },
     {
@@ -471,7 +491,7 @@
       "desc": "This build includes the security updates described in October 2026 Security Updates .",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-1",
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-2",
       "id": "a-02fb28c723"
     },
     {
@@ -757,7 +777,7 @@
       "desc": "This build includes the security updates described in September 2026 Security Updates",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-2",
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-3",
       "id": "a-7bc8974fe3"
     },
     {
@@ -1092,7 +1112,7 @@
       "desc": "This build includes the security updates described in August 2026 Security Updates - Release Notes - Security Update Guide - Microsoft.",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-3",
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-4",
       "id": "a-964bba90be"
     },
     {
@@ -1145,7 +1165,7 @@
       "desc": "This release includes updates that help address Intel graphics, chipset, and processor advisories ( INTEL-SA-01356 , INTEL-SA-01371 , INTEL-SA-01372 , INTEL-SA-01427 , INTEL-SA-01428 , and INTEL-SA-01441 ). It also addresses potential security vulnerabilities that may allow escalation of privilege, denial of service, or information disclosure ( CVE-2026-6727 and CVE-2026-6726 ).",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-4",
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-5",
       "id": "a-bd8ddd8677"
     },
     {
@@ -1155,7 +1175,7 @@
       "desc": "· Microsoft Corporation System Hardware Update (200.0.6.0) · Microsoft Corporation System Hardware Update (200.0.7.0)",
       "category": "Device Management",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#windows-update-name",
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#windows-update-name-1",
       "id": "a-96b560401b"
     },
     {
@@ -1394,7 +1414,7 @@
       "desc": "This build includes the security updates described in July 2026 Security Updates - Release Notes - Security Update Guide - Microsoft.",
       "category": "Device Security",
       "tags": [],
-      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-5",
+      "url": "https://learn.microsoft.com/en-us/windows-365/link/whats-new#security-updates-6",
       "id": "a-7c68a693d6"
     },
     {
